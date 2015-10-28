@@ -1,3 +1,4 @@
+source	translation
 =IDD_DLG_OK(1)	Potvrdit
 =IDD_DLG_CANCEL(1)	Zrušit
 =IDD_DLG_HELP(1)	&Nápověda

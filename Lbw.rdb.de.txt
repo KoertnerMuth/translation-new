@@ -1,3 +1,4 @@
+source	translation
 =IDD_DLG_OK(1)	OK
 =IDD_DLG_CANCEL(1)	Abbruch
 =IDD_DLG_HELP(1)	&Hilfe
