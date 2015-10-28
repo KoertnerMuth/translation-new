@@ -1,7 +1,7 @@
-=IDD_DLG_OK(1) 	OK
-=IDD_DLG_CANCEL(1) 	Avbryt
-=IDD_DLG_HELP(1) 	&Hjälp
-=IDD_DLG_CLOSE(1) 	Stäng
+=IDD_DLG_OK(1)	OK
+=IDD_DLG_CANCEL(1)	Avbryt
+=IDD_DLG_HELP(1)	&Hjälp
+=IDD_DLG_CLOSE(1)	Stäng
 =R5(0)	Allt
 =IDD_LBW_INSNUM(0)	@ Serie &Nr.
 =IDD_LBW_FROM(0)	&Från:

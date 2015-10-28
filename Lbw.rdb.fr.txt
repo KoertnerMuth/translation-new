@@ -1,7 +1,7 @@
-=IDD_DLG_OK(1) 	OK
-=IDD_DLG_CANCEL(1) 	Annuler
-=IDD_DLG_HELP(1) 	&Aide
-=IDD_DLG_CLOSE(1) 	Fermer
+=IDD_DLG_OK(1)	OK
+=IDD_DLG_CANCEL(1)	Annuler
+=IDD_DLG_HELP(1)	&Aide
+=IDD_DLG_CLOSE(1)	Fermer
 =R5(0)	Tous
 =IDD_LBW_INSNUM(0)	@ &No courant
 =IDD_LBW_FROM(0)	&De:

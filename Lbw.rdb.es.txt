@@ -1,7 +1,7 @@
-=IDD_DLG_OK(1) 	OK
-=IDD_DLG_CANCEL(1) 	Cancelar
-=IDD_DLG_HELP(1) 	A&yuda
-=IDD_DLG_CLOSE(1) 	Cerrar
+=IDD_DLG_OK(1)	OK
+=IDD_DLG_CANCEL(1)	Cancelar
+=IDD_DLG_HELP(1)	A&yuda
+=IDD_DLG_CLOSE(1)	Cerrar
 =R5(0)	Todo
 =IDD_LBW_INSNUM(0)	@ Nº de &Serie
 =IDD_LBW_FROM(0)	&De:

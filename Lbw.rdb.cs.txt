@@ -1,7 +1,7 @@
-=IDD_DLG_OK(1) 	Potvrdit
-=IDD_DLG_CANCEL(1) 	Zrušit
-=IDD_DLG_HELP(1) 	&Nápověda
-=IDD_DLG_CLOSE(1) 	Zavřít
+=IDD_DLG_OK(1)	Potvrdit
+=IDD_DLG_CANCEL(1)	Zrušit
+=IDD_DLG_HELP(1)	&Nápověda
+=IDD_DLG_CLOSE(1)	Zavřít
 =R5(0)	Všechno
 =IDD_LBW_INSNUM(0)	@ Poř.&číslovat
 =IDD_LBW_FROM(0)	&Od:
