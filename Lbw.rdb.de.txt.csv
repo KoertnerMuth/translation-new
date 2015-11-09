@@ -8,7 +8,7 @@ R2(0)	Januar\nFebruar\nMärz\nApril\nMai\nJuni\nJuli\nAugust\nSeptember\nOktober
 R3(0)	Mo\nDi\nMi\nDo\nFr\nSa\nSo
 R4(0)	Jan\nFeb\nMär\nApr\nMai\nJun\nJul\nAug\nSep\nOkt\nNov\nDez
 R5(0)	Alles
-IDD_LBW_INSNUM(0)	@ lfd. &Nr.
+DD_LBW_INSNUM(0)	@ lfd. &Nr.
 IDD_LBW_FROM(0)	&Von:
 IDD_LBW_TO(0)	&Bis:
 IDD_LBW_FORMAT(0)	&Zeilenformat...
@@ -18,6 +18,7 @@ LBW_R2(0)	Wollen Sie %lu %s verändern?
 LBW_R3(0)	Wollen Sie wirklich %lu %s löschen?
 LBW_R4(0)	Sie haben kein Nummernzeichen (@) in einem Datenfeld eingegeben.\rWollen Sie mehrere gleiche Datensätze erzeugen?
 LBW_R5(0)	Sie können nicht mehrere Datensätze mit dem Namen ''%1'' erstellen
+<<<<<<< HEAD
 LBW_R6(0)	Achtung: %1 von %2 Datensätzen konnten nicht angelegt werden
 LBW_R7(0)	Achtung: %1 von %2 Datensätzen konnten nicht bearbeitet werden
 LBW_R8(0)	Achtung: %1 von %2 Datensätzen konnten nicht gelöscht werden
@@ -4475,3 +4476,5 @@ M_MAIN_HELP_USAGE_P2(0)	Am Ende jedes Themas finden Sie eine Zeile "Wählen Sie 
 M_MAIN_OPTIONS_OPENWINONSTART_P3(0)	Hinweis:
 M_MAIN_OPTIONS_OPENWINONSTART_P3_A(0)	Diese Einstellung wird automatisch gespeichert.
 M_PRINTVERSION(0)	Druckversion
+=======
+>>>>>>> c26b8b77612e08a6afe2a0d255c4d03f9af7e27b
