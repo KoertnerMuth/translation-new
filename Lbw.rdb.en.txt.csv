@@ -1,7 +1,23 @@
-"HELLO","Hello, world!
-"
-"ORANGUTAN","Orangutan has %d banana.
-"
-"TRY","Try Weblate at http://demo.weblate.org/!
-"
-"THANKS","Thank you for using Weblate."
+IDD_DLG_OK(1)	OK
+IDD_DLG_CANCEL(1)	Cancel
+IDD_DLG_HELP(1)	&Help
+IDD_DLG_CLOSE(1)	Close
+R0(0)	<New>
+R1(0)	Monday\nTuesday\nWednesday\nThursday\nFriday\nSaturday\nSunday
+R2(0)	January\nFebruary\nMarch\nApril\nMay\nJune\nJuly\nAugust\nSeptember\nOctober\nNovember\nDecember
+R3(0)	Mo\nTu\nWe\nTh\nFr\nSa\nSu
+R4(0)	Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec
+R5(0)	All
+IDD_LBW_INSNUM(0)	@ Serial &No.
+IDD_LBW_FROM(0)	&From:
+IDD_LBW_TO(0)	&To:
+IDD_LBW_FORMAT(0)	&Line Form...
+LBW_R0(1)	Key Holders\nKeys\nKey Copies\nCylinders\nDoors\nSystem\nEvents\nLocations\nCylinder Groups\nCylinder Functions\nDepartments\nAccess Profiles\nCalendars
+LBW_R1(0)	Please confirm to create %lu %s
+LBW_R2(0)	Please confirm to edit %lu %s
+LBW_R3(0)	Please confirm to delete %lu %s
+LBW_R4(0)	You havn't entered a number sign (@) in any data field.\rDo you want to create identical data sets?
+LBW_R5(0)	Can't create multiple records with name '%1'
+LBW_R6(0)	Warning: %1 of %2 records could not be added
+LBW_R7(0)	Warning: %1 of %2 records could not be modified
+LBW_R8(0)	Warning: %1 of %2 records could not be removed
