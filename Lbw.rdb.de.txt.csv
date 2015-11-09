@@ -12,3 +12,7 @@ DD_LBW_INSNUM(0)	@ lfd. &Nr.
 IDD_LBW_FROM(0)	&Von:
 IDD_LBW_TO(0)	&Bis:
 IDD_LBW_FORMAT(0)	&Zeilenformat...
+LBW_R0(1)	Personen\nSchlüssel\nSchlüsselkopien\nZylinder\nTüren\nSystem\nEreignisse\nGebäude\nZylindergruppen\nGleichschließungen\nAbteilungen\nZutrittsprofile\nKalender
+LBW_R1(0)	Wollen Sie %lu %s erzeugen?
+LBW_R2(0)	Wollen Sie %lu %s verändern?
+LBW_R3(0)	Wollen Sie wirklich %lu %s löschen?
