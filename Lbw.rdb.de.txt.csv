@@ -16,3 +16,8 @@ LBW_R0(1)	Personen\nSchlüssel\nSchlüsselkopien\nZylinder\nTüren\nSystem\nErei
 LBW_R1(0)	Wollen Sie %lu %s erzeugen?
 LBW_R2(0)	Wollen Sie %lu %s verändern?
 LBW_R3(0)	Wollen Sie wirklich %lu %s löschen?
+LBW_R4(0)	Sie haben kein Nummernzeichen (@) in einem Datenfeld eingegeben.\rWollen Sie mehrere gleiche Datensätze erzeugen?
+LBW_R5(0)	Sie können nicht mehrere Datensätze mit dem Namen '%1' erstellen
+LBW_R6(0)	Achtung: %1 von %2 Datensätzen konnten nicht angelegt werden
+LBW_R7(0)	Achtung: %1 von %2 Datensätzen konnten nicht bearbeitet werden
+LBW_R8(0)	
