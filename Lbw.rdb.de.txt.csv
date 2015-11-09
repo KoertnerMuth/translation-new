@@ -8,3 +8,7 @@ R2(0)	Januar\nFebruar\nMärz\nApril\nMai\nJuni\nJuli\nAugust\nSeptember\nOktober
 R3(0)	Mo\nDi\nMi\nDo\nFr\nSa\nSo
 R4(0)	
 R5(0)	Alles
+DD_LBW_INSNUM(0)	@ lfd. &Nr.
+IDD_LBW_FROM(0)	&Von:
+IDD_LBW_TO(0)	&Bis:
+IDD_LBW_FORMAT(0)	&Zeilenformat...
