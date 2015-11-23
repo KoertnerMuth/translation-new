@@ -8,9 +8,9 @@ IDD_LBW_FROM(0),&Od:
 IDD_LBW_TO(0),&Do:
 IDD_LBW_FORMAT(0),&Formát řádku...
 LBW_R0(1),Držitel klíče\nKlíče\nKopie klíče\nVložky\nDveře\nSystém\nAkce\nUmístění\nSkupina vložek\nFunkce vložky\nOddělení\nPřístup\nKalendář
-LBW_R1(0),"Prosím, potvrďte vytvoření %lu %s."
-LBW_R2(0),"Potvrďte úpravy, prosím %lu %s."
-LBW_R3(0),"Potvrďte smazání, prosím %lu %s."
+LBW_R1(0),'Prosím, potvrďte vytvoření %lu %s.'
+LBW_R2(0),'Potvrďte úpravy, prosím %lu %s.'
+LBW_R3(0),'Potvrďte smazání, prosím %lu %s.'
 LBW_R4(0),Nezadali jste znak pořadí (@) v žádném datovém poli.\rChcete vytvořit identické datové skupiny?
 POPUP0(1),&Soubor
 POPUP1(1),*&Archív...
@@ -200,7 +200,7 @@ IDD_STRINGFORM_OK(1),Potvrdit
 IDD_STRINGFORM_CANCEL(1),Zrušit
 IDD_STRINGFORM_HELP(1),&Nápověda
 IDD_CHECK_PWD(1),Ověření hesla
-IDD_CHECK_PWD_STATICTXT1(1),"Vložte heslo k otevření tohoto dokumentu, prosím:"
+IDD_CHECK_PWD_STATICTXT1(1),'Vložte heslo k otevření tohoto dokumentu, prosím:'
 IDD_CHECK_PWD_OK(1),Potvrdit
 IDD_PASSWORD(1),Změnit heslo
 IDD_PASSWORD_STATICTXT1(1),&Staré heslo:
@@ -240,7 +240,7 @@ LBW_CONNECTIONS_T1(1),Spojit:
 LBW_CONNECTIONS_PRINT(1),&Přímý tisk potvrzení
 LBW_CONNECTIONS_R0(1),<Hromadný výběr>
 LBW_CONNECTIONS_R1(1),Spojování datových skupin...
-LBW_CONNECTIONS_R2(1),"Potvrďte nastavení %1 identických spojení datových skupin, prosím"
+LBW_CONNECTIONS_R2(1),'Potvrďte nastavení %1 identických spojení datových skupin, prosím'
 IDD_CALC_EDITCODE(1),Upravit kombinace
 IDD_CALC_EDITCODE_STATICTXT1(1),&Kombinace:
 IDD_CALC_EDITCODE_STATICTXT2(1),&Profil:
@@ -272,9 +272,9 @@ IDD_SETUP_CISA_CHECK_ALLOW_MW1(1),P&ovolit ¨mezistavítko č. 1 na poslední po
 IDD_SETUP_CISA_CHECK_MIN_MW2(1),M&inimální mezistavítko č.2 na všech pozicích
 IDD_SETUP_CISA_STATICTXT4(1),Konstrukce klíče:
 IDD_SETUP_CISA_CHECK_CKEY(1),&Zavést konstrukci klíčů
-IDD_SETUP_CISA_STATICTXT5(1),"I&dentifikační šablony:\n(e.g. *,A,B)"
-IDD_SETUP_CISA_STATICTXT6(1),"&Množství šablon:\n(e,g. 1,3,1)"
-IDD_SETUP_CISA_STATICTXT7(1),"&Ball množství / pozice:\n(např. 2:1,3,4)"
+IDD_SETUP_CISA_STATICTXT5(1),'I&dentifikační šablony:\n(e.g. *,A,B)'
+IDD_SETUP_CISA_STATICTXT6(1),'&Množství šablon:\n(e,g. 1,3,1)'
+IDD_SETUP_CISA_STATICTXT7(1),'&Ball množství / pozice:\n(např. 2:1,3,4)'
 IDD_SETUP_CISA_CHECK_CFILTER(1),Nedostupné &filtry pro konstrukci klíčů
 IDD_MACHINE(1),Strojní Interface
 IDD_MACHINE_STATICTXT1(1),&Stroj typu:
@@ -297,7 +297,7 @@ IDD_LBW_SITEKEY(1),LOCKBASE - Licence
 IDD_LBW_SITEKEY_STATICTXT1(1),&Aktivovace:
 IDD_LBW_SITEKEY_OK(1),Potvrdit
 IDD_LBW_SITEKEY_CANCEL(1),Zrušit
-IDD_LBW_SITEKEY_STATICTXT2(1),"K získání platného aktivovacího klíče kontaktujte, prosím, Körtner && Muth GmbH v Hamburgu, Německo:\nTel.: +49-40-430 4436\tFax: +49-40-430 4382\nEMail: lockbase@koertner-muth.com"
+IDD_LBW_SITEKEY_STATICTXT2(1),'K získání platného aktivovacího klíče kontaktujte, prosím, Körtner && Muth GmbH v Hamburgu, Německo:\nTel.: +49-40-430 4436\tFax: +49-40-430 4382\nEMail: lockbase@koertner-muth.com'
 IDD_LBW_SITEKEY_STATICTXT3(2),&Instalace:
 IDD_LBW_SITEKEY_STATIC_INFO(1),LOCKBASE Verze %s\nLicence %X-%u-%lu-%u
 IDD_LBW_SITEKEY_STATICTXT4(2),Program nebyl licencován pro tuto pracovní stanici.
@@ -319,16 +319,16 @@ IDD_FLIETHER_CHECK_USEP10(1),Použít &profil 10
 IDD_FLIETHER_CHECK_USEALLRIPS(1),Použít &přímo sousedící profily
 IDD_FLIETHER_STATICTXT3(1),&Vyplnění centrálně uzamykaných vložek:
 IDD_SETUP_FERTECNO_STATICTXT1(1),&Volba bubínku:
-IDD_SETUP_FERTECNO_STATICTXT2(1),"1=levý, 2=pravý"
+IDD_SETUP_FERTECNO_STATICTXT2(1),'1=levý, 2=pravý'
 IDD_SETUP_FERTECNO_STATICTXT3(1),&Bubínek číslo:
-IDD_SETUP_FERTECNO_STATICTXT4(1),"1-9, 0=Test\nDruh profilu (sloupec 2+3) bude nastaven programem LOCKBASE"
+IDD_SETUP_FERTECNO_STATICTXT4(1),'1-9, 0=Test\nDruh profilu (sloupec 2+3) bude nastaven programem LOCKBASE'
 IDD_SETUP_FERTECNO_STATICTXT5(1),vrtání &plochy:
 IDD_SETUP_FERTECNO_STATICTXT6(1),01-99\t01=3mm 5-stavítko\t05=2mm 5-stavítko\n\t02=3mm 6-stavítko\t06=2mm 6-stavítko\n\t03=2mm 4-stavítko\t07=3mm 6-stavítko\n\t04=2mm 5-stavítko
 IDD_SETUP_FERTECNO_STATICTXT7(1),&Průměr vrtáku:
-IDD_SETUP_FERTECNO_STATICTXT8(1),"1=9,0 mm, 2=7,1 mm"
+IDD_SETUP_FERTECNO_STATICTXT8(1),'1=9,0 mm, 2=7,1 mm'
 IDD_SETUP_FERTECNO_OK(1),Potvrdit
 IDD_SETUP_FERTECNO_CANCEL(1),Zrušit
-IDD_SETUP_FERTECNO_STATICTXT9(1),"Tato hodnota může být použita v případě,že nejsou nalezeny žádné vyplněné vstupy v souboru 'FertecnoBohrtabellen.txt'."
+IDD_SETUP_FERTECNO_STATICTXT9(1),'Tato hodnota může být použita v případě,že nejsou nalezeny žádné vyplněné vstupy v souboru ''FertecnoBohrtabellen.txt''.'
 IDD_LISTS_KEYRETURN(1),Klíče s omezenou platností
 IDD_LISTS_KEYRETURN_STATICTXT1(1),Byl dosažen nebo překročen termín vrácení následujících klíčů\n :
 IDD_LISTS_KEYRETURN_EDIT_KEY_STRFORM(1),&Formát...
@@ -377,7 +377,7 @@ IDD_DOC_CONSISTENCY_OK(1),Ověřit &nyní
 IDD_DOC_CONSISTENCY_CANCEL(1),Z&avřít
 IDD_DOC_CONSISTENCY_CHECK9(1),&Vložky se stejným číslem uzamykané stejně
 IDD_LISTS_GROUNDPLAN(1),Půdorys
-IDD_LISTS_GROUNDPLAN_STATICTXT1(1),"Zadejte název plánu a vyberte grafický soubor, který půdorys obsahuje (soubor typu BMP, JPG, PNG, TIF, EPS, TGA, PCT, WMF nebo EMF)."
+IDD_LISTS_GROUNDPLAN_STATICTXT1(1),'Zadejte název plánu a vyberte grafický soubor, který půdorys obsahuje (soubor typu BMP, JPG, PNG, TIF, EPS, TGA, PCT, WMF nebo EMF).'
 IDD_LISTS_GROUNDPLAN_STATICTXT2(1),&Název:
 IDD_LISTS_GROUNDPLAN_STATICTXT3(1),&Grafický soubor:
 IDD_LISTS_GROUNDPLAN_RADIO1(1),&Vložit půdorys
@@ -391,11 +391,11 @@ IDD_LISTS_GROUNDPLAN_ADDITEMS_STATICTXT1(1),&Dostupné dveře:
 IDD_LISTS_GROUNDPLAN_ADDITEMS_OK(1),Potvrdit
 IDD_LISTS_GROUNDPLAN_ADDITEMS_CANCEL(1),Zrušit
 IDD_LISTS_GROUNDPLAN_ADDITEMS_BUTTON_STRFORM(1),Formát...
-IDD_LISTS_GROUNDPLAN_ADDITEMS_STATICTXT2(1),"Ze seznamu vyberte dveře, které chcete přidat do půdorysu. Poté stiskněte Potvrdit."
+IDD_LISTS_GROUNDPLAN_ADDITEMS_STATICTXT2(1),'Ze seznamu vyberte dveře, které chcete přidat do půdorysu. Poté stiskněte Potvrdit.'
 IDD_LISTS_GROUNDPLAN_ADDITEMS_HELP(1),&Nápověda
 IDD_LISTS_DOORVIEW_STATIC_ZOOM(1),&Náhled:
 IDD_CISA_MATRIX_SETUP_OK(1),Potvrdit
-IDD_CISA_MATRIX_SETUP_STATICTXT1(1),"Zadejte dvoumístný CISA zákaznický kód do textového pole níže, prosím.\nTento kód bude použit jako předpona čísla systému generována programem LOCKBASE."
+IDD_CISA_MATRIX_SETUP_STATICTXT1(1),'Zadejte dvoumístný CISA zákaznický kód do textového pole níže, prosím.\nTento kód bude použit jako předpona čísla systému generována programem LOCKBASE.'
 IDD_CISA_MATRIX_SETUP_STATICTXT2(1),&Cisa zákaznický kód:
 IDD_CISA_MATRIX_SETUP_CANCEL(1),Zrušit
 IDD_USERS_LOGIN(1),LOCKBASE - Inicializace Správy uživatelů|LOCKBASE - Přihlášení|Správa uživatelů - Změna hesla
@@ -562,7 +562,7 @@ IDD_PRINT_FORMAT_STATIC_709(1),Textové &Úpravy:
 IDD_PRINT_FORMAT_CHECK_DESC(1),&Popis datových polí
 IDD_PRINT_FORMAT_STATIC_711(1),&Šířka:
 IDD_PRINT_FORMAT_STATIC_712(1),mm
-IDD_PRINT_FORMAT_CHECK_EVALQTY(1),&Evaluate 'Quantity'
+IDD_PRINT_FORMAT_CHECK_EVALQTY(1),'&Evaluate ''Quantity'''
 IDD_PRINT_FORMAT_OK(1),Potvrdit
 IDD_PRINT_FORMAT_CANCEL(1),Zrušit
 IDD_PRINT_FORMAT_HELP(1),&Nápověda
@@ -643,7 +643,7 @@ IDD_DESGN_MULTIPLY_HELP(1),&Nápověda
 IDD_DESGN_MULTIPLY_INSERTNUM(1),&@ Poř.číslovat
 IDD_DESGN_MULTIPLY_STATICTXT9(1),Varování: Podskupiny sloužící jako šablony budou zahrnuty do číslování a také budou předmětem nahrazení textu.
 IDD_EXCHG_CSVSELECT(1),Vybrat upřesňující formát
-IDD_EXCHG_CSVSELECT_STATICTXT1(1),"Vybrat formát dat, který může být použit k převádění obsahů tabulek. Definujte nový, pokud není vhodný formát specifikací dostupný."
+IDD_EXCHG_CSVSELECT_STATICTXT1(1),'Vybrat formát dat, který může být použit k převádění obsahů tabulek. Definujte nový, pokud není vhodný formát specifikací dostupný.'
 IDD_EXCHG_CSVSELECT_LIST1(1),Název\tpopis
 IDD_EXCHG_CSVSELECT_OK(1),Aplikovat
 IDD_EXCHG_CSVSELECT_CANCEL(1),Zavřít
@@ -698,7 +698,7 @@ IDD_DOC_SEARCH_STATICTXT2(1),&Datové pole:
 IDD_DOC_SEARCH_OK(1),Vyhledat
 IDD_DOC_SEARCH_CANCEL(1),Zrušit
 IDD_DOC_SEARCH_EX(1),Vyhledávání
-IDD_DOC_SEARCH_EX_STATICTXT1(1),"Zadejte výraz, který chcete vyhledat. Při použití různých slov, budou tato kombinovány logicky (čímž dojde ke snížení počtu nalezených)."
+IDD_DOC_SEARCH_EX_STATICTXT1(1),'Zadejte výraz, který chcete vyhledat. Při použití různých slov, budou tato kombinovány logicky (čímž dojde ke snížení počtu nalezených).'
 IDD_DOC_SEARCH_EX_STATICTXT2(1),&Najít:
 IDD_DOC_SEARCH_EX_STATICTXT3(1),&Datový sklad:
 IDD_DOC_SEARCH_EX_STATICTXT4(1),Datové &pole:
@@ -776,17 +776,17 @@ IDR_LBWDSGN(1),Systém Návrhář\nNoName\nLBWDOC\nLOCKBASE-File (*.lbf)\n.LBF\n
 IDR_LBCWTYPE(1),Systém Kalkulátor\nNoName\nLBWDOC\nLOCKBASE-File (*.lbf)\n.LBF\nLBWDOC\nLOCKBASE-File
 IDR_LBWMTRX(1),Systém Matrix\nNoName\nLBWDOC\nLOCKBASE-File (*.lbf)\n.LBF\nLBWDOC\nLOCKBASE-File
 IDS_LBW_EXCHANGE(1),LOCKBASE soubor (*.lbf)\nLOCKBASE template (*.lbt)\nLOCKBASE for DOS (*.sys)
-IDS_LBW_WEASELS(1),"Weasels rip my flesh!\n\nProgram LOCKBASE byl změněn. To může být způsobeno chybou pevného disku, počítačovým virem nebo manipulací se zdrojovým kódem programu.\n\nObnovte originální soubor ze zálohy nebo LOCKBASE instalační diskety."
-IDS_LBW_SHARE(1),"Nefukční sdílení!\nPro správnou funkčnost, LOCKBASE potřebuje DOS-Utility SHARE.EXE nebo  DOS-kompatibilní síť."
-IDS_LBW_DEMO_OUT(1),"Demoverzi LOCKBASE vypršela platnost!\nAktuální verzi získáte na'www.koertner-muth.com'\n nebo na adrese:\n\nKörtner & Muth GmbH\nEimsbütteler Chaussee 60-66, D-20259 Hamburg\n\nPhone: +49-40-4304436 Fax: +49-40-4304382\nEMail: lockbase@koertner.com"
+IDS_LBW_WEASELS(1),'Weasels rip my flesh!\n\nProgram LOCKBASE byl změněn. To může být způsobeno chybou pevného disku, počítačovým virem nebo manipulací se zdrojovým kódem programu.\n\nObnovte originální soubor ze zálohy nebo LOCKBASE instalační diskety.'
+IDS_LBW_SHARE(1),'Nefukční sdílení!\nPro správnou funkčnost, LOCKBASE potřebuje DOS-Utility SHARE.EXE nebo  DOS-kompatibilní síť.'
+IDS_LBW_DEMO_OUT(1),'Demoverzi LOCKBASE vypršela platnost!\nAktuální verzi získáte na''www.koertner-muth.com''\n nebo na adrese:\n\nKörtner & Muth GmbH\nEimsbütteler Chaussee 60-66, D-20259 Hamburg\n\nPhone: +49-40-4304436 Fax: +49-40-4304382\nEMail: lockbase@koertner.com'
 IDS_LBW_DEMO(1),Vítejte v programu LOCKBASE demo !\n\nTato demoverze je plně funkční ale změněná data nebo nově vytvořené systémy nebudou uloženy na disk.\n\nUžijte si LOCKBASE!
 IDS_LBW_DEMO_STORE(1),Toto je LOCKBASE demoverze!\nNemůžete uložit žádná data na disk.
 IDS_LBW_LISTEND(1),<nový>
-IDS_LBW_PRESENTATION(1),"Tento program může být použit za účelem prezentace a není licencován pro žádné komerční použití.\nTento program je ve vlastnictví firmy Körtner & Muth GmbH, Hamburg, Německo."
-IDS_PROTECT_FILELOCK(1),"Přístup k licenčnímu souboru (LBW.CFG) byl odepřen.\n\nLOCKBASE nemůže být licencována na dvou pracovních stanicích ve stejnou chvíli.Ukončete licenční proces na jedné pracovní stanici, prosím, než spustíte další."
-IDS_PROTECT_INVALID(1),"Licenční soubor (LBW.CFG) je neplatný nebo poškozen.\n\nKontaktujte technickou podporu servisního partnera LOCKBASE, prosím.."
-IDS_LBW_PRESENTATION_OUT(1),"Životnost tohoto prezentačního programu vypršela.\nPro získání licence prosím kontaktujte:\n\nKörtner & Muth GmbH\nEimsbütteler Chaussee 60-66, D-20259 Hamburg\n\nPhone: +49-40-4304436 Fax: +49-40-4304382\nEMail: lockbase@koertner.com"
-IDS_LBW_MODULE_LOADFAIL(1),"Soubor '%s' není uložen v adresáři LOCKBASE, mohl být poškozen nebo chybí některá jeho část."
+IDS_LBW_PRESENTATION(1),'Tento program může být použit za účelem prezentace a není licencován pro žádné komerční použití.\nTento program je ve vlastnictví firmy Körtner & Muth GmbH, Hamburg, Německo.'
+IDS_PROTECT_FILELOCK(1),'Přístup k licenčnímu souboru (LBW.CFG) byl odepřen.\n\nLOCKBASE nemůže být licencována na dvou pracovních stanicích ve stejnou chvíli.Ukončete licenční proces na jedné pracovní stanici, prosím, než spustíte další.'
+IDS_PROTECT_INVALID(1),'Licenční soubor (LBW.CFG) je neplatný nebo poškozen.\n\nKontaktujte technickou podporu servisního partnera LOCKBASE, prosím..'
+IDS_LBW_PRESENTATION_OUT(1),'Životnost tohoto prezentačního programu vypršela.\nPro získání licence prosím kontaktujte:\n\nKörtner & Muth GmbH\nEimsbütteler Chaussee 60-66, D-20259 Hamburg\n\nPhone: +49-40-4304436 Fax: +49-40-4304382\nEMail: lockbase@koertner.com'
+IDS_LBW_MODULE_LOADFAIL(1),'Soubor ''%s'' není uložen v adresáři LOCKBASE, mohl být poškozen nebo chybí některá jeho část.'
 IDS_LBW_ERRSDB(1),Chyba během otevírání systémové databáze LOCKBASE (LBW.SDB).
 IDS_LBW_LANGUAGE(1),z
 IDS_APP_WIZBUTTONS(1),&Dále >\nDokončit\n< &Zpět\nZrušit\n&Nápověda
@@ -801,7 +801,7 @@ IDS_OE_INVALID(1),Soubor není dokument programu LOCKBASE nebo je poškozen.
 IDS_OE_NOLBF(1),Soubor není dokument programu LOCKBASE.
 IDS_OE_VERSION(1),Špatná verze LOCKBASE.
 IDP_DOC_MERGETREE(1),Tento LOCKBASE soubor obsahuje skupinovou strukturu vytvořenou Systémem Návrhář.\nNačtením tohoto souboru bez Systému Návrhář dojde k smazání jeho skupinových struktur.\n\nMůže být skupinová struktura tohoto LOCKBASE systémového souboru smazána?
-IDP_DOC_NEWERVERSION(1),"Tento systémový soubor byl vytvořen novější verzí LOCKBASE a v této verzi nelze otevřít.\nPro získání aktualizace kontaktujte vašeho dodavatele LOCKBASE, prosím."
+IDP_DOC_NEWERVERSION(1),'Tento systémový soubor byl vytvořen novější verzí LOCKBASE a v této verzi nelze otevřít.\nPro získání aktualizace kontaktujte vašeho dodavatele LOCKBASE, prosím.'
 IDS_OE_DISKSPACE(1),na disku není žádné volné místo pro dočasné soubory.
 IDS_OE_READONLY(1),Tento LOCKBASE soubor je chráněn proti zápisu. Možná je právě upravován na jiné pracovní stanici.\r\rSoubor byl otevřen pouze pro čtení. Provedené změny v souboru nebudou uloženy.
 IDS_OPTIONS_SYSTEMINFOFONT(1),Změnit písmo a velikost písma systémových informací
@@ -823,19 +823,19 @@ IDS_FILE_SYSTEMINFO(1),Zobrazit a upravit Systém Hlavička\nZobrazit a upravit 
 IDS_WINDOW_ACTIVATENEXT(1),Přejdi do následujícího datového skladu pro úpravu dat
 IDS_WINDOW_ACTIVATEPREV(1),Přejdi do předchozího datového skladu pro úpravu dat
 IDS_WINDOW_ARRANGELISTS(1),Zobraz aktivní list v plné velikosti\nZobraz aktivní list v plné velikosti
-IDS_OPTIONS_VIEWS(1),"Určit, které okno se zobrazí při spuštění LOCKBASE"
+IDS_OPTIONS_VIEWS(1),'Určit, které okno se zobrazí při spuštění LOCKBASE'
 IDS_WINDOW_STARTMATRIX(1),Otevřít okno Systém Matrix\nOtevřít okno Systém Matrix
 IDS_WINDOW_STARTCALCULATOR(1),Otevřít okno Systému Kalkulátor pro kalkulaci\nOtevřít okno Systému Kalkulátor pro kalkulaci
 IDS_WINDOW_STARTDESIGNER(1),Otevřít okno Systému Návrhář\nOtevřít okno Systému Návrhář
 IDS_WINDOW_STARTLIST(1),Otevřít okno Datových seznamů\nOtevřít okno Datových seznamů
-IDS_OPTIONS_STRINGFORM(1),"Nastavit formát řádku, pořadí datových polí a třídění"
+IDS_OPTIONS_STRINGFORM(1),'Nastavit formát řádku, pořadí datových polí a třídění'
 IDS_EDIT_GROUPSELECT(1),Otevřít seznam skupin pro změnu aktivní skupiny
 IDS_CALC_EDITRANGE(1),Upravit rozsah frézovaní klíče vybrané skupiny\nUpravit rozsah frézovaní klíče vybrané skupiny
 IDS_CALC_EDITCODE(1),Upravit kombinaci vybraného klíče\nUpravit kombinaci vybraného klíče
 IDS_CALC_CALC(1),Spustit nebo zastavit kalkulaci\nSpustit nebo zastavit kalkulaci
 IDS_CALC_TRANSFER(1),Přenos dat mezi kalkulátorem a datovými sklady vložek  klíčů\nPřenos dat mezi kalkulátorem a datovými sklady vložek  klíčů
 IDS_FILE_READER(1),Vytvořit disk Manager lite pro aktivní soubor
-IDS_OPTIONS_LASTFILE(1),"Určit, zda má po spuštění LOCKBASE být načten posledně použitý systém"
+IDS_OPTIONS_LASTFILE(1),'Určit, zda má po spuštění LOCKBASE být načten posledně použitý systém'
 IDS_OPTIONS_TOOLBAR(1),Skrýt nebo zobrazit nástrojovou lištu
 IDS_OPTIONS_STATUS_BAR(1),Skrýt nebo zobrazit stavový řádek
 IDS_VIEW_SHOWCONNECTED(1),Skrýt nebo zobrazit spojení mezi datovými sklady\nSkrýt nebo zobrazit spojení mezi datovými sklady
@@ -843,7 +843,7 @@ IDS_FILE_MACHINE(1),Export informací frézování/rozpis stavítek do počíta�
 IDS_VIEW_CONNECTEDONLY(1),Zobrazit pouze spojené položky aktuální datové skupiny
 IDS_CALC_CGA(1),Otevřít dialogové okno Správa kódových skupin\nOtevřít dialogové okno Správa kódových skupin
 IDS_OPTIONS_USECGA(1),Umožnit nebo neumožnit Správu kódových skupin
-IDS_OPTIONS_EUROFORMAT(1),"Zobrazení Systému Matrix v komprimovaném tvaru (vložky, seřazené klíče, centrální vložky)"
+IDS_OPTIONS_EUROFORMAT(1),'Zobrazení Systému Matrix v komprimovaném tvaru (vložky, seřazené klíče, centrální vložky)'
 IDS_OPTIONS_FUNCONLY(1),Skrýt vložky uzamykané stejně a zobrazit pouze vložky uzamykané rozdílně\nSkrýt vložky uzamykané stejně a zobrazit pouze vložky uzamykané rozdílně\nSkrýt vložky uzamykané stejně a zobrazit pouze vložky uzamykané rozdílně\nSkrýt vložky uzamykané stejně a zobrazit pouze vložky uzamykané rozdílně
 IDS_OPTIONS_KEYRETURN(1),Určit zda po spuštění Datových seznamů mají být zobrazeny Opožděně vrácené klíče
 IDS_EDIT_KEYRETURN(1),Zprávy o klíčích s dosaženým či překročeným datem vrácení
@@ -861,7 +861,7 @@ IDS_FILE_CLOSE(1),Zavřít všechna okna souboru systému LOCKBASE\nZavřít vš
 IDS_FILE_SAVE(1),Uložit všechny aktivní soubory systému LOCKBASE\nUložit všechny aktivní soubory systému LOCKBASE
 IDS_FILE_SAVE_AS(1),Uložit aktivní soubor systému LOCKBASE pod novým názvem\nUložit aktivní soubor systému LOCKBASE pod novým názvem
 IDS_FILE_PRINT(1),Otevřít dialogové okno Tisku
-IDS_FILE_PRINT_PREVIEW(1),"Náhled vybraných datových seznamů, protokolů nebo dopisů"
+IDS_FILE_PRINT_PREVIEW(1),'Náhled vybraných datových seznamů, protokolů nebo dopisů'
 IDS_FILE_MRU_FILE1(1),Otevřít vybraný soubor systému LOCKBASE
 IDS_FILE_MRU_FILE2(1),Otevřít vybraný soubor systému LOCKBASE
 IDS_FILE_MRU_FILE3(1),Otevřít vybraný soubor systému LOCKBASE
@@ -872,11 +872,11 @@ IDS_WINDOW_CASCADE(1),Uspořádat okna překrytě
 IDS_WINDOW_TILE_HORZ(1),Uspořádat okna vedle sebe
 IDS_WINDOW_TILE_VERT(1),Uspořádat okna pod sebe
 IDS_WINDOW_SPLIT(1),Uspořádat okna jako dlaždice
-IDS_APP_ABOUT(1),"Zobraz autorská práva,informace o verzi a výrobní číslo"
+IDS_APP_ABOUT(1),'Zobraz autorská práva,informace o verzi a výrobní číslo'
 IDS_APP_EXIT(1),Ukončit LOCKBASE
 IDS_HELP_INDEX(1),Zobraz obsah nápovědy\nZobraz obsah nápovědy
-IDS_HELP_USING(1),"Zobraz informace, jak použít nápovědu"
-IDS_CONTEXT_HELP(1),"Zobraz nápovědu kliknutím na tlačítka, menu a okna\nZobraz nápovědu kliknutím na tlačítka, menu a okna"
+IDS_HELP_USING(1),'Zobraz informace, jak použít nápovědu'
+IDS_CONTEXT_HELP(1),'Zobraz nápovědu kliknutím na tlačítka, menu a okna\nZobraz nápovědu kliknutím na tlačítka, menu a okna'
 IDS_HELP(1),Zobraz nápovědu pro aktuální úlohu nebo příkaz\nZobraz nápovědu pro aktuální úlohu nebo příkaz
 IDS_INDICATOR_EXT(1),EXT
 IDS_INDICATOR_CAPS(1),CAP
@@ -899,11 +899,11 @@ IDP_ERRORADDITEM(1),Položku nelze uložit!
 IDP_CURRDIRNOTEVALUATED(1),Tento adresář nelze nalézt!
 IDP_CANTDELETECONNECTEDITEM(1),Nelze smazat spojené položky!
 IDP_POSNOTFOUND(1),Pozice nebyla nalezena!
-IDP_NOITEMSELECTED(1),"Položka nebyla vybrána !\n Vyberte položku,prosím."
+IDP_NOITEMSELECTED(1),'Položka nebyla vybrána !\n Vyberte položku,prosím.'
 IDP_IDNOTFOUND(1),ID položky nebylo nalezeno!
 IDP_NOMOUSE(1),Myš není nainstalovaná.\nPoužíváním myši je ovládání LOCKBASE snazší.
-IDP_INSERTNUMCHAR_CYL(1),Nezadali jste znak pořadí (@) do datového pole 'číslo'.\rChcete vytvořit vložky uzamykané stejně?
-IDP_SELECTAFRAME(1),"Nebylo vybrán úvodní zobrazení.\nPoužijte menu Možnosti, prosím/Vyberte jedno nebo víc zobrazení dat, které budou spuštěna při otevření souboru."
+IDP_INSERTNUMCHAR_CYL(1),'Nezadali jste znak pořadí (@) do datového pole ''číslo''.\rChcete vytvořit vložky uzamykané stejně?'
+IDP_SELECTAFRAME(1),'Nebylo vybrán úvodní zobrazení.\nPoužijte menu Možnosti, prosím/Vyberte jedno nebo víc zobrazení dat, které budou spuštěna při otevření souboru.'
 IDP_FIELDEMPTY(1),Toto pole nesmí být prázdné.
 IDS_PRTF_DATALISTS(1),Zobraz seznamy
 IDS_PRTF_MATRIXVW(1),Systém Matrix
@@ -912,12 +912,12 @@ IDS_PRTF_DESIGNER(1),Systém Návrhář
 IDS_PRTF_COVERSHEET(1),Systém Hlavička\n\n\nHistorie:
 IDS_PRTF_MATRIXPRN(1),Systém Matrix
 IDS_PRTF_PINNINGLIST(1),Rozpis stavítek
-IDS_PRTF_CYLREPAIR(1),"Objednávka\nObjednávka opravy vložky\n\nTímto objednáváme 1 kus od každé z následujícího seznamu vložek(s):||Datum:|Systém:|Značka:|(Místo, Datum)|(Podpis)|Do|Částka"
+IDS_PRTF_CYLREPAIR(1),'Objednávka\nObjednávka opravy vložky\n\nTímto objednáváme 1 kus od každé z následujícího seznamu vložek(s):||Datum:|Systém:|Značka:|(Místo, Datum)|(Podpis)|Do|Částka'
 IDS_PRTF_CYL2KEY(1),Řádkový seznam\nSeznam vložek - klíčů
 IDS_PRTF_CYLINDER(1),Seznam\nSeznam vložek
 IDS_PRTF_BITTINGLIST(1),Seznam frézování klíčů
-IDS_PRTF_KEYISSUE(1),"Potvrzení výdeje klíče\n\n\npan/paní @ potvrzuje přijetí následujícího(ch) klíče(ů):||Datum:|Systém:|Značka:|(Místo, Datum)|(Podpis)|Do"
-IDS_PRTF_KEYRETURN(1),"Potvrzení příjmu klíče\n\n\nPotvrzujeme panu/paní @ příjem následjicího(ch) klíče(ů):||Datum:|Systém:|Značka:|(Místo, Datum)|(Podpis)|Do"
+IDS_PRTF_KEYISSUE(1),'Potvrzení výdeje klíče\n\n\npan/paní @ potvrzuje přijetí následujícího(ch) klíče(ů):||Datum:|Systém:|Značka:|(Místo, Datum)|(Podpis)|Do'
+IDS_PRTF_KEYRETURN(1),'Potvrzení příjmu klíče\n\n\nPotvrzujeme panu/paní @ příjem následjicího(ch) klíče(ů):||Datum:|Systém:|Značka:|(Místo, Datum)|(Podpis)|Do'
 IDS_PRTF_KEYSTOCK(1),Seznam klíčů na skladě\n\n\nPodpis
 IDS_PRTF_CONNECTDLG(1),Spojit Dialogové okno
 IDS_PRTF_KEYEDITDLG(1),Seznam klíčů
@@ -931,22 +931,22 @@ IDS_PRN_PINNING(1),Kódování
 IDS_PRN_PAGEINFO(1),Strana %i z %n\nStrana %i z %n (Výňatek)\nStrana %c%r z %nc%nr\nStrana %i (Výňatek)
 IDS_MTRX_INFOSTR(1),Systém:\nVlastník:\nZákaznické číslo:\nUlice:\nMěsto:\nZemě:\nDodavatel:\nTyp systému:\nZnačka:\nVýroba:\nNaposledy změněno:\nPoznámky:\n
 IDP_DOC_ERRORCANTDELETE(1),Ne všechny datové skupiny mohou být vymazány!
-IDP_DOC_RECALC(1),"Tento vstup vyžaduje kompletní rekalkulaci!\nOvěřte existující kalkulaci v Systému Kalkulátor, prosím!"
+IDP_DOC_RECALC(1),'Tento vstup vyžaduje kompletní rekalkulaci!\nOvěřte existující kalkulaci v Systému Kalkulátor, prosím!'
 IDS_DOC_UPDATE(2),Probíhá aktualizace verze... (%d)
 IDS_DOC_ADDDATASET(1),Vytváření Datových skupin: %d%%\n
 IDS_DOC_ANALYSE(1),Analýza skupiny %s...\nPřekrytí mezi skupinami %s a %s: Sloučení skupin\n
 IDS_DOC_REMDATASET(1),Vymazání datových skupin: %d%%\n
 IDP_DOC_FILENOTFOUND(1),Soubor %s nebyl nalezen!
 IDS_DOC_IMPORT(1),Probíhá úprava dat: %s (%d%%) ...\nPřevzít existující kalkulace: %s (%d%%) ...\n
-IDP_DOC_IMPORTWRONGTYPE(1),Chyba během otvírání souboru\nVybraný soubor neobsahuje očekávaná data.\nTento soubor se zdá být starší verzí souboru formátu 'Superlock'. LOCKBASE čte soubory vytvořené ve verzi 'Elcon Superlock Universal 6.11'.
+IDP_DOC_IMPORTWRONGTYPE(1),'Chyba během otvírání souboru\nVybraný soubor neobsahuje očekávaná data.\nTento soubor se zdá být starší verzí souboru formátu ''Superlock''. LOCKBASE čte soubory vytvořené ve verzi ''Elcon Superlock Universal 6.11''.'
 IDP_DOC_IMPORTERROR(2),Došlo k chybě během úpravy dat!\nNelze otevřít soubor %s.\nNelze číst ze souboru %s.\nChybná data nalezena v souboru %s.\nNelze přidat datovou skupinu.\n%s
-IDP_DOC_ASKMOVE(1),"Potvrďte přesunutí, prosím %lu %s"
-IDS_DOC_MGLUPDATE1(1),"Klíč '%s', vydán '%s' nebyl nalezen\nVložka '%s', postavená do '%s' nebyla nalezena\nPříprava aktualizace ...\nProbíhá aktualizace (%u%%)\nNelze provést aktualizaci: Starý soubor nelze otevřít.\n"
-IDS_DOC_MGLUPDATE2(1),Došlo k chybě během aktualizace . Vyberte 'Potvrdit' k přijmutí aktualizace kdykoliv nebo vyberte 'Zrušit' k obnovení předchozího stavu systému.
-IDS_DOC_MGLUPDATE3(1),Aktualizace proběhla úspěšně. Předchozí stav systému bude uložen do souboru '%s.lb1'.\nPředchozí stav systému byl obnoven. Aktualizace bude vymazána.
-IDS_DOC_MGLUPDATE4(1),"Klíč '%s', vydán '%s' nebyl nalezen\nVložka '%s', postavená do '%s' nebyla nalezena\nPříprava aktualizace ...\nProbíhá aktualizace (%u%%)\nVýrobní číslo starého souboru je vadné. Nelze provést aktualizaci."
+IDP_DOC_ASKMOVE(1),'Potvrďte přesunutí, prosím %lu %s'
+IDS_DOC_MGLUPDATE1(1),'Klíč ''%s'', vydán ''%s'' nebyl nalezen\nVložka ''%s'', postavená do ''%s'' nebyla nalezena\nPříprava aktualizace ...\nProbíhá aktualizace (%u%%)\nNelze provést aktualizaci: Starý soubor nelze otevřít.\n'
+IDS_DOC_MGLUPDATE2(1),'Došlo k chybě během aktualizace . Vyberte ''Potvrdit'' k přijmutí aktualizace kdykoliv nebo vyberte ''Zrušit'' k obnovení předchozího stavu systému.'
+IDS_DOC_MGLUPDATE3(1),'Aktualizace proběhla úspěšně. Předchozí stav systému bude uložen do souboru ''%s.lb1''.\nPředchozí stav systému byl obnoven. Aktualizace bude vymazána.'
+IDS_DOC_MGLUPDATE4(1),'Klíč ''%s'', vydán ''%s'' nebyl nalezen\nVložka ''%s'', postavená do ''%s'' nebyla nalezena\nPříprava aktualizace ...\nProbíhá aktualizace (%u%%)\nVýrobní číslo starého souboru je vadné. Nelze provést aktualizaci.'
 IDS_DOC_EVVASAT_TXT(1),EVVA-Systém:\nano\nne\nDoadací adresa:\nFakturační adresa:\nVýrobce: \nPříslušný klíč \n
-IDS_DOC_EVVASAT_ERR(1),"Chyba v souboru '%s', řádek %ld , pole %ld:\nNelze otevřít soubor.\nNeočekávaný formát souboru.\nNeznámý nebo neočekávaný typ datového pole.\nNedostatek paměti.\nNalezen neočekávaný konec souboru.\nInterní chyba."
+IDS_DOC_EVVASAT_ERR(1),'Chyba v souboru ''%s'', řádek %ld , pole %ld:\nNelze otevřít soubor.\nNeočekávaný formát souboru.\nNeznámý nebo neočekávaný typ datového pole.\nNedostatek paměti.\nNalezen neočekávaný konec souboru.\nInterní chyba.'
 IDP_CALC_RECALC(1),Tento vstup vyžaduje kompletní rekalkulace!
 IDP_CALC_NOGROUP(1),Vadná Kódová skupina!
 IDP_CALC_NOPROFILE(1),Vadný Profil!
@@ -957,7 +957,7 @@ IDP_CALC_STOP_ACTIVE(1),Kalkulace zrušena!
 IDP_CALC_NOCODE(1),Vadná kombinace:\n%s
 IDP_CALC_ERROR(1),Detekováno špatné nastavení:\nklíč %s nelze zabudovat do vložky %s (z důvodů jiných klíčů).%s\nKlíč %s otevře vložku %s.%s\nVadné kódování nalezeno ve vložce %s. Frézování náležejících klíčů není kompatibilní.
 IDP_CALC_STOP_FAIL(1),Selhání kalkulace! \nRzsah frézování klíče je příliš malý!
-IDP_CALC_STOP_SUCCESS(1),Kalkulace dokončena!\nVšechny kombinace v '%s' jsou zkalkulovány.
+IDP_CALC_STOP_SUCCESS(1),'Kalkulace dokončena!\nVšechny kombinace v ''%s'' jsou zkalkulovány.'
 IDP_CALC_NO_VACANT(1),Všechny kombinace jsou již zkalkulovány.
 IDS_CALC_SUPERHS(1),\nKombinace nadřazeného klíče je příčinou této chyby.
 IDP_CALC_NOFABSET(1),Soubor LBW.FAB není uložen v adresáři LOCKBASE nebo byl poškozen!\nZnačka není dostupná!
@@ -976,9 +976,9 @@ IDS_CALC_TRANSFER_IN(1),Přenos...\nUpozornění: Kód %s je v rozporu s nastave
 IDS_CALC_TEST(2),Analýza skupiny %s...\nPřekrytí mezi skupinou %s a %s: sloučení skupin\nInicializace interních dat %u%%\nOveření aktuální kalkulace %u%%\nkalkulace...
 IDS_CALC_USEANYWAY(1),\nMůže být kombinace použita kdykoliv?
 IDP_CALC_ERROR1(1),\nKlíč bude překalkulován.
-IDP_CALC_RANGE_SMALLER(1),Z důvodu omezení rozsahu frézování nejméně některé kombinace musí být překalkulovány.\rMají být ostatní kombinace v '%s' ponechány?
-IDP_CALC_RANGE_LARGER(1),Rozsah kalkulace '%s' byl rozšířen dle těchto nastavení.\rMají být poslední zkalkulované kombinace ponechány?
-IDP_CALC_NEWMASTER(1),Kombinace generálního klíče byla změněna.\rMají být poslední zkalkulované kombinace v '%s' přepočítány (doporučeno)?
+IDP_CALC_RANGE_SMALLER(1),'Z důvodu omezení rozsahu frézování nejméně některé kombinace musí být překalkulovány.\rMají být ostatní kombinace v ''%s'' ponechány?'
+IDP_CALC_RANGE_LARGER(1),'Rozsah kalkulace ''%s'' byl rozšířen dle těchto nastavení.\rMají být poslední zkalkulované kombinace ponechány?'
+IDP_CALC_NEWMASTER(1),'Kombinace generálního klíče byla změněna.\rMají být poslední zkalkulované kombinace v ''%s'' přepočítány (doporučeno)?'
 IDS_CALC_TRANSFER_OUT(1),Přenos...\nVložka %s: Stavební ball nahrazení chyby error\nPřenos dokončen.
 IDS_CALC_TRANSFER_CHG(1),Vyhledávání změn ...\nKlíč %s: \nVložka %s: \nFrézování\nRozpis stavítek\nProfil\nVyhledávání dokončeno.
 IDS_CALC_EDITCODE_FLAG(1),&Jedna strana zcela mechanická
@@ -989,9 +989,9 @@ IDS_DESGN_KEYPATTERN(1),Šablona příslušný klíč
 IDS_DESGN_CYLPATTERN(1),Šablona Vložka
 IDS_DESGN_Z(1),Centrální vložka
 IDS_DESGN_HS(1),Generální klíč
-IDS_DESGN_KILLHS(1),"Potvrďte smazání skupinového klíče skupiny %s, prosím."
-IDS_DESGN_KILLZ(1),"Potvrďte smazání centrální vložky skupiny %s, prosím."
-IDS_DESGN_KILLGRP(1),"Potvrďte smazání %s, prosím."
+IDS_DESGN_KILLHS(1),'Potvrďte smazání skupinového klíče skupiny %s, prosím.'
+IDS_DESGN_KILLZ(1),'Potvrďte smazání centrální vložky skupiny %s, prosím.'
+IDS_DESGN_KILLGRP(1),'Potvrďte smazání %s, prosím.'
 IDS_DESGN_HSEDIT(1),Upravit M&K...
 IDS_DESGN_HSADD(1),Přidat M&K...
 IDS_DESGN_ZEDIT(1),Upravit M&C...
@@ -1014,7 +1014,7 @@ IDP_CHECKPWD_FAIL(1),Neplatné heslo!
 IDS_SETPWD_BUTTON_SET(1),Vložit &Heslo...
 IDS_SETPWD_BUTTON_CHG(1),Změnit &Heslo...
 IDP_PROCVIEW_CANCEL(1),Zastavit proces?
-IDS_READER_STR(1),"Soubor nebyl nalezen!\nNení přístup!\nNeznámá chyba!\nPřed vytvořením disku Manager Lite uložte systém, prosím\nInstalace složky proběhla úspěšně a byla umístěna na plochu.!\nNelze vymazat starý Manager lite!\nDisk nebyl vytvořen!\nCílová cesta nemůže být v adresáři LOCKBASE"
+IDS_READER_STR(1),'Soubor nebyl nalezen!\nNení přístup!\nNeznámá chyba!\nPřed vytvořením disku Manager Lite uložte systém, prosím\nInstalace složky proběhla úspěšně a byla umístěna na plochu.!\nNelze vymazat starý Manager lite!\nDisk nebyl vytvořen!\nCílová cesta nemůže být v adresáři LOCKBASE'
 IDS_READER_COPY(1),Kopíruji %s...
 IDP_READER_INVPATH(1),Nelze vytvořit cestu!\rVložte prosím: [Disk]:\\[...]\\[Adresář]\rAdresáře musí existovat před vytvářením Managera lite .
 IDS_READER_CANTCOPYFILE(1),Nelze kopírovat soubor %s.
@@ -1022,10 +1022,10 @@ IDP_READER_CANTSEALEXE(1),Nelze vytvořit rozbalovací soubor Manager lite.
 IDP_READER_CANTCOPYREADERFILES(1),Soubory nelze kopírovat do cílového adresáře.
 IDS_READER_CREATINGEXE(1),Vytvářím Manager lite...
 IDP_READER_INVDOC(1),Soubor LBW.LBF je poškozen a nelze ho otevřít.
-IDP_READER_CONFIRM(1),"Číslo systému, jméno zákazníka a adresu po vytvoření Managera Lite nelze změnit.\r\rJste si jisti, že vložená data jsou správná?"
-IDP_READER_USERDATA(1),"Číslo systému, jméno zákazníka a adresa je nekompletní.\r\rMusíte zadat číslo systému, jméno zákazníka a adresu k disku Manager lite."
-IDP_READER_UNLOCK(1),"Licenční kód je neplatný.\r\rK vytvoření disku Manager lite disk musíte vložit platnou licenci, kterou můžete získat od svého dodavatele LOCKBASE."
-IDS_READER_DISKSPACE(1),"Není žádné volné místo na cílovém disku.\rVložte další disk, prosím."
+IDP_READER_CONFIRM(1),'Číslo systému, jméno zákazníka a adresu po vytvoření Managera Lite nelze změnit.\r\rJste si jisti, že vložená data jsou správná?'
+IDP_READER_USERDATA(1),'Číslo systému, jméno zákazníka a adresa je nekompletní.\r\rMusíte zadat číslo systému, jméno zákazníka a adresu k disku Manager lite.'
+IDP_READER_UNLOCK(1),'Licenční kód je neplatný.\r\rK vytvoření disku Manager lite disk musíte vložit platnou licenci, kterou můžete získat od svého dodavatele LOCKBASE.'
+IDS_READER_DISKSPACE(1),'Není žádné volné místo na cílovém disku.\rVložte další disk, prosím.'
 IDP_READER_DEMO(1),Nevložili jste licenční kód.\r\rLOCKBASE vytvoří demoverzi programu Manager lite pro tento systém generálního klíče.
 IDP_READER_PASSWORD(1),Tento systém je chráněn heslem. Chcete toto heslo použít také k ochraně disku Manager-lite?
 IDS_PRTF_ASSEMBLY(1),Seznam materiálu\n\n\nTělesová stavítka|Mezistavítka|Bubínkovástavítka|Klíč|Typ|Profil|Množství|Typ vložky|Spec. úpr.|Povrch|Rozměr|Délka bubínku / Typ|Generální klíče|Skupinové klíče|Skupinové Klíče|Skupinové klíče|Příslušné klíče|Cena|Celcem|Celková hodnota|Celková cena
@@ -1033,58 +1033,58 @@ IDS_PRTF_KEY_HISTORY(1),Historie Klíčů
 IDS_PRTF_CTRLKEYLIST(1),Kontrolní seznam klíčů\n\n\nKontrolovat klíč|vložky
 IDS_PRTF_COMBIPINNINGLIST(1),Kombinovaný seznam sestavení
 IDS_PRN_ASSEMBLY_DETECT(1),Problém analýzy rozměru %s ve vložce typu %s.\nJe to oboustranná vložka?\n
-IDP_PRN_PRINTFROMFILE(1),"Chyba při načítání tiskopisu <%s>:\nNeznámý příkaz v řádku %u.\nChyba syntaxe v řádku %u, Poz. %u.\nNelze otevřít tiskopis."
+IDP_PRN_PRINTFROMFILE(1),'Chyba při načítání tiskopisu <%s>:\nNeznámý příkaz v řádku %u.\nChyba syntaxe v řádku %u, Poz. %u.\nNelze otevřít tiskopis.'
 IDS_MACHINE_OUT(1),Exportuji data %u%%\n
 IDP_MACHINE_OVERWRITE(1),Vybraný výstupní soubor již existuje.\nPřepsat?
-IDS_MACHINE_ERRORS(1),Nelze otevřít výstupní soubor.\nNelze zapisovat do výstupního souboru.\nNelze zavřít výstupní soubor.\nVadná data detekována během zápisu položky '%s'.\n
+IDS_MACHINE_ERRORS(1),'Nelze otevřít výstupní soubor.\nNelze zapisovat do výstupního souboru.\nNelze zavřít výstupní soubor.\nVadná data detekována během zápisu položky ''%s''.\n'
 IDP_MACHINE_CIAO(1),Přenos dat úspěšně dokončen.
 IDS_MACHINE_SELECTBOX(1),Exportovat data do
-IDS_MACHINE_NOCARDNO(1),Není vloženo číslo karty pro Silca Unocode!\nStiskněte 'Nastavení' pro vložení platného čísla karty.
+IDS_MACHINE_NOCARDNO(1),'Není vloženo číslo karty pro Silca Unocode!\nStiskněte ''Nastavení'' pro vložení platného čísla karty.'
 IDS_MACHINE_NOFAB(1),Nebyla vložena značka!\nSpecifické hodnoty značky nelze nastavit.
 IDS_MACHINE_ECOSFILE(1),Börkey Ecos II výchozí soubor značky
 IDS_MACHINE_NOECOSFILE(1),Název výstupního souboru (%s) se liší od aktuálně používané definice (%s)\n\nNahradit použité pod novým jménem souboru?
-IDS_MACHINE_NOTINSETUP(2),Strojní rozhraní není ještě nastaveno pro tuto značku!\n%s\nStiskněte 'Nastavení' pro vložení požadovaných definicí.
+IDS_MACHINE_NOTINSETUP(2),'Strojní rozhraní není ještě nastaveno pro tuto značku!\n%s\nStiskněte ''Nastavení'' pro vložení požadovaných definicí.'
 IDS_MACHINE_UNOCODESTR(1),Silca Unocode nastavení\n&Značka/Číslo karty:\n&Číslo karty:\n
 IDS_MACHINE_ECOSSTR(1),Börkey Ecos II nastavení\n&Značka/Požití:\n&Použití:\n
 IDP_MACHINE_ECOSWARN(1),Upozornění!\nJméno klíče obsahuje nečíselný znak - Ecos II Series nedostupná funkce pro řezání přenesených klíčů.
-IDP_MACHINE_NOTRANSFER(1),"Strojní rozhraní není dostupné dokud informace o frézování a rozpisu stavítek nebudou přeneseny z Kalkulátoru do datových skupin.\n\nNicméně, dosud žádný přenos neproběhl."
-IDP_MACHINE_BRANDERROR(1),Systém generálního klíče značky '%s' nemůže být přenesen do vybraného stroje.
+IDP_MACHINE_NOTRANSFER(1),'Strojní rozhraní není dostupné dokud informace o frézování a rozpisu stavítek nebudou přeneseny z Kalkulátoru do datových skupin.\n\nNicméně, dosud žádný přenos neproběhl.'
+IDP_MACHINE_BRANDERROR(1),'Systém generálního klíče značky ''%s'' nemůže být přenesen do vybraného stroje.'
 IDS_MACHINE_QUATTROSTR(1),Silca Quattrocode nastavení\n&značka/Silca výrobní číslo:\n&Silca výrobní číslo:\n
-IDP_CGA_NOCGA(1),"LOCKBASE nemůže spustit správu kódových skupin.\n\nSoubor LBWCGA.EXE není uložen v adresáři LOCKBASE, byl poškozen nebo jej nelze načíst z jiného důvodu (např. Windows 3.1 nebo nižší)."
+IDP_CGA_NOCGA(1),'LOCKBASE nemůže spustit správu kódových skupin.\n\nSoubor LBWCGA.EXE není uložen v adresáři LOCKBASE, byl poškozen nebo jej nelze načíst z jiného důvodu (např. Windows 3.1 nebo nižší).'
 IDP_LISTS_CREATE_DOORS(1),Potvrďte vytvoření datové skupiny dveří z dat popisu dveří vložek.\n%lu Dveře byly vytvořeny.\nŽádné dveře nebyly vytvořeny ů všechny dveře již existují.
 IDP_LISTS_NOKEYRETURN(1),Všechny klíče s omezenou platností jsou vráceny.
 IDS_LISTS_PROCVIEW_KEYRETURN(1),vyhledávání klíčů s omezenou platností: %d%%
 IDP_LISTS_GROUNDPLAN_ERR(1),Došlo k následující chybě:\nNázev chybí nebo byl již použit v jiném půdorysu.\nDaný soubor nebyl nalezen.\nDaný soubor není v grafickém formátu nebo není podporován.\n
-IDP_LISTS_GROUNDPLAN_DEL(1),"Jste si jisti, že chcete smazat tento půdorys?"
-IDP_LISTS_GROUNDPLAN_REMITEMS(1),"Jste si jisti, že chcete odstranit %lu dveře z tohoto půdorysu?"
-IDP_LISTS_GROUNDPLAN_LOAD(2),"Chyba během načítání půdorysu '%s':\nNeplatný název půdorysu.\nNebyl zadán zdrojový soubor půdorysu. Vložte znova umístění souborů, prosím.\nGrafický soubor s půdorysem není na očekávaném místě.Prosím vložte znovu umístění souboru.\nPůdorys není grafický soubor nebo je v nepodporovaném formátu. vyberte jiný soubor, prosím."
-IDP_BRANDSET_IMPORTERROR(1),Problémy během inicializace modulu značky %s:\nNelze otevřít soubor '%s' .\nSoubor '%s' obsahuje vadná data.\nNelze zapsat do souboru '%s'.
+IDP_LISTS_GROUNDPLAN_DEL(1),'Jste si jisti, že chcete smazat tento půdorys?'
+IDP_LISTS_GROUNDPLAN_REMITEMS(1),'Jste si jisti, že chcete odstranit %lu dveře z tohoto půdorysu?'
+IDP_LISTS_GROUNDPLAN_LOAD(2),'Chyba během načítání půdorysu ''%s'':\nNeplatný název půdorysu.\nNebyl zadán zdrojový soubor půdorysu. Vložte znova umístění souborů, prosím.\nGrafický soubor s půdorysem není na očekávaném místě.Prosím vložte znovu umístění souboru.\nPůdorys není grafický soubor nebo je v nepodporovaném formátu. vyberte jiný soubor, prosím.'
+IDP_BRANDSET_IMPORTERROR(1),'Problémy během inicializace modulu značky %s:\nNelze otevřít soubor ''%s'' .\nSoubor ''%s'' obsahuje vadná data.\nNelze zapsat do souboru ''%s''.'
 IDP_BRANDSET_IMPORTOK(1),Data modulu značky %s byla úspěšně aktualizována.
 IDP_DOC_ASK_TO_SAVE(1),%s byl upraven.\nChcete uložit změny?
-IDP_DOC_CGA_TO_SAVE(1),"Uvědomte si, že změny provedené ve Správě kódových skupin musí být opraveny manuálně, pokud soubor není uložen."
-IDS_DOC_EVVASAT_UNRESOLVED(1),"Chyba v souboru '%s', řádku %ld , poli %ld:\nSystém Matrix nebyl vyřešen. Pro více informací týkajících se vyřešení Matrixu odkazujeme na uživatelský manuál Evva-Satellit."
-IDP_DOC_IMPORTERROR1(1),"Došlo k chybě během převodu dat!\nSoubor %s, Záznam %ld, Pole %ld obsahuje vadná nebo neočekávaná data.\nSoubor %s, Záznam %ld obsahuje vadná nebo neočekávaná data."
+IDP_DOC_CGA_TO_SAVE(1),'Uvědomte si, že změny provedené ve Správě kódových skupin musí být opraveny manuálně, pokud soubor není uložen.'
+IDS_DOC_EVVASAT_UNRESOLVED(1),'Chyba v souboru ''%s'', řádku %ld , poli %ld:\nSystém Matrix nebyl vyřešen. Pro více informací týkajících se vyřešení Matrixu odkazujeme na uživatelský manuál Evva-Satellit.'
+IDP_DOC_IMPORTERROR1(1),'Došlo k chybě během převodu dat!\nSoubor %s, Záznam %ld, Pole %ld obsahuje vadná nebo neočekávaná data.\nSoubor %s, Záznam %ld obsahuje vadná nebo neočekávaná data.'
 IDP_DOC_IMPORTERROR_GENERAL(1),Došlo k chybě během importu dat!\nNelze vytvořit adresář %s.\nSoubor %s nebyl nalezen. Tento program musí být umístěn v adresáři LOCKBASE.\nZip soubor neobsahuje očekáváné soubory.
-IDP_DOC_KWDERROR(1),Došlo k chybě během importu dat!\nSoubor %s není KWD-soubor.\nTento typ souboru KWD není podporován.\rLOCKBASE podporuje pouze KWD typ 'Schließanlage mechanisch komplett mit Schließungen'.
-IDS_DOC_KWD(1),"Probíhá převod dat: Soubor %s, Řádek %ld ...\nVytvářím kopie klíčů %d%% ...\nVytvářím příslušných klíčů %d%% ...\nVytvářím spojení %d%%...\n"
+IDP_DOC_KWDERROR(1),'Došlo k chybě během importu dat!\nSoubor %s není KWD-soubor.\nTento typ souboru KWD není podporován.\rLOCKBASE podporuje pouze KWD typ ''Schließanlage mechanisch komplett mit Schließungen''.'
+IDS_DOC_KWD(1),'Probíhá převod dat: Soubor %s, Řádek %ld ...\nVytvářím kopie klíčů %d%% ...\nVytvářím příslušných klíčů %d%% ...\nVytvářím spojení %d%%...\n'
 IDS_DOC_EXPORT(1),Probíhá převod dat: %s (%d%%) ...
 IDS_DOC_IMPORT_GENERAL(1),Rozbaluji soubory ...\nKontroluji soubory ...\nProbíhá převod dat: %s (%d%%) ...
 IDP_DOC_REMCHGKEYS_FAIL(1),Nelze smazat všechny příslušné klíče. Některé z nich již byly vydány uživatelům.
-IDP_DOC_NOSUPERUNCHECK(1),"Atribut 'Centralní vložka' nelze odstranit u %lu z %lu vložek, jelikož stále existuje spojení s příslušnými klíči dalších vložek."
-IDP_DOC_ASKMYKEY_DISCONNECT(1),"Nelze vymazat spojení mezi vložkou a jejími příslušnými klíči.\r\rJste si jisti, že chcete oddělit vložku '%s' od jejích příslušných klíčů?"
-IDP_DOC_MAKECYLFUNC(1),Chcete nastavit vybrané vložky jako uzamykané stejně '%s'?
+IDP_DOC_NOSUPERUNCHECK(1),'Atribut ''Centralní vložka'' nelze odstranit u %lu z %lu vložek, jelikož stále existuje spojení s příslušnými klíči dalších vložek.'
+IDP_DOC_ASKMYKEY_DISCONNECT(1),'Nelze vymazat spojení mezi vložkou a jejími příslušnými klíči.\r\rJste si jisti, že chcete oddělit vložku ''%s'' od jejích příslušných klíčů?'
+IDP_DOC_MAKECYLFUNC(1),'Chcete nastavit vybrané vložky jako uzamykané stejně ''%s''?'
 IDP_DOC_CLRCYLFUNC(1),Vybrané vložky jsou uzamykané stejně.\rChcete je nastavit jako uzamykané rozdílně?
-IDP_DOC_MAKECYLFUNCFAIL(1),"Všechny vložky nemohou být uzamykané stejně.\rUvědomte si, že vložky, které mají vlastní příslušné klíče nemohou být uzamykány jako ostatní, prosím. Nejdříve smažte příslušný klíč."
+IDP_DOC_MAKECYLFUNCFAIL(1),'Všechny vložky nemohou být uzamykané stejně.\rUvědomte si, že vložky, které mají vlastní příslušné klíče nemohou být uzamykány jako ostatní, prosím. Nejdříve smažte příslušný klíč.'
 IDP_DOC_DEMOLOCK(1),Promiňte!\rDemo verze nemůže otevřít soubory vytvořené licencovaným programem LOCKBASE.
-IDP_DOC_TEMPLATE_ERR(1),Formát šablony '%s' nelze otevřít.\nSoubor je právě používán jiným uživatelem.
+IDP_DOC_TEMPLATE_ERR(1),'Formát šablony ''%s'' nelze otevřít.\nSoubor je právě používán jiným uživatelem.'
 IDP_DOC_ARCIMAGE(1),Mají být tyto změny uloženy?
 IDP_DOC_ARCIMAGE_ERR(1),Zálohování:\nZálohovací soubory úspěšně vytvořeny.\nChyba: Nelze vytvořit obrazový soubor.\nChyba: Nelze vytvořit vstupní hlavičku.\nChyba: Nelze vytvořit vstupní zápis.
 IDP_DOC_SYS_INVEVT(1),Dané časové období se překrývá s již existujícím rozšířením.
 IDS_DOC_CONSISTENCY_RULES(1),Byla nalezena zdvojená funkce klíče!\nByla nalezena zdvojená funkce vložky!\nBylo nalezeno zdvojené číslo vložky!\nČíslo příslušného klíče se liší od čísla vložky!\n%u Byly kombinovány vložky uzamykané stejně.\nNebyly nalezeny další sporná data.\nNebyly nalezeny žádná sporná data.
 IDP_DOC_OPENLOCK(1),Vybraný soubor nelze otevřít touto verzí LOCKBASE.
-IDP_DOC_TEMPLATE_CNF(1),Všechna formátování tohoto souboru budou nahrazena nastavením v šabloně '%s'.
-IDP_DOC_BRAND_CNF(1),"Změnou značky budou všechny typy vložek neplatné, pokud tyto typy nejsou dostupné v nové značce.\r\rJste si jisti, že chcete změnit značku?"
-IDP_DOC_KEYDESTROY(1),"Jste si jisti, že chcete označit klíč jako zničený?"
+IDP_DOC_TEMPLATE_CNF(1),'Všechna formátování tohoto souboru budou nahrazena nastavením v šabloně ''%s''.'
+IDP_DOC_BRAND_CNF(1),'Změnou značky budou všechny typy vložek neplatné, pokud tyto typy nejsou dostupné v nové značce.\r\rJste si jisti, že chcete změnit značku?'
+IDP_DOC_KEYDESTROY(1),'Jste si jisti, že chcete označit klíč jako zničený?'
 IDS_DOC_FILESEARCH_RESULT(1),Soubor\nAdresář
 IDS_DOC_FILESEARCH(1),V&yhledat|Z&astavit\n%d Nalezené soubory.\nVyhledávání přerušeno.
 IDS_DOC_FILESEARCH_PREVIEW(1),Systém:\nVlastník:\nZákazník:\nDodavatel:\nTyp:\nZnačka:\nPoprvé:\nNaposledy:\nPoznámky:
@@ -1095,20 +1095,20 @@ IDP_CYLF_REMCHGKEYS(1),Chcete smazat všechny příslušné klíče vybraných v
 IDP_MACHINE_FERTECNO(1),Nastavení pro tento stroj nebylo zadáno kompletně.
 IDS_MACHINE_SILCASSI(2),Silca SSI Nastavení\n&Značka/Silca Výrobní číslo.:\n&Silca Výrobní číslo.:\n
 IDS_MACHINE_GERAISEL(1),Gera Isel Nastavení\n&Značka/Karta:\n&Karta:\n
-IDS_MACHINE_GERAHEITEC(1),"Nelze najít ani číslo zakázky nebo typ tisku.\r\rČíslo zakázky nebo typ tisku musí být dostupné v následujícím formátu v poli 'Registrační číslo' Systému Hlavička ('Historie'):\r\r'<Číslo zakázky>/<Typ tisku>', např.\r'P1111V1/001'"
+IDS_MACHINE_GERAHEITEC(1),'Nelze najít ani číslo zakázky nebo typ tisku.\r\rČíslo zakázky nebo typ tisku musí být dostupné v následujícím formátu v poli ''Registrační číslo'' Systému Hlavička (''Historie''):\r\r''<Číslo zakázky>/<Typ tisku>'', např.\r''P1111V1/001'''
 IDS_MACHINE_SILCACSV_HEAD(1),Kód;Množství;Strana A
-IDS_B2B_EXCHANGE_TXT(1),Spouštím přenos dat ...\nOdesílání '%s'\nDoručení '%s'\nChyba: '%s'\nPřenos dat přerušen.\nPřenos dat ukončen.
-IDP_B2B_EXCHANGE_ERR(1),Došlo k chybě během přenosu dat:\nNebylo vytvořeno připojení k internetu.\nNebylo vytvořeno spojení s B2B serverem.\nChyba během čtení ze souboru ('%s').\nChyba během zápisu souboru.\nInvalid confirmation mail receipient - check email address or disable email confirmation\n\n\n\n\nNeznámá chyba (%s).
-IDP_B2B_SETUP(1),Došlo k chybě během nastavení LOCKBASE B2B:\nSoubor '%s' nelze vytvořit nebo zapsat.\nNeznámá chyba.
+IDS_B2B_EXCHANGE_TXT(1),'Spouštím přenos dat ...\nOdesílání ''%s''\nDoručení ''%s''\nChyba: ''%s''\nPřenos dat přerušen.\nPřenos dat ukončen.'
+IDP_B2B_EXCHANGE_ERR(1),'Došlo k chybě během přenosu dat:\nNebylo vytvořeno připojení k internetu.\nNebylo vytvořeno spojení s B2B serverem.\nChyba během čtení ze souboru (''%s'').\nChyba během zápisu souboru.\nInvalid confirmation mail receipient - check email address or disable email confirmation\n\n\n\n\nNeznámá chyba (%s).'
+IDP_B2B_SETUP(1),'Došlo k chybě během nastavení LOCKBASE B2B:\nSoubor ''%s'' nelze vytvořit nebo zapsat.\nNeznámá chyba.'
 IDP_B2B_SENDERR(1),Nelze připravit soubor k odeslání.
 IDP_B2B_EXCHANGEERR(1),Nelze spustit přenos dat.
 IDP_B2B_RECVERR(1),Nelze otevřít poštovního klienta.
-IDP_B2B_CONFSENDORDER(1),"Jste si jisti, že chcete soubor odeslat jako objednávku?\r\rPo odeslání tento soubor slouží pouze jako kopie a nelze jej měnit, dokud příjemce nepošle odpověď."
-IDP_B2B_CONFSENDREPLY(1),"Jste si jisti, že chcete tento soubor odeslat jako odpověď vlastníkovi??\r\rPo odeslání bude tento soubor odstraněn z vašeho počítače a nebude jej možné měnit ani prohlížet."
+IDP_B2B_CONFSENDORDER(1),'Jste si jisti, že chcete soubor odeslat jako objednávku?\r\rPo odeslání tento soubor slouží pouze jako kopie a nelze jej měnit, dokud příjemce nepošle odpověď.'
+IDP_B2B_CONFSENDREPLY(1),'Jste si jisti, že chcete tento soubor odeslat jako odpověď vlastníkovi??\r\rPo odeslání bude tento soubor odstraněn z vašeho počítače a nebude jej možné měnit ani prohlížet.'
 IDP_B2B_NEWMAIL(1),Máte nový mail.Chcete ho zobrazit nyní?
 IDP_B2B_QUERYEND(1),LOCKBASE právě vyměňuje data s internetem.Chcete tento proces přerušit?
-IDP_B2B_EXPIRED(1),"Systém generálního klíče vytvořený LOCKBASE-B2B-Matrix musí být vyřízen jako objednávka do 6 měsíců. Pokud se tak nestane, soubor již nepůjde měnit.\r\rToto uzamčení můžete odstranit odesláním souboru jako objednávka výrobci."
-IDP_B2B_WARNEXPIRE(1),"Uvědomte si, že systém generálního klíče vytvořený tímto programem musí být odeslán jako objednávka do 6 měsíců. Pokud se tak nestane, soubor později nepůjde změnit!"
+IDP_B2B_EXPIRED(1),'Systém generálního klíče vytvořený LOCKBASE-B2B-Matrix musí být vyřízen jako objednávka do 6 měsíců. Pokud se tak nestane, soubor již nepůjde měnit.\r\rToto uzamčení můžete odstranit odesláním souboru jako objednávka výrobci.'
+IDP_B2B_WARNEXPIRE(1),'Uvědomte si, že systém generálního klíče vytvořený tímto programem musí být odeslán jako objednávka do 6 měsíců. Pokud se tak nestane, soubor později nepůjde změnit!'
 IDP_B2B_CYLTYPEDB(1),Byla nalezena aktualizace knihovny pro typ vložky.\r\rVýrobce:\t%s\r\rAktualizace bude nyní nainstalována.
 IDP_B2B_PUBKEYAUTH(2),Autorizační žádost o nový šifrovací klíč byla úspěšně předána na LOCKBASE B2B server.
 IDP_B2B_PUBKEYCERT(1),Nový šifrovací klíč byl certifikován a vydán do sítě B2B.\r\rNový klíč je nyní aktivní.
@@ -1120,44 +1120,44 @@ IDS_WINDOW_FOCUSPREV(1),Změny do předcházejícího datovém skladu bez jeho a
 IDS_WINDOW_FOCUSNEXT(1),Změny do následujícího datového skladu bez jeho aktivace.
 IDS_OPTIONS_UADMIN(1),Otevřít nebo aktivovat Správu uživatelů
 IDS_OPTIONS_CREATOR(1),Aktivovat možnost k použití Asistenta vytvoření při vytváření nového systému generálního klíče
-IDS_OPTIONS_CTDBDOC(1),"Aktivovat možnost k zobrazení nápovědy pro každý typ vložky, zatím co se vytváří nebo mění datové skupiny"
+IDS_OPTIONS_CTDBDOC(1),'Aktivovat možnost k zobrazení nápovědy pro každý typ vložky, zatím co se vytváří nebo mění datové skupiny'
 IDS_OPTIONS_B2B_ADMIN(1),Otevřít dialogové okno ke správě B2B vizitek
 IDS_EDIT_SORT(1),Třídění datových skupin v nesetříděném zobrazení
 IDS_FILE_C2B(1),Vytváření klientského programu pro objednání systému generálního klíče přes internet
 IDP_CISA_CODE_1(1),Číslo systému je dočasný kód. Chcete přiřadit číslo systému CISA nyní?
 IDP_CISA_CODE_2(1),Číslo systému: %s\rNový název souboru: %s\rZměnit?
-IDP_CISA_CODE_ERR(1),Soubor'%s' již existuje.
+IDP_CISA_CODE_ERR(1),'Soubor''%s'' již existuje.'
 IDS_EVENTS_DESCRIPTIONS(1),\nVýdej klíče\nPříjemn klíče\nMontáž vložky\nDemontáž vložky
-IDP_USERS_ERR_NAME(1),"Dané uživatelské jméno je špatné.\r\rNesmí být další uživatel se stejným jménem, jméno musí být nejméně 1 znak dlouhé a nesmí obsahovat mezery."
+IDP_USERS_ERR_NAME(1),'Dané uživatelské jméno je špatné.\r\rNesmí být další uživatel se stejným jménem, jméno musí být nejméně 1 znak dlouhé a nesmí obsahovat mezery.'
 IDP_USERS_ERR_PASS(1),Heslo je špatné.\r\rHeslo musí být nejméně 3 znaky dlouhé a nesmí obsahovat mezery.
 IDP_USERS_ERR_RETYPE(1),Heslo a jeho ověření jsou rozdílné.
 IDP_USERS_CNF_REMOVE(1),Opravdu chcete odstranit tohoto uživatele?
-IDP_USERS_CNF_DISABLE(1),"Opravdu chcete vypnout Správu uživatelů?\r\rUvědomte si, že s vypnutou správou uživatelů má každý uživatel neomezený přístup ke všem datům, prosím."
-IDP_USERS_DISABLE(1),"správa uživatelů byl vypnuta.\r\rNyní mají všichni uživatelé neomezený přístup ke všem datům.\r\rK opětovnému zapnutí, vyberte v menu příkaz 'Správa uživatelů...' a po té restartujte LOCKBASE."
+IDP_USERS_CNF_DISABLE(1),'Opravdu chcete vypnout Správu uživatelů?\r\rUvědomte si, že s vypnutou správou uživatelů má každý uživatel neomezený přístup ke všem datům, prosím.'
+IDP_USERS_DISABLE(1),'správa uživatelů byl vypnuta.\r\rNyní mají všichni uživatelé neomezený přístup ke všem datům.\r\rK opětovnému zapnutí, vyberte v menu příkaz ''Správa uživatelů...'' a po té restartujte LOCKBASE.'
 IDP_USERS_CNF_ENABLE(1),Správa uživatelů není aktivní.\r\rChcete ji aktivovat nyní?
-IDP_USERS_ENABLE(1),"Správa uživatelů bude zapnuta při dalším spuštění LOCKBASE.\r\rUkončete program k projevení provedených změn, prosím."
+IDP_USERS_ENABLE(1),'Správa uživatelů bude zapnuta při dalším spuštění LOCKBASE.\r\rUkončete program k projevení provedených změn, prosím.'
 IDP_USERS_ERR_LOGIN(1),Uživatel je neznámý nebo je špatné heslo.\r\rLOCKBASE vás nemůže přihlásit.
 IDP_USERS_ERR_OLDPWD(1),Staré heslo není platné.
-IDP_USERS_CHGPWD(1),Heslo pro uživatele '%s' bylo změněno.
-IDS_USERS_INSTRUCT(1),"Správa uživatelů je spuštěna.\nVložte uživatelské jméno a heslo pro hlavního správce:|K přihlášení do LOCKBASE, zadejte vaše uživatelské jméno a heslo do následujících polí:|Pro změnu vašeho hesla, vložte níže jako první vaše staré heslo a poté nové:"
+IDP_USERS_CHGPWD(1),'Heslo pro uživatele ''%s'' bylo změněno.'
+IDS_USERS_INSTRUCT(1),'Správa uživatelů je spuštěna.\nVložte uživatelské jméno a heslo pro hlavního správce:|K přihlášení do LOCKBASE, zadejte vaše uživatelské jméno a heslo do následujících polí:|Pro změnu vašeho hesla, vložte níže jako první vaše staré heslo a poté nové:'
 IDS_USERS_RIGHTS(1),Zobrazení:0-3:Datové sklady;Systém Matrix;Kalkulátor;Systém Návrhář\nDatové přístupy:10-12:Změny systémů;Technická data;Změny kalkulovaných systémů\nExtra:50-52:Strojní rozhraní;Datová výměna přes internet (B2B);Stahovat a instalovat aktualizace
-IDS_UPDATE_TXT0(1),LOCKBASE ověřuje dostupné aktualizace pro tuto instalaci\\LOCKBASE webový server není dostupný.\n\nStiskněte 'Další >>' ke spuštění nebo 'Zrušit' k přerušení.\n\nK vypnutí funkce automatické aktualizace 'O LOCKBASE...' v menu Nápovědy a deaktivujte ověřovací okno 'Ověřit aktualizace automaticky ...'.
+IDS_UPDATE_TXT0(1),'LOCKBASE ověřuje dostupné aktualizace pro tuto instalaci\\LOCKBASE webový server není dostupný.\n\nStiskněte ''Další >>'' ke spuštění nebo ''Zrušit'' k přerušení.\n\nK vypnutí funkce automatické aktualizace ''O LOCKBASE...'' v menu Nápovědy a deaktivujte ověřovací okno ''Ověřit aktualizace automaticky ...''.'
 IDS_UPDATE_TXT1(1),\nspojování s LOCKBASE webovým serverem ...
-IDS_UPDATE_TXT2(1),Je dostupná následující aktualizace:\n\n%s\n\nStiskněte 'Další >>' ke stažení a instalaci aktualizace nyní nebo 'Zrušit' k přerušení.
-IDS_UPDATE_TXT3(1),Žádná aktualizace není dostupná.\n\nNa vašem počítači běží poslední verze. Stiskněte 'Zrušit' k ukončení tohoto dialogu.
+IDS_UPDATE_TXT2(1),'Je dostupná následující aktualizace:\n\n%s\n\nStiskněte ''Další >>'' ke stažení a instalaci aktualizace nyní nebo ''Zrušit'' k přerušení.'
+IDS_UPDATE_TXT3(1),'Žádná aktualizace není dostupná.\n\nNa vašem počítači běží poslední verze. Stiskněte ''Zrušit'' k ukončení tohoto dialogu.'
 IDS_UPDATE_TXT4(1),LOCKBASE stahuje následující aktualizace:\n\n%s\n\nStahuji
-IDS_UPDATE_TXT5(1),Stahování bylo úspěšně dokončeno.\n\nLOCKBASE se ukončí a spustí instalační program aktualizace.\n\nstiskněte 'Další >>' ke spuštění nebo 'Zrušit' k přerušení instalace.
-IDS_UPDATE_TXT6(1),Došlo k chybě během automatické aktualizace. Aktualizace nebyla naistalována.\n\nStiskněte 'Zrušit' k ukončení dialogu.
-IDS_UPDATE_TXT7(1),Automatická aktualizace byla přerušena. Aktualizace nebyla nainstalována.\n\nStiskněte 'Zrušit' k ukončení dialogu.
-IDP_UPDATE_ERRWEB(1),"Nebylo vytvořeno připojení k internetu.\n\nPokud tento počítač nemá přístup k internetu, není možné použít LOCKBASE aktualizační servis."
+IDS_UPDATE_TXT5(1),'Stahování bylo úspěšně dokončeno.\n\nLOCKBASE se ukončí a spustí instalační program aktualizace.\n\nstiskněte ''Další >>'' ke spuštění nebo ''Zrušit'' k přerušení instalace.'
+IDS_UPDATE_TXT6(1),'Došlo k chybě během automatické aktualizace. Aktualizace nebyla naistalována.\n\nStiskněte ''Zrušit'' k ukončení dialogu.'
+IDS_UPDATE_TXT7(1),'Automatická aktualizace byla přerušena. Aktualizace nebyla nainstalována.\n\nStiskněte ''Zrušit'' k ukončení dialogu.'
+IDP_UPDATE_ERRWEB(1),'Nebylo vytvořeno připojení k internetu.\n\nPokud tento počítač nemá přístup k internetu, není možné použít LOCKBASE aktualizační servis.'
 IDP_UPDATE_ERRSITE(1),LOCKBASE webový server je momentálně nedostupný.
-IDP_UPDATE_ERRPASS(1),Nebylo zadáno heslo podpory nebo je heslo špatné.\n\nV menu nápovědy LOCKBASE vyberte příkaz 'O LOCKBASE...' a vložte správné heslo.\nHeslo podpory najdete v licenčních dokumentech nebo jej obdržíte od vašeho distributora LOCKBASE.
-IDP_UPDATE_ERRTMP(1),"Aktualizace nemůže být u,ložena na lokální pevný disk tohoto počítače.\n\nLOCKBASE uloží aktualizaci do dočasného souboru a proto potřebuje přístup zápisu a dostatečné místo na disku v adresáři temp."
+IDP_UPDATE_ERRPASS(1),'Nebylo zadáno heslo podpory nebo je heslo špatné.\n\nV menu nápovědy LOCKBASE vyberte příkaz ''O LOCKBASE...'' a vložte správné heslo.\nHeslo podpory najdete v licenčních dokumentech nebo jej obdržíte od vašeho distributora LOCKBASE.'
+IDP_UPDATE_ERRTMP(1),'Aktualizace nemůže být u,ložena na lokální pevný disk tohoto počítače.\n\nLOCKBASE uloží aktualizaci do dočasného souboru a proto potřebuje přístup zápisu a dostatečné místo na disku v adresáři temp.'
 IDP_UPDATE_CNFCANCEL(1),Chcete přerušit\nLOCKBASE Aktualizační servis?
 IDS_PRTFX_COVERSHEET(1),Historie
 IDS_PRTFX_MATRIXPRN(1),Centrální vložka|&Na šířku|&Zobrazit položky v uvedeném postupu|&Skrýt uzamykané stejně|&Rozvržení*Klíče nahoře*Vložky nahoře*Euro Matrix*Cylinder groups|&Scaling factor (%)
 IDS_PRTFX_PINNINGLIST(2),&Rozpis stavítek kumulativně|&Kombinovat uzamykané stejně|&Zobrazit položky v uvedeném postupu|&Vložky na řádku|V&yhodnotit množství vložek|&Minimální linie pro stavítka
-IDS_PRTFX_LETTER(1),"Písemný text|Adresy|Datum|Systém|Značka|(Místo, Datum)|(Podpis)|Množství|&Okno pro množství|&Adresy na (mm)|&Název na (mm)"
+IDS_PRTFX_LETTER(1),'Písemný text|Adresy|Datum|Systém|Značka|(Místo, Datum)|(Podpis)|Množství|&Okno pro množství|&Adresy na (mm)|&Název na (mm)'
 IDS_PRTFX_KEYSTOCK(1),Podpis|&Tisk pole podpisu|&Sklad klíčů*Všechny*Aktuální*Dostupné*Vydané*Zničené
 IDS_PRTFX_ASSEMBLY(1),Stavítka|Mezistavítka|Top stavítek|Klíč|Typ|Profil|Počet|Typ vložky|Zvláštní úpravy|Povrch|Délka|Item code|Type description|Délky bubínků a typy|Generální klíče|Skupinové klíče|Skupinové klíče|Skupinové klíče|Příslušné klíče|Cena|Celcem|Celková hodnota|Celková cena|&Rozpis stavítek|&Počet klíčů|R&ozměr vložek a typy|&Tisknout bubínky odděleně|Print &item codes
 IDP_PRN_SELECTDLG_CNF_REMFORM(1),Opravdu chcete smazat tento tiskopis?
@@ -1170,24 +1170,24 @@ IDS_PRTFX_COMBIPINNINGLIST(1),&Rozpis stavítek kumulativně|&Zobrazit položky 
 IDS_PRTFX_DOUBLELIST(1),Zobrazit položky v uvedeném postupu
 IDS_PRTFX_SINGLELIST(1),&Zobrazit položky v uvedeném postupu
 IDS_PRTFX_TECHCHOICE(1),&Technology*All*Mechanic*Mechatronic*Electronic
-IDP_CYLTYPEDB_SCANERR(1),"Chyba během načítání typu vložek souboru '%s', řádku %d, sloupce %d. Načítání bylo přerušeno."
-IDP_C2B_ERROR(1),"Došlo k chybě během vytváření objednávky (C2B).\nProgram nelze vytvořit do složky LOCKBASE.\nSoubor '%s' chybí nebo je poškozen.\nNelze zapsat '%s'.\nSoubor, který slouží jako šablona, nebyl nalezen ('LbwC2B.lbt').\nB2B modul není připraven."
-IDP_C2B_SUCCESS(1),Objednávka byla úspěšně vytvořena programem (C2B).\n\rSoubor '%s' byl používán jako šablona dokumentu.\r\rKaždopádně doporučujeme vytvořit vlastní šablonu pro objednání programem a uložit pod jménem 'LbwC2B.lbt' ve složce LOCKBASE.
-IDP_CYL_INVEXTRA(1),Zvláštní úpravy '%s' jsou vadné.
+IDP_CYLTYPEDB_SCANERR(1),'Chyba během načítání typu vložek souboru ''%s'', řádku %d, sloupce %d. Načítání bylo přerušeno.'
+IDP_C2B_ERROR(1),'Došlo k chybě během vytváření objednávky (C2B).\nProgram nelze vytvořit do složky LOCKBASE.\nSoubor ''%s'' chybí nebo je poškozen.\nNelze zapsat ''%s''.\nSoubor, který slouží jako šablona, nebyl nalezen (''LbwC2B.lbt'').\nB2B modul není připraven.'
+IDP_C2B_SUCCESS(1),'Objednávka byla úspěšně vytvořena programem (C2B).\n\rSoubor ''%s'' byl používán jako šablona dokumentu.\r\rKaždopádně doporučujeme vytvořit vlastní šablonu pro objednání programem a uložit pod jménem ''LbwC2B.lbt'' ve složce LOCKBASE.'
+IDP_CYL_INVEXTRA(1),'Zvláštní úpravy ''%s'' jsou vadné.'
 IDP_CYL_USERDEFTYPE(1),The cylinder type entered is unknown.\rShould this type be used anyway?
-IDP_CYL_BLINDERR(1),The choosen cylinder type is a dummy cylinder.\nDummy cylinders can't be locked by keys nor be keyed alike.\nFor this reason the choosen type can't be used for the selectet cylinders.
+IDP_CYL_BLINDERR(1),'The choosen cylinder type is a dummy cylinder.\nDummy cylinders can''t be locked by keys nor be keyed alike.\nFor this reason the choosen type can''t be used for the selectet cylinders.'
 IDP_EXCHG_CSVSEL_CNFDEL(1),Opravdu chcete smazat %s formát specifikací?
-IDP_EXCHG_CSVFRM_CNFDEL(1),Opravdu chcete smazat zdrojová data '%s'?
-IDP_EXCHG_CSVFRM_ERRINVCELL(1),"Neplatný název buňky '%s' .\n\nPlatný název buňky je kombinace znaků definující sloupec, následován decimálním číslem definujícím řadu, např. 'A3' nebo 'AFB128'.\n\nK definování místa zdrojových dat, která dosahují konce (variabilního) tabulky, nechte pole pro poslední buňku prázdné."
-IDP_EXCHG_CSVFRM_ERRINVAREA(1),"Obsah zdrojových dat '%s' je vadný.\n\nRozsah obsahu zdrojových dat je omezena jednu řadu nebo sloupec, tj. sloupec nebo řada na začátku i konci buňky musí být stejný, např. 'A2-A55' nebo 'B12-H12', ale ne 'B12-H14'."
+IDP_EXCHG_CSVFRM_CNFDEL(1),'Opravdu chcete smazat zdrojová data ''%s''?'
+IDP_EXCHG_CSVFRM_ERRINVCELL(1),'Neplatný název buňky ''%s'' .\n\nPlatný název buňky je kombinace znaků definující sloupec, následován decimálním číslem definujícím řadu, např. ''A3'' nebo ''AFB128''.\n\nK definování místa zdrojových dat, která dosahují konce (variabilního) tabulky, nechte pole pro poslední buňku prázdné.'
+IDP_EXCHG_CSVFRM_ERRINVAREA(1),'Obsah zdrojových dat ''%s'' je vadný.\n\nRozsah obsahu zdrojových dat je omezena jednu řadu nebo sloupec, tj. sloupec nebo řada na začátku i konci buňky musí být stejný, např. ''A2-A55'' nebo ''B12-H12'', ale ne ''B12-H14''.'
 IDP_EXCHG_CSVFRM_ERRBASEFIELD(1),Pro základní typ musí být vybráno pole.
 IDP_EXCHG_CSVFRM_ERRBASEAREA(1),Pro hlavní datové typy musí být definován obsah zdrojových dat.
 IDP_EXCHG_CSVFRM_ERRTARGETAREA(1),Pro cílová data musí být definován obsah zdrojových dat.
 IDS_EXCHG_POS(1),[Pozice]
-IDP_EXCHG_ERRLOADFILE(1),chyba během čtení souboru '%s':\nSoubor nelze načíst.
-IDP_EXCHG_ERRINVFORMAT(1),Chyba v následujícím formátu specifikací:\n'%s'\n%s
-IDP_EXCHG_ERRSTOREFILE(1),Error writing file '%s':\nThe file could not be stored.
-IDP_EXCHG_ERRINVDATAEXP(1),"Data were found, which do not meet the export format definition: %s"
+IDP_EXCHG_ERRLOADFILE(1),'chyba během čtení souboru ''%s'':\nSoubor nelze načíst.'
+IDP_EXCHG_ERRINVFORMAT(1),'Chyba v následujícím formátu specifikací:\n''%s''\n%s'
+IDP_EXCHG_ERRSTOREFILE(1),'Error writing file ''%s'':\nThe file could not be stored.'
+IDP_EXCHG_ERRINVDATAEXP(1),'Data were found, which do not meet the export format definition: %s'
 IDS_EDIT_SEARCH(1),Searches for a given word in the data fields of a record list\nSearches for a given word in the data fields of a record list
 IDS_FILE_ORDERS_NEW(1),Creates a new order and opens it for editing\nCreates a new order and opens it for editing
 IDS_FILE_ORDERS_VIEW(1),Opens the order management dialog\nOpens the order management dialog
@@ -1199,13 +1199,13 @@ IDS_EDIT_COPY_LINE(1),Copy selected lines to the clipboard\nCopy selected lines 
 IDS_EDIT_PASTE_LINE(1),Import lines from the clipboard\nImport lines from the clipboard
 IDS_OPTIONS_KEYSUP(1),Shows the System Matrix in regular display mode (Keys up)
 IDS_OPTIONS_CYLSUP(1),Shows the System Matrix in regular display mode (Cylinders up)
-IDS_OPTIONS_CYLGROUPS(1),"Displays the system matrix combined by cylinder groups (cylinder groups, superordinated keys, central cylinders)"
+IDS_OPTIONS_CYLGROUPS(1),'Displays the system matrix combined by cylinder groups (cylinder groups, superordinated keys, central cylinders)'
 IDS_OPTIONS_KEEPPRINTOPEN(1),Keeps the print selection dialogue open after print
 IDS_OPTIONS_LBT(1),Define the settings for the format template
 IDS_EDIT_COPY(1),Copy selected records to the clipboard
 IDS_EDIT_PASTE(1),Import records from the clipboard
-IDP_DOC_CYLNOTFOUND(1),A cylinder with the number '%s' was not found (the cylinder must be a member of the current sub group).
-IDP_DOC_SYS_CUSTREM(1),You haven't entered any customer information.\n\nShould this customer be removed from the database?
+IDP_DOC_CYLNOTFOUND(1),'A cylinder with the number ''%s'' was not found (the cylinder must be a member of the current sub group).'
+IDP_DOC_SYS_CUSTREM(1),'You haven''t entered any customer information.\n\nShould this customer be removed from the database?'
 IDS_DOC_OPTIMIZE(1),File optimization in progress... (%u%%)
 IDS_STRFRM_CYLGROUP(1),\nGroup\nDescription\nAvailable\nPlanned\nCylinders\n
 AFX_IDS_OPENFILE(1),Otevřít
@@ -1232,26 +1232,26 @@ AFX_IDP_GET_NOT_SUPPORTED(1),Nelze načíst data určená k zápisu.
 AFX_IDP_SET_NOT_SUPPORTED(1),Nelze uložit data pouze ke čtení.
 AFX_IDP_UNREG_DONE(1),Položky v registru systému byly odstraněny a soubor *.ini (pokud není žádný) byl smazán.
 AFX_IDP_UNREG_FAILURE(1),Nebyly odstraněny všechny položky v registru systému (nebo soubor *.ini).
-AFX_IDP_DLL_LOAD_FAILED(1),"Tento program vyžaduje soubor %s, který nebyl nalezen v systému."
+AFX_IDP_DLL_LOAD_FAILED(1),'Tento program vyžaduje soubor %s, který nebyl nalezen v systému.'
 AFX_IDP_DLL_BAD_VERSION(1),Tento program je propojen na chybějící export %s v souboru %s. Tento počítač může mít nekompatibilní verzi %s.
 AFX_IDP_FAILED_INVALID_FORMAT(1),Nepodporovaný formát souboru.
-AFX_IDP_FAILED_INVALID_PATH(1),"%1\nNelze najít tento soubor.\nProsím, ověřte nastavení cesty a název souboru."
+AFX_IDP_FAILED_INVALID_PATH(1),'%1\nNelze najít tento soubor.\nProsím, ověřte nastavení cesty a název souboru.'
 AFX_IDP_FAILED_DISK_FULL(1),Cílová disketová jednotka je plná.
-AFX_IDP_FAILED_ACCESS_READ(1),"Soubor nelze načíst %1, je používán jiným uživatelem."
-AFX_IDP_FAILED_ACCESS_WRITE(1),"Změny nebudou uloženy %1, soubor je otevřen pouze pro čtení nebo používám jiným uživatelem."
+AFX_IDP_FAILED_ACCESS_READ(1),'Soubor nelze načíst %1, je používán jiným uživatelem.'
+AFX_IDP_FAILED_ACCESS_WRITE(1),'Změny nebudou uloženy %1, soubor je otevřen pouze pro čtení nebo používám jiným uživatelem.'
 AFX_IDP_FAILED_IO_ERROR_READ(1),Neočekávaná chyba během otevírání souboru %1.
 AFX_IDP_FAILED_IO_ERROR_WRITE(1),Neočekávaná chyba během ukládání souboru %1.
-AFX_IDP_PARSE_INT(1),"Vložte celé číslo, prosím."
-AFX_IDP_PARSE_REAL(1),"Vložte číslo, prosím."
-AFX_IDP_PARSE_INT_RANGE(1),"Vložte celé číslo v rozmezí %1 a %2, prosím."
-AFX_IDP_PARSE_REAL_RANGE(1),"Vložte číslo v rozmezí %1 a %2, prosím."
-AFX_IDP_PARSE_STRING_SIZE(1),"Nevkládejte více než %1 znak, prosím."
+AFX_IDP_PARSE_INT(1),'Vložte celé číslo, prosím.'
+AFX_IDP_PARSE_REAL(1),'Vložte číslo, prosím.'
+AFX_IDP_PARSE_INT_RANGE(1),'Vložte celé číslo v rozmezí %1 a %2, prosím.'
+AFX_IDP_PARSE_REAL_RANGE(1),'Vložte číslo v rozmezí %1 a %2, prosím.'
+AFX_IDP_PARSE_STRING_SIZE(1),'Nevkládejte více než %1 znak, prosím.'
 AFX_IDP_PARSE_STRING_EMPTY(1),Toto pole nesmí být prázdné.
-AFX_IDP_PARSE_RADIO_BUTTON(1),"Vyberte tlačítko, prosím."
-AFX_IDP_PARSE_BYTE(1),"Vložte celé číslo mezi 0 a 255, prosím."
-AFX_IDP_PARSE_UINT(1),"Vložte celé kladné číslo, prosím."
-AFX_IDP_PARSE_DATETIME(1),"Vložte datum a/nebo čas, prosím."
-AFX_IDP_PARSE_CURRENCY(1),"Vložte hodnotu, prosím."
+AFX_IDP_PARSE_RADIO_BUTTON(1),'Vyberte tlačítko, prosím.'
+AFX_IDP_PARSE_BYTE(1),'Vložte celé číslo mezi 0 a 255, prosím.'
+AFX_IDP_PARSE_UINT(1),'Vložte celé kladné číslo, prosím.'
+AFX_IDP_PARSE_DATETIME(1),'Vložte datum a/nebo čas, prosím.'
+AFX_IDP_PARSE_CURRENCY(1),'Vložte hodnotu, prosím.'
 AFX_IDS_PASTELINKEDTYPE(1),Propojeno s %s
 AFX_IDS_UNKNOWNTYPE(1),Neznámý typ
 AFX_IDP_FAILED_TO_NOTIFY(1),%1\nDocument nelze zaregistrovat.\nDokument již  může být otevřen.
@@ -1261,11 +1261,11 @@ AFX_IDP_FILE_NONE(1),Nenastala chyba.
 AFX_IDP_FILE_GENERIC(1),Během přístupu nastala neznámá chyba %1.
 AFX_IDP_FILE_NOT_FOUND(1),%1 nebyl nalezen.
 AFX_IDP_FILE_BAD_PATH(1),%1 Neplatná cesta.
-AFX_IDP_FILE_TOO_MANY_OPEN(1),"%1 nelze otevřít, protože je otevřeno příliš mnoho souborů."
+AFX_IDP_FILE_TOO_MANY_OPEN(1),'%1 nelze otevřít, protože je otevřeno příliš mnoho souborů.'
 AFX_IDP_FILE_ACCESS_DENIED(1),Přístup k %1 byl zamítnut.
 AFX_IDP_FILE_INVALID_FILE(1),Chybné zpracování souboru bylo vyvoláno %1.
 AFX_IDP_FILE_REMOVE_CURRENT(1),%1 nemůže být přemístěn do stejného adresáře.
-AFX_IDP_FILE_DIR_FULL(1),"%1 nemůže být vytvořen, jelikož adresář je plný."
+AFX_IDP_FILE_DIR_FULL(1),'%1 nemůže být vytvořen, jelikož adresář je plný.'
 AFX_IDP_FILE_BAD_SEEK(1),Vyhledávání neúspěšné %1
 AFX_IDP_FILE_HARD_IO(1),Technické selhání I/O během přístupu %1.
 AFX_IDP_FILE_SHARING(1),Narušené sdílení během přístupu %1.
@@ -1299,38 +1299,38 @@ IDD_INSTALL(1),Nastavení LOCKBASE
 IDD_INSTALL_BUTTON_BACK(1),<< &Zpět
 IDD_INSTALL_CANCEL(1),Zrušit
 IDD_INSTALL_STATIC1(1),Vítejte v instalačním programu LOCKBASE.\n\nSpustit instalaci LOCKBASE na vašem počítači.
-IDD_INSTALL_STATIC2(1),"Zavřete prosím všechny spuštěné aplikace a stiskněte 'Další >>'jakmile budete připraveni.\n\nPokud nechcete LOCKBASE nainstalovat, stiskněte 'Zrušit'."
+IDD_INSTALL_STATIC2(1),'Zavřete prosím všechny spuštěné aplikace a stiskněte ''Další >>''jakmile budete připraveni.\n\nPokud nechcete LOCKBASE nainstalovat, stiskněte ''Zrušit''.'
 IDD_INSTALL_STATIC_TAB1(1),Licenční ujednání a podmínky
-IDD_INSTALL_STATIC3(1),"Věnujte pozornost následujícím licenčním ujednáním a podmínkám. V souladu s licenčními ujednáními, aktivujte kontrolní okénko 'Souhlasím'. Poté stiskněte 'Další >>' k pokračování instalace."
+IDD_INSTALL_STATIC3(1),'Věnujte pozornost následujícím licenčním ujednáním a podmínkám. V souladu s licenčními ujednáními, aktivujte kontrolní okénko ''Souhlasím''. Poté stiskněte ''Další >>'' k pokračování instalace.'
 IDD_INSTALL_CHECK_CONTRACT(1),&Souhlasím
 IDD_INSTALL_STATIC_TAB2(1),Aktualizace
-IDD_INSTALL_STATIC4(1),"LOCKBASE je již instalována na vašem počítači.\nVyberte, prosím instalaci, jež chcete aktualizovat a poté stiskněte 'Další >>'."
-IDD_INSTALL_STATIC5(2),"LOCKBASE bude nainstalována do adresáře uvedeného níže. Stiskněte prosím 'Změnit...' k výběru jiného místa.\n\nPoznámka: Síťová verze by měla být instalována ve sdílené složce na serveru. Tímto mohou všichni uživatelé programu sdílet data.\n\nPro registraci Lockbase na jiném stanovišti, jednoduše spusťte Lbw.exe ze sdílené složky."
+IDD_INSTALL_STATIC4(1),'LOCKBASE je již instalována na vašem počítači.\nVyberte, prosím instalaci, jež chcete aktualizovat a poté stiskněte ''Další >>''.'
+IDD_INSTALL_STATIC5(2),'LOCKBASE bude nainstalována do adresáře uvedeného níže. Stiskněte prosím ''Změnit...'' k výběru jiného místa.\n\nPoznámka: Síťová verze by měla být instalována ve sdílené složce na serveru. Tímto mohou všichni uživatelé programu sdílet data.\n\nPro registraci Lockbase na jiném stanovišti, jednoduše spusťte Lbw.exe ze sdílené složky.'
 IDD_INSTALL_STATIC_PATH1(2),LOCKBASE bude nainstalována do následujícího adresáře:\n\nProgram files:\t%s\nData files:\t%s
 IDD_INSTALL_STATIC_ACTION(1),Kopíruji %s ...|Zápis LOCKBASE ...
-IDD_INSTALL_STATIC_PATH2(1),"Aktualizace instalace v adresáři \n\n%s\n\nbyla úspěšně dokončena.\n\nStiskněte, prosím, 'Zavřít' k ukončení nastavení."
+IDD_INSTALL_STATIC_PATH2(1),'Aktualizace instalace v adresáři \n\n%s\n\nbyla úspěšně dokončena.\n\nStiskněte, prosím, ''Zavřít'' k ukončení nastavení.'
 IDD_INSTALL_STATIC_PATH3(2),LOCKBASE byla úspěšně instalována v adresáři\n\nProgram files:\t%s\nData files:\t%s
-IDD_INSTALL_STATIC8(2),"Při prvním spuštění programu na každém počítači musíte zaregistrovat LOCKBASE pro tyto pracovní stanice. Proto budete požádání o vložení licenčního klíče odpovídajícímu danému uživatelskému klíči.\n\nPro získání licenčního klíče kontaktujte distributora Lockbase.\n\nStiskněte ""Zavřít"" pro ukonční nastavení."
+IDD_INSTALL_STATIC8(2),Při prvním spuštění programu na každém počítači musíte zaregistrovat LOCKBASE pro tyto pracovní stanice. Proto budete požádání o vložení licenčního klíče odpovídajícímu danému uživatelskému klíči.\n\nPro získání licenčního klíče kontaktujte distributora Lockbase.\n\nStiskněte "Zavřít" pro ukonční nastavení.
 IDD_INSTALL_STATIC_TAB3(1),Nová Instalace
 IDD_INSTALL_STATIC_TAB4(1),Instalace
 IDD_INSTALL_STATIC_TAB6(1),Instalace dokončena
 IDD_INSTALL_STATIC_TAB5(1),Aktualizace dokončena
-IDD_INSTALL_STATIC10(1),"Pokud tak již není, nastavení vytvoří odkaz pro LOCKBASE v menu Start a zástupce na ploše."
-IDD_INSTALL_STATIC11(1),"Stiskněte, prosím 'Spustit' ke spuštění instalačního procesu."
+IDD_INSTALL_STATIC10(1),'Pokud tak již není, nastavení vytvoří odkaz pro LOCKBASE v menu Start a zástupce na ploše.'
+IDD_INSTALL_STATIC11(1),'Stiskněte, prosím ''Spustit'' ke spuštění instalačního procesu.'
 IDD_UNINSTALL(1),Nastavení LOCKBASE
 IDD_UNINSTALL_CANCEL(1),Zrušit
-IDD_UNINSTALL_STATIC_PATH1(2),"LOCKBASE bude odstraněna z následujícího adresáře:\n\n%s\n\nOdkaz v menu Start a zástupce na ploše této instalace bude odstraněn.\n\nProsím, stiskněte 'Spustit' k zahájení deinstalace."
+IDD_UNINSTALL_STATIC_PATH1(2),'LOCKBASE bude odstraněna z následujícího adresáře:\n\n%s\n\nOdkaz v menu Start a zástupce na ploše této instalace bude odstraněn.\n\nProsím, stiskněte ''Spustit'' k zahájení deinstalace.'
 IDD_UNINSTALL_STATIC_ACTION(1),Odstraňuji soubory ...|Odstranění zápisu ...
 IDD_UNINSTALL_STATIC_TAB0(1),Existující instalace
-IDD_UNINSTALL_STATIC1(1),"Nastavení našlo následující instalace na vašem počítači.\nProsím, vyberte instalaci, kterou chcete odstranit, poté stiskněte 'Další >>'."
+IDD_UNINSTALL_STATIC1(1),'Nastavení našlo následující instalace na vašem počítači.\nProsím, vyberte instalaci, kterou chcete odstranit, poté stiskněte ''Další >>''.'
 IDD_UNINSTALL_BUTTON_BACK(1),<< &Zpět
 IDD_UNINSTALL_STATIC_TAB1(1),Odinstalace
 IDD_UNINSTALL_STATIC_TAB2(1),Odinstalace dokončena
 IDD_UNINSTALL_STATIC_PATH2(2),LOCKBASE byla úspěšně odinstalována z adresáře\n\n%s.
-IDD_UNINSTALL_STATIC2(1),"Prosím, stiskněte 'Zavřít' k ukončení nastavení."
-IDD_UNINSTALL_STATIC_FILESLEFT(1),"Adresář nelze odstranit, protože stále obsahuje soubory vytvořené uživatelem. Nicméně, adresář můžete odstranit manuálně po uložení těchto souborů."
+IDD_UNINSTALL_STATIC2(1),'Prosím, stiskněte ''Zavřít'' k ukončení nastavení.'
+IDD_UNINSTALL_STATIC_FILESLEFT(1),'Adresář nelze odstranit, protože stále obsahuje soubory vytvořené uživatelem. Nicméně, adresář můžete odstranit manuálně po uložení těchto souborů.'
 IDD_B2B_SETUP_1(2),LOCKBASE B2B - Nastavení (1)
-IDD_B2B_SETUP_1_STATICTXT1(1),Před prvním přenosem souboru LOCKBASE musí být vytvořena 'vizitka'pro vaši společnost.\nTato vizitka obsahuje vaše adresy a šifrovací klíč k zajištění bezpečného přenosu souborů přes internet.
+IDD_B2B_SETUP_1_STATICTXT1(1),'Před prvním přenosem souboru LOCKBASE musí být vytvořena ''vizitka''pro vaši společnost.\nTato vizitka obsahuje vaše adresy a šifrovací klíč k zajištění bezpečného přenosu souborů přes internet.'
 IDD_B2B_SETUP_1_STATICTXT2(1),Vyplňte kompletní adresu vaší společnosti ve formuláři níže. Pole označená * jsou povinná.
 IDD_B2B_SETUP_1_STATICTXT3(1),*&Společnost:
 IDD_B2B_SETUP_1_STATIC_NAME2(1),&Dodatek:
@@ -1342,12 +1342,12 @@ IDD_B2B_SETUP_1_STATICTXT8(1),Následující zkrácené jméno společnosti se o
 IDD_B2B_SETUP_1_STATICTXT9(1),*Zkrácené &jméno:
 IDD_B2B_SETUP_2(2),LOCKBASE B2B - Nastavení (2)
 IDD_B2B_SETUP_2_STATICTXT1(1),LOCKBASE používá veřejné šifrovací klíče o ochraně výměny dat přes internet
-IDD_B2B_SETUP_2_STATICTXT2(1),K vytvoření a 'dobré'řady šifrovacího klíče jsou vyžadovány 'reálná' náhodná čísla.
+IDD_B2B_SETUP_2_STATICTXT2(1),'K vytvoření a ''dobré''řady šifrovacího klíče jsou vyžadovány ''reálná'' náhodná čísla.'
 IDD_B2B_SETUP_2_STATICTXT3(1),Pohybujte dokola kursorem myši nad tímto oknem dokud displej nedosáhne hodnoty 100%.
-IDD_B2B_SETUP_2_STATIC_MSG(1),"Díky, vaše 'vizitka'je připravena k vytvoření. Vyberte 'Další' ke spuštění vytvoření."
+IDD_B2B_SETUP_2_STATIC_MSG(1),'Díky, vaše ''vizitka''je připravena k vytvoření. Vyberte ''Další'' ke spuštění vytvoření.'
 IDD_B2B_SETUP_3(2),LOCKBASE B2B - Nastavení (3)
-IDD_B2B_SETUP_3_STATICTXT1(1),Vizitka je připravena k vytvoření. Zkontrolujte vložená data a stiskněte 'Dokončit' pokud jsou v pořádku.
-IDD_B2B_SETUP_3_STATIC_MSG(1),Vytvářím šifrovací klíč\nVaše 'vizitka' byla úspěšně vytvořena.
+IDD_B2B_SETUP_3_STATICTXT1(1),'Vizitka je připravena k vytvoření. Zkontrolujte vložená data a stiskněte ''Dokončit'' pokud jsou v pořádku.'
+IDD_B2B_SETUP_3_STATIC_MSG(1),'Vytvářím šifrovací klíč\nVaše ''vizitka'' byla úspěšně vytvořena.'
 IDD_B2B_SETUP_3_STATIC_ADDRESS(1),Adresa:
 IDD_B2B_SETUP_3_STATICTXT2(1),Zkrácený název:
 IDD_B2B_SEND(1),LOCKBASE B2B - Odeslání souboru
@@ -1370,12 +1370,12 @@ IDD_B2B_RECV_STATICTXT6(1),&Soubor:
 IDD_B2B_RECV_BUTTON_UNPACK(1),&Rozbalit
 IDD_B2B_RECV_OK(1),Zavřít
 IDD_B2B_SETUP_R1(2),LOCKBASE B2B - Nastavení (1)
-IDD_B2B_SETUP_R1_STATICTXT1(1),"Tento asistent vám pomůže vytvořit nový šifrovací klíč pro vaši vlastní vizitku. Ten je nutný v případě, že se obáváte zneužití osobního klíče neoprávněnou osobou."
+IDD_B2B_SETUP_R1_STATICTXT1(1),'Tento asistent vám pomůže vytvořit nový šifrovací klíč pro vaši vlastní vizitku. Ten je nutný v případě, že se obáváte zneužití osobního klíče neoprávněnou osobou.'
 IDD_B2B_SETUP_R1_STATICTXT2(1),Z bezpečnostních důvodů musí být výměna klíče autorizována.Proto je výměna prováděna ve třech krocích:
-IDD_B2B_SETUP_R1_STATICTXT3(1),"1. Použitím tohoto asistenta vytvoříte nový šifrovací klíč, jehož veřejná část bude společně se žádostí o autorizaci odeslána na LOCKBASE B2B server (bude uděláno automaticky programem LOCKBASE)."
-IDD_B2B_SETUP_R1_STATICTXT4(1),2. Körtner && Muth GmbH vás zkontaktuje a ověří identitu porovnáním jeho 'otisku prstu' (bezpečnostní kontrolní součet).
-IDD_B2B_SETUP_R1_STATICTXT5(1),"3. Pokud je ověření úspěšné, váš nový veřejný klíč bude elektronicky označen a bude uveřejněn pro stahování v B2B síti."
-IDD_B2B_SETUP_R1_STATICTXT6(1),"Varování: Autorizační proces je zpoplatněn! Pokud nechcete vytvořit nový šifrovací klíč, musíte tento proces zrušit nyní."
+IDD_B2B_SETUP_R1_STATICTXT3(1),'1. Použitím tohoto asistenta vytvoříte nový šifrovací klíč, jehož veřejná část bude společně se žádostí o autorizaci odeslána na LOCKBASE B2B server (bude uděláno automaticky programem LOCKBASE).'
+IDD_B2B_SETUP_R1_STATICTXT4(1),'2. Körtner && Muth GmbH vás zkontaktuje a ověří identitu porovnáním jeho ''otisku prstu'' (bezpečnostní kontrolní součet).'
+IDD_B2B_SETUP_R1_STATICTXT5(1),'3. Pokud je ověření úspěšné, váš nový veřejný klíč bude elektronicky označen a bude uveřejněn pro stahování v B2B síti.'
+IDD_B2B_SETUP_R1_STATICTXT6(1),'Varování: Autorizační proces je zpoplatněn! Pokud nechcete vytvořit nový šifrovací klíč, musíte tento proces zrušit nyní.'
 IDD_B2B_ADMIN(1),LOCKBASE B2B - Administrace Vizitek
 IDD_B2B_ADMIN_STATICTXT1(1),&Vizitky:
 IDD_B2B_ADMIN_LIST1(1),Identifikátor\tZkrácený název
@@ -1391,28 +1391,28 @@ IDD_B2B_ADMIN_BTN_NEW(1),&Nahradit...
 IDD_B2B_ADMIN_BTN_REMOVE(1),Od&stranit
 IDS_B2B_SETUP_CAPTION(1),LOCKBASE B2B - Nastavení
 IDS_B2B_SETUP_CLOSE(1),&Zavřít
-IDP_B2B_SETUP_KEYREPL(1),"Vytvořili jste nový šifrovací klíč pro vaši 'vizitku' a spustili žádost o autorizaci.\nOvěřená data vaší nové vizitky jsou:\n\nId karty:\t%s\nOtisk prstu:\t%s\n\nJakmile bude autorizace ukončena, váš nový veřejný klíč bude uveřejněn v síti B2B.\nProveďte datovou výměnu B2B s internetem ke zjištění, zda autorizace byla ukončena úspěšně."
+IDP_B2B_SETUP_KEYREPL(1),'Vytvořili jste nový šifrovací klíč pro vaši ''vizitku'' a spustili žádost o autorizaci.\nOvěřená data vaší nové vizitky jsou:\n\nId karty:\t%s\nOtisk prstu:\t%s\n\nJakmile bude autorizace ukončena, váš nový veřejný klíč bude uveřejněn v síti B2B.\nProveďte datovou výměnu B2B s internetem ke zjištění, zda autorizace byla ukončena úspěšně.'
 IDP_B2B_SEND_SAVE_LETTER(1),Má být dopis uložen jako šablona pro další dopisy tomuto příjemci?
 IDP_B2B_SEND_LETTER_SAVED(1),Dopis byl uložen jako šablona.
-IDP_B2B_SEND_ERR(1),Soubor '%s' byl úspěšně připraven k odeslání.\nDošlo k chybě během přípravy souboru '%s' pro odeslání:\nNeznámý příjemce.\nSoubor nebyl nalezen.\nSoubor nelze načíst.\nVýstupní soubor nelze vytvořit.\nNeznámá chyba.
+IDP_B2B_SEND_ERR(1),'Soubor ''%s'' byl úspěšně připraven k odeslání.\nDošlo k chybě během přípravy souboru ''%s'' pro odeslání:\nNeznámý příjemce.\nSoubor nebyl nalezen.\nSoubor nelze načíst.\nVýstupní soubor nelze vytvořit.\nNeznámá chyba.'
 IDP_B2B_SEND_NOTEXT(1),Při tvorbě dopisu příjemci je doporučeno zadat přinejmenším Předmět.\n\nOpravdu chcete soubor takto odeslat ?
 IDP_B2B_SEND_NOFILE(1),Žádný soubor k odeslání.
 IDS_B2B_SEND_SENDING(1),Příprava odeslání
-IDP_B2B_SEND_NOEMAIL(1),"E-mailová adresa je neplatná nebo chybí.\n\nPokud nechcete e-mailové potvrzení, deaktivujte příslušný kontrolní rámeček."
+IDP_B2B_SEND_NOEMAIL(1),'E-mailová adresa je neplatná nebo chybí.\n\nPokud nechcete e-mailové potvrzení, deaktivujte příslušný kontrolní rámeček.'
 IDS_B2B_SEND_EXCH(1),Odesílám data
-IDP_B2B_SEND_EXCH_ERR(1),Soubor '%s' byl úspěšně přenesen.\nChyba během odesílání souboru'%s':\n'%s'\nNebylo vytvořeno připojení k internetu.\nSpojení k B2B serveru nebylo vytvořeno.\nNeznámá chyba.
+IDP_B2B_SEND_EXCH_ERR(1),'Soubor ''%s'' byl úspěšně přenesen.\nChyba během odesílání souboru''%s'':\n''%s''\nNebylo vytvořeno připojení k internetu.\nSpojení k B2B serveru nebylo vytvořeno.\nNeznámá chyba.'
 IDP_B2B_SEND_WARN_OWNER(1),The selected receipient is not the owner of this file.\n\nAre you sure to send this file to the selected receipient?
 IDS_B2B_RECV_OPENING(1),Otevření obálky
-IDP_B2B_RECV_OPENERR(1),Došlo k chybě během otvírání souboru '%s':\nNelze rozšifrovat soubor.\nSoubor nebyl nalezen.\nSoubor nelze načíst.\nPravděpodobně došlo k nekopletnímu přenosu.\nSoubor byl vytvořen novější verzí LOCKBASE a touto verzí jej nelze otevřít. K obdržení aktualizace kontaktujte svého dodavatele LOCKBASE.\nNeznámá chyba.
-IDP_B2B_RECV_UNPACKERR(2),Soubor úspěšně rozbalen.\nDošlo k chybě během rozbalování souboru '%s':\nSoubor ještě nebyl otevřen.\nSoubor nebyl nalezen.\nSoubor nelze načíst.\nCílový soubor nelze zapsat.\nSoubor není dokument LOCKBASE.\nTento systémový soubor byl vytvořen novější verzí LOCKBASE a nelze jej otevřít touto verzí. K obdržení aktualizace kontaktujte svého dodavatele LOCKBASE.\nPeer-to-Peer partnerksý limit byl dosažen- nenlze otevřít soubor. Je potřeba licence nebo vymažte jednoho z existujících partnerů.\nNeznámá chyba.
+IDP_B2B_RECV_OPENERR(1),'Došlo k chybě během otvírání souboru ''%s'':\nNelze rozšifrovat soubor.\nSoubor nebyl nalezen.\nSoubor nelze načíst.\nPravděpodobně došlo k nekopletnímu přenosu.\nSoubor byl vytvořen novější verzí LOCKBASE a touto verzí jej nelze otevřít. K obdržení aktualizace kontaktujte svého dodavatele LOCKBASE.\nNeznámá chyba.'
+IDP_B2B_RECV_UNPACKERR(2),'Soubor úspěšně rozbalen.\nDošlo k chybě během rozbalování souboru ''%s'':\nSoubor ještě nebyl otevřen.\nSoubor nebyl nalezen.\nSoubor nelze načíst.\nCílový soubor nelze zapsat.\nSoubor není dokument LOCKBASE.\nTento systémový soubor byl vytvořen novější verzí LOCKBASE a nelze jej otevřít touto verzí. K obdržení aktualizace kontaktujte svého dodavatele LOCKBASE.\nPeer-to-Peer partnerksý limit byl dosažen- nenlze otevřít soubor. Je potřeba licence nebo vymažte jednoho z existujících partnerů.\nNeznámá chyba.'
 IDP_B2B_RECV_CLOSE(1),Ještě nebyly rozbaleny všechny doručené soubory. Opravdu chcete opustit příchozí poštu?
 IDP_B2B_RECV_REVOKEDKEY(1),Varování: Vyvolaný veřejný klíč byl použit k rozšifrování tohoto souboru.
-IDP_B2B_ADMIN_REM(1),"Pokud vymažete vizitku, již nikdy nebude možné odeslat soubory příslušnému příjemci.\n\nOpravdu chcete smazat vizitku '%s', vytvořenou v %s?"
-IDP_B2B_ADMIN_REMREV(1),"Pokud vymažete vizitku, již nikdy nebude možné otevřít soubory, zašifrované příslušným uživatelem.\n\nOpravdu chcete smazat vyvolanou vizitku %s, vytvořenou v %s?"
+IDP_B2B_ADMIN_REM(1),'Pokud vymažete vizitku, již nikdy nebude možné odeslat soubory příslušnému příjemci.\n\nOpravdu chcete smazat vizitku ''%s'', vytvořenou v %s?'
+IDP_B2B_ADMIN_REMREV(1),'Pokud vymažete vizitku, již nikdy nebude možné otevřít soubory, zašifrované příslušným uživatelem.\n\nOpravdu chcete smazat vyvolanou vizitku %s, vytvořenou v %s?'
 IDS_LANGUAGE(1),z
 IDP_APP_ERR_SDB(1),Chyba během otevírání systémové databáze LOCKBASE (Lbw.sdb).
-IDP_APP_ERR_CTDBSCAN(1),"Chyba během načítání souboru typ vložky '%s', řádku %d, sloupce %d\r\rNačítání bylo přerušeno."
-IDP_APP_ERR_MODULE(1),"Soubor '%s' není umístěn v adresáři LOCKBASE, byl poškozen nebo chybí některá z jeho částí."
+IDP_APP_ERR_CTDBSCAN(1),'Chyba během načítání souboru typ vložky ''%s'', řádku %d, sloupce %d\r\rNačítání bylo přerušeno.'
+IDP_APP_ERR_MODULE(1),'Soubor ''%s'' není umístěn v adresáři LOCKBASE, byl poškozen nebo chybí některá z jeho částí.'
 IDS_APP_CFG_LBFCREATOR(1),0|SMK%u|MK|GMK
 IDD_CGA(1),Správa kódové skupiny
 IDD_CGA_STATICTXT1(1),&Najít v:
@@ -1424,7 +1424,7 @@ IDD_CGA_CANCEL(1),&Zavřít
 IDD_CGASPLIT(1),Rozdělení kódové skupiny
 IDD_CGASPLIT_STATICTXT1(1),Tato kódová skupina může být rozdělena několika různými způsoby.\nVyberte jednu z metod uvedených níže k rozdělení vybrané kódové skupiny.
 IDD_CGASPLIT_STATIC_POS2SPLIT(1),Zadejte požadovaný &režim pro každou pozici.
-IDD_CGASPLIT_STATIC_HINT(1),"(P = pevné, V = variabilní)"
+IDD_CGASPLIT_STATIC_HINT(1),'(P = pevné, V = variabilní)'
 IDD_CGA_EDITPROF(1),Název profilu
 IDD_CGA_EDITPROF_STATICTXT1(1),Zadejte popis profilu níže.
 IDD_CGA_EDITPROF_OK(1),Potvrdit
@@ -1437,13 +1437,13 @@ IDS_CGA_USAGE(1),Systém\nPopis
 IDP_CGA_CGNOTFOUND(1),Následující kódové skupiny nebyly nalezeny:\r%s.\r\rK vytvoření dostupných kódových skupin musí být základní kódová(é) skupina(y) rozdělena.
 IDP_CGA_COMBINE(1),Vybrané kódové skupiny mohou být kombinovány s již použitou nebo mohou být přepsány.\r\rchcete kombinovat novou kódovou skupinu s již použitou?
 IDP_CGA_WARNMULTI(1),Následující kódové skupiny jsou uzamčeny nebo již používány jiným systémem generálního klíče :\n
-IDP_CGA_REMOVE_OLD(1),Systém '%s'vloženou kódovou skupinu. Chcete smazat existující vazby?
-IDP_CGA_WARN(1),"%s%s\rJe důrazně doporučeno opakovaně nepoužívat již použitou kódovou skupinu, jelikož toto může způsobit nekontrolovaný přístup klíčů z jiného systému.\r\rChcete kdykoliv opakovaně použít kódovou skupinu?"
+IDP_CGA_REMOVE_OLD(1),'Systém ''%s''vloženou kódovou skupinu. Chcete smazat existující vazby?'
+IDP_CGA_WARN(1),'%s%s\rJe důrazně doporučeno opakovaně nepoužívat již použitou kódovou skupinu, jelikož toto může způsobit nekontrolovaný přístup klíčů z jiného systému.\r\rChcete kdykoliv opakovaně použít kódovou skupinu?'
 IDP_CGA_WARNSINGLE(1),Tato kódová skupina je již používána nejméně jedním systémem generálního klíče.\n
 IDP_CGA_ERRLOGIN(1),Selhání přístupu ke Správě kódové skupiny:\rModul je právě blokován jiným uživatelem v síti.
 IDP_APPLIC_DDEONLY(1),Nelze spojit Správu kódové skupiny s LOCKBASE.\nProgram bude ukončen.
-IDP_APPLIC_NOFAB(1),Soubor specifikací značky '%s' nelze otevřít nebo obsahuje neplatná data. Správu kódové skupiny nelze spustit.
-IDP_APPLIC_DBERR(1),Došlo k chybě během otevírání Správy kódové skupiny:\nSoubor '%s' nebyl nalezen.\nSoubor '%s' obsahuje neplatná data.\nSoubor '%s' nelze vytvořit.\nSoubor '%s' již existuje.\nSoubor '%s' je již otevřen.\nSpráva kódové skupiny je blokována jiným uživatelem v síti.\nSoubor '%s' byl vytvořen dřívější verzí LOCKBASE.\nSoubor '%s' byl vytvořen novější verzí LOCKBASE.
+IDP_APPLIC_NOFAB(1),'Soubor specifikací značky ''%s'' nelze otevřít nebo obsahuje neplatná data. Správu kódové skupiny nelze spustit.'
+IDP_APPLIC_DBERR(1),'Došlo k chybě během otevírání Správy kódové skupiny:\nSoubor ''%s'' nebyl nalezen.\nSoubor ''%s'' obsahuje neplatná data.\nSoubor ''%s'' nelze vytvořit.\nSoubor ''%s'' již existuje.\nSoubor ''%s'' je již otevřen.\nSpráva kódové skupiny je blokována jiným uživatelem v síti.\nSoubor ''%s'' byl vytvořen dřívější verzí LOCKBASE.\nSoubor ''%s'' byl vytvořen novější verzí LOCKBASE.'
 IDS_CGA_LOCK(1),Uzamknout / Odemknout kódovou skupinu (F7)
 IDS_CGA_EDIT(1),Přidat / Upravit název profilu (F8)
 IDS_CGA_UP(1),Pohyb o jednu úroveň nahoru (Ctrl+PgUp)
@@ -1451,12 +1451,12 @@ IDS_CGA_SPLIT(1),Rozdělit vybranou kódovou skupinu (F5)
 IDS_CGA_MERGE(1),Sloučit dříve rozdělenou kódovou skupinu (F6)
 IDS_CGA_SHORT(1),Souhrnné zobrazení (F3)
 IDS_CGA_DETAILED(1),Detailní zobrazení (F4)
-IDS_CGASPLIT(2),"P&rofily\n&Rovnost vzorců\n&Pevná stavítka:(P = pevné, V = variabilní)\n&Boční stavítka:(P = pevné, V = variabilní):&Použijte více stavítek\n&2- nebo 3-kroky růstu:(2 = 2-kroky, 3 = 3-kroky, V = variabilní)\n&Nadřazená část profilů\nP&odřazená část profilů\n&Boční stavítka:(P = pevné, V = variabilní)\n&Magnety:(P = pevné, V = variabilní)\nP&rofily:(P = pevné, V = variabilní)"
-IDP_CGAEDITPROF_EXISTS(1),"Profil s vybraným názvem již existuje.\nVyberte jiný název pro tento profil, prosím."
+IDS_CGASPLIT(2),'P&rofily\n&Rovnost vzorců\n&Pevná stavítka:(P = pevné, V = variabilní)\n&Boční stavítka:(P = pevné, V = variabilní):&Použijte více stavítek\n&2- nebo 3-kroky růstu:(2 = 2-kroky, 3 = 3-kroky, V = variabilní)\n&Nadřazená část profilů\nP&odřazená část profilů\n&Boční stavítka:(P = pevné, V = variabilní)\n&Magnety:(P = pevné, V = variabilní)\nP&rofily:(P = pevné, V = variabilní)'
+IDP_CGAEDITPROF_EXISTS(1),'Profil s vybraným názvem již existuje.\nVyberte jiný název pro tento profil, prosím.'
 IDP_CGAEDITPROF_DELETE(1),Chcete smazat tento profil?
 IDS_CGAEDITPROF_DESCRIPTION(1),<Uživatelsky definované profily>
-IDP_CGAEDITPROF_INVALID(1),"Vybraný název je neplatný.\nVyberte jiný název pro tento profil, prosím."
-IDP_STDBRAND_NODATA(1),Žádné profily nejsou dostupné pro modul značky '%s'.
+IDP_CGAEDITPROF_INVALID(1),'Vybraný název je neplatný.\nVyberte jiný název pro tento profil, prosím.'
+IDP_STDBRAND_NODATA(1),'Žádné profily nejsou dostupné pro modul značky ''%s''.'
 AFX_IDS_APP_TITLE_CGA(1),Správa kódové skupiny
 IDD_MAIN(1),LOCKBASE Asistent vytvoření
 IDD_MAIN_PANEL_SYS(1),Systém Hlavička
@@ -1505,9 +1505,9 @@ IDD_MAIN_STATIC_402(1),&Otevírán:
 IDD_MAIN_STATIC_403(1),&Neotvírán:
 IDD_MAIN_PANEL_FIN(1),Závěrečná zpráva
 IDD_MAIN_STATIC_500(1),Systém generálního klíče byl kompletně nastaven.
-IDD_MAIN_STATIC_FIN(1),"Zkontrolujte zadání na základě následujících zpráv. Pokud všechna data splnila vaše očekávání, stiskněte tlačítko  'Dokončit' k vytvoření systému."
-IDD_MAIN_STATIC_FIN_C2B(1),Zkontrolujte zadání na základě následujících zpráv. Stiskněte 'Tisk...' k vytištění schématu systému. Použijte 'Objednat...' k odeslání dat jako objednávky přes internet. Po 'Ukončit' zavřete program.
-IDD_MAIN_STATIC_502(1),"Pokud je třeba provést změny, použijte tlačítko '<< Zpět' k otevření příslušné vstupní masky, která dovolí provést požadované změny."
+IDD_MAIN_STATIC_FIN(1),'Zkontrolujte zadání na základě následujících zpráv. Pokud všechna data splnila vaše očekávání, stiskněte tlačítko  ''Dokončit'' k vytvoření systému.'
+IDD_MAIN_STATIC_FIN_C2B(1),'Zkontrolujte zadání na základě následujících zpráv. Stiskněte ''Tisk...'' k vytištění schématu systému. Použijte ''Objednat...'' k odeslání dat jako objednávky přes internet. Po ''Ukončit'' zavřete program.'
+IDD_MAIN_STATIC_502(1),'Pokud je třeba provést změny, použijte tlačítko ''<< Zpět'' k otevření příslušné vstupní masky, která dovolí provést požadované změny.'
 IDD_MAIN_STATIC_503(1),Typ Systému:\n\nPočet funkcí vložek:\n... z nich je Centrálně uzamykaných:\n\npočet vložek:\n\nGenerální klíč:\nPočet skupinových klíčů:\nPočet příslušných klíčů:\n\nPočet kopií klíčů:
 IDD_MAIN_STATIC_FIN_REPORT(1),%S\n\n%CF\n%CC\n\n%CN\n\n%MK\n%KF\n%CK\n\n%KN
 IDD_MAIN_BUTTON_PRINT(1),&Tisk...
@@ -1519,13 +1519,13 @@ IDD_MAIN_OK(1),&Použít
 IDD_CTDB_EXTRA(1),Zvláštní úpravy
 IDD_CTDB_EXTRA_LIST_MAIN(1),Zkrácený název\tPopis
 IDD_CTDB_EXTRA_STATICTXT1(1),Stiskněte <CTRL> pro vícenásobný výběr
-IDD_CTDB_EXTRA_STATIC_HELP(1),"Toto příslušenství musí být specifikováno více detailně. Vyberte jednu z hodnot níže, prosím:"
+IDD_CTDB_EXTRA_STATIC_HELP(1),'Toto příslušenství musí být specifikováno více detailně. Vyberte jednu z hodnot níže, prosím:'
 IDD_CTDB_EXTRA_LIST_ATTR(1),Hodnota\tPopis
 IDD_CTDB_EXTRA_OK(1),Potvrdit
 IDP_MSG_DIGITAL(1),Zadejte kladné číslo.
-IDP_MSG_ABORT(1),"Pokud zavřete Asistenta nyní,nebude vytvořen žádný systém a všechna vložená data budou ztracena.\n\nOpravdu chcete zavřít Asistenta?"
+IDP_MSG_ABORT(1),'Pokud zavřete Asistenta nyní,nebude vytvořen žádný systém a všechna vložená data budou ztracena.\n\nOpravdu chcete zavřít Asistenta?'
 IDP_MSG_CLOSE(1),Opravdu chcete zavřít Asistenta?
-IDP_MSG_INVEXTRA(1),Zvláštní úprava '%s' není platná.
+IDP_MSG_INVEXTRA(1),'Zvláštní úprava ''%s'' není platná.'
 AFX_IDS_APP_TITLE_Creator(1),LOCKBASE Asistent vytvoření
 IDS_HLP_BTNUP(1),Toto tlačítko použijte k posunutí nahoru z vybraného řádku o jednu pozici.
 IDS_HLP_BTNDN(1),Toto tlačítko použijte k posunutí dolu z vybraného řádku o jednu pozici.
@@ -1535,47 +1535,47 @@ IDS_HLP_BTNBACK(1),Použijte toto tlačítko k návratu předchozí vstupní mas
 IDS_HLP_BTNNEXT(1),Použijte toto tlačítko k ukončení vkládání dat v této masce a přechodu do další masky.
 IDS_HLP_PGSYS(1),v této vstupní masce specifikujte základní parametry systému generálního klíče. Data zde vložená jsou použita k vytvoření Systému Hlavička a udávají velikost systému.
 IDS_HLP_SYSNMB(1),Zde zadejte Číslo systému.
-IDS_HLP_SYSOWNER(1),"Zde zadejte adresu objektu, kde bude systém využíván. Můžete použít klávesu <Enter> k vložení dalších řádků pro text."
-IDS_HLP_SYSSUP(1),"Zde zadejte adresu klienta nebo dodavatele, který bude systém spravovat (případně vlastní). Můžete použít klávesu <Enter> k vložení dalších řádků pro text."
-IDS_HLP_SYSCUSTN(1),"Zde zadejte Zákaznické číslo, pokud jej znáte."
-IDS_HLP_SYSBRAND(1),"Zde vyberte značku, ze které má být systém vyroben."
-IDS_HLP_SYSPROD(1),"Zde specifikujte, jak vyrobit systém:\n\nTovární systém: Systém bude kalkulován a smontován v továrně\n\nTovárna smontuje systém: Systém bude kalkulován použitím zákaznického profilu, ale smontován továrnou\n\nPouze kalkulace: Systém bude kalkulován použitím zákaznického profilu. Nicméně, nebude smontován továrnou ale vámi."
-IDS_HLP_SYSPROF(1),"Zde zadejte zákaznický profil a/nebo kódovou skupinu, která má být použita pro kalkulaci systému. to je nezbytné pouze pro továrnou smontovaný a kalkulovaný systém."
-IDS_HLP_SYSKEY(1),"Zde zadejte počet nadřazených klíčových funkcí, tj. počet požadovaných generálních a skupinových klíčů.\n\nPokud je požadován pouze generální klíč ale žádné skupinové, zadejte '1'."
+IDS_HLP_SYSOWNER(1),'Zde zadejte adresu objektu, kde bude systém využíván. Můžete použít klávesu <Enter> k vložení dalších řádků pro text.'
+IDS_HLP_SYSSUP(1),'Zde zadejte adresu klienta nebo dodavatele, který bude systém spravovat (případně vlastní). Můžete použít klávesu <Enter> k vložení dalších řádků pro text.'
+IDS_HLP_SYSCUSTN(1),'Zde zadejte Zákaznické číslo, pokud jej znáte.'
+IDS_HLP_SYSBRAND(1),'Zde vyberte značku, ze které má být systém vyroben.'
+IDS_HLP_SYSPROD(1),'Zde specifikujte, jak vyrobit systém:\n\nTovární systém: Systém bude kalkulován a smontován v továrně\n\nTovárna smontuje systém: Systém bude kalkulován použitím zákaznického profilu, ale smontován továrnou\n\nPouze kalkulace: Systém bude kalkulován použitím zákaznického profilu. Nicméně, nebude smontován továrnou ale vámi.'
+IDS_HLP_SYSPROF(1),'Zde zadejte zákaznický profil a/nebo kódovou skupinu, která má být použita pro kalkulaci systému. to je nezbytné pouze pro továrnou smontovaný a kalkulovaný systém.'
+IDS_HLP_SYSKEY(1),'Zde zadejte počet nadřazených klíčových funkcí, tj. počet požadovaných generálních a skupinových klíčů.\n\nPokud je požadován pouze generální klíč ale žádné skupinové, zadejte ''1''.'
 IDS_HLP_SYSCYL(1),Zde zadejte počet požadovaných vložek a/nebo dveří.
-IDS_HLP_PGCYL(1),"v této vstupní masce jsou zadávána data pro vložky a/nebo dveře. Každá vložka je uspořádána na jeden řádek v seznamu. Při vícenásobném výběru můžete pracovat s různými vložkami v jednom kroku. Pole s různými obsahy jsou označena hvězdičkou (*). Ponechte hvězdičku (nebo zadejte znova), pokud chcete nechat příslušná pole beze změn."
-IDS_HLP_CYLLIST(1),"Zde vyberte záznamy, které mají být změněny. K výběru několika datových záznamů, přidržte klávesu <Ctrl> a klikejte na požadované řádky. Můžete použít klávesu <Shift>  k výběru většího rozsahu záznamů."
-IDS_HLP_CYLBUILD(1),"Zde zadejte budovu, kde je umístěna místnost nebo dveře."
-IDS_HLP_CYLDOOR(1),"Zde zadejte název místnosti a/nebo dveří, kde má být vložka instalována. Použijte '@' k vložení pořadových čísel. Číslo přímo za symbolem specifikuje výchozí hodnotu číslování."
-IDS_HLP_CYLMY(1),"Aktivujte tento kontrolní rámeček, pokud vložky mají mít příslušné klíče. Počet kopií klíče mohou být specifikovány v poli 'Kopie'.\n\nPříslušné klíče otevřou pouze jejich vlastní vložku. Přesto  příslušné klíče mohou otvírat také centrální vložku."
+IDS_HLP_PGCYL(1),'v této vstupní masce jsou zadávána data pro vložky a/nebo dveře. Každá vložka je uspořádána na jeden řádek v seznamu. Při vícenásobném výběru můžete pracovat s různými vložkami v jednom kroku. Pole s různými obsahy jsou označena hvězdičkou (*). Ponechte hvězdičku (nebo zadejte znova), pokud chcete nechat příslušná pole beze změn.'
+IDS_HLP_CYLLIST(1),'Zde vyberte záznamy, které mají být změněny. K výběru několika datových záznamů, přidržte klávesu <Ctrl> a klikejte na požadované řádky. Můžete použít klávesu <Shift>  k výběru většího rozsahu záznamů.'
+IDS_HLP_CYLBUILD(1),'Zde zadejte budovu, kde je umístěna místnost nebo dveře.'
+IDS_HLP_CYLDOOR(1),'Zde zadejte název místnosti a/nebo dveří, kde má být vložka instalována. Použijte ''@'' k vložení pořadových čísel. Číslo přímo za symbolem specifikuje výchozí hodnotu číslování.'
+IDS_HLP_CYLMY(1),'Aktivujte tento kontrolní rámeček, pokud vložky mají mít příslušné klíče. Počet kopií klíče mohou být specifikovány v poli ''Kopie''.\n\nPříslušné klíče otevřou pouze jejich vlastní vložku. Přesto  příslušné klíče mohou otvírat také centrální vložku.'
 IDS_HLP_CYLMYCNT(1),Zde zadejte počet kopií příslušných klíčů.\n\nPříslušné klíče otevřou pouze jejich vlastní vložku. Přesto  příslušné klíče mohou otvírat také centrální vložku.
-IDS_HLP_CYLCC(1),"Aktivujte tento kontrolní rámeček pokud vybrané vložky mají být centrálně uzamykány. To je nezbytné, pokud příslušné klíče jiných vložek mají také otvírat tuto vložku (např. v případě hlavního vstupu)."
-IDS_HLP_CYLQTY(1),"V tomto poli můžete měnit množství vybraných vložek. Nicméně se to nedoporučuje. Tato funkce se používá k nastavení počtu 0 pro vložky, které nemají být dodány nyní."
-IDS_HLP_CYLALIKE(1),"Pokud vybrané vložky mají být uzamykané stejně jako další vložka, můžete tuto vložku vybrat zde. Uzamykání (generálním a skupinovými klíči) je načteno z vybraného 'otce'. Toto má příznivý vliv na snížení počtu specifikovaných vložek a pravděpodobně špatných záznamů."
-IDS_HLP_CYLTYPE(1),"Zde zadejte typ vložky. Části typu číslování položek nebo popis vložek. Následovně v roletové nabídce najdete odpovídající vstupní položky. Po výběru požadovaných položek se zpřístupní další pole ke specifikaci typu vložky (Zvláštní úpravy, délka, povrch)."
-IDS_HLP_CYLEXTRA(1),Zde jsou zobrazeny vybrané zvláštní úpravy vložek. Pro výběr zvláštních úprav klikněte na pravé tlačítko vedle pole ('>').
+IDS_HLP_CYLCC(1),'Aktivujte tento kontrolní rámeček pokud vybrané vložky mají být centrálně uzamykány. To je nezbytné, pokud příslušné klíče jiných vložek mají také otvírat tuto vložku (např. v případě hlavního vstupu).'
+IDS_HLP_CYLQTY(1),'V tomto poli můžete měnit množství vybraných vložek. Nicméně se to nedoporučuje. Tato funkce se používá k nastavení počtu 0 pro vložky, které nemají být dodány nyní.'
+IDS_HLP_CYLALIKE(1),'Pokud vybrané vložky mají být uzamykané stejně jako další vložka, můžete tuto vložku vybrat zde. Uzamykání (generálním a skupinovými klíči) je načteno z vybraného ''otce''. Toto má příznivý vliv na snížení počtu specifikovaných vložek a pravděpodobně špatných záznamů.'
+IDS_HLP_CYLTYPE(1),'Zde zadejte typ vložky. Části typu číslování položek nebo popis vložek. Následovně v roletové nabídce najdete odpovídající vstupní položky. Po výběru požadovaných položek se zpřístupní další pole ke specifikaci typu vložky (Zvláštní úpravy, délka, povrch).'
+IDS_HLP_CYLEXTRA(1),'Zde jsou zobrazeny vybrané zvláštní úpravy vložek. Pro výběr zvláštních úprav klikněte na pravé tlačítko vedle pole (''>'').'
 IDS_HLP_CYLOUT(1),Zde vyberte délku vnější strany vložky.
 IDS_HLP_CYLIN(1),zde vyberte vnitřní stranu vložky.
 IDS_HLP_CYLFIN(1),Zde vyberte povrchovou úpravu vložky.
-IDS_HLP_PGKEY(1),"V této vstupní masce jsou zadávána data pro nadřazené klíče. Nadřazené klíče jsou klíče generální a skupinové.\n\n Každý klíč je uspořádán na jednom řádku. Při vícenásobném výběru můžete pracovat s několika klíči v jednom kroku. Pole s rozdílnými obsahy jsou označena hvězdičkou (*). Ponechte hvězdičku (nebo zadejte znova), pokud chcete nechat příslušná pole beze změn."
-IDS_HLP_KEYLIST(1),"Zde vyberte záznamy jež mají být změněny. K výběru několika datových záznamů, přidržte klávesu <Ctrl> a klikejte na požadované řádky. Můžete použít klávesu <Shift>  k výběru většího rozsahu záznamů."
-IDS_HLP_KEYDESC(1),"Zde zadejte popis nadřazených klíčů (např. 'Generální klíč', 'Skupinový klíč správce', atd.). Použijte '@' k vložení pořadových čísel. Číslo přímo za symbolem specifikuje výchozí hodnotu číslování."
+IDS_HLP_PGKEY(1),'V této vstupní masce jsou zadávána data pro nadřazené klíče. Nadřazené klíče jsou klíče generální a skupinové.\n\n Každý klíč je uspořádán na jednom řádku. Při vícenásobném výběru můžete pracovat s několika klíči v jednom kroku. Pole s rozdílnými obsahy jsou označena hvězdičkou (*). Ponechte hvězdičku (nebo zadejte znova), pokud chcete nechat příslušná pole beze změn.'
+IDS_HLP_KEYLIST(1),'Zde vyberte záznamy jež mají být změněny. K výběru několika datových záznamů, přidržte klávesu <Ctrl> a klikejte na požadované řádky. Můžete použít klávesu <Shift>  k výběru většího rozsahu záznamů.'
+IDS_HLP_KEYDESC(1),'Zde zadejte popis nadřazených klíčů (např. ''Generální klíč'', ''Skupinový klíč správce'', atd.). Použijte ''@'' k vložení pořadových čísel. Číslo přímo za symbolem specifikuje výchozí hodnotu číslování.'
 IDS_HLP_KEYQTY(1),Zde zadejte požadovaný počet kopií klíčů pro vybrané klíče.
-IDS_HLP_KEYLNK(1),"Do tohoto seznamu musíte přetáhnout vložky, jež mají být otevírány vybranými nadřazenými klíči. To uděláte tak, že vyberete požadované vložky v pravém seznamu a poté stisknete tlačítko  '<-'."
-IDS_HLP_KEYUNLNK(1),"Do tohoto seznamu musíte přetáhnout vložky, jež nemají být otevírány vybranými nadřazenými klíči. To uděláte tak, že vyberete požadované vložky v levém seznamu a poté stisknete tlačítko '->'."
-IDS_HLP_KEYBTNLT(1),"Toto tlačítko použijte k přesunu vybraných záznamů z pravého do levého seznamu. Tímto specifikujete, že tyto vložky jsou otevírány nadřazenými klíči."
-IDS_HLP_KEYBTNRT(1),"Toto tlačítko použijte k přesunu vybraných záznamů z levého do pravého seznamu. Tímto specifikujete, že tyto vložky nejsou otevírány nadřazenými klíči."
-IDS_HLP_PGCC(1),"V této vstupní masce můžete definovat uzamykání centrálních vložek.\n\nCentrální vložky jsou ty, jež jsou otevírány nadřazenými klíči, jejich příslušnými ale i příslušnými klíči ostatních vložek.\n\nPro každou vložku v seznamu je k dispozici jeden řádek. Při vícenásobném výběru můžete pracovat s několika vložkami v jednom kroku.\n\nPožadovaná uzamykání se specifikují přesunem odpovídajících příslušných klíčů ze seznamu z pravé poloviny do levé."
-IDS_HLP_CCLIST(1),"Zde vyberte záznamy jež mají být změněny. K výběru několika datových záznamů, přidržte klávesu <Ctrl> a klikejte na požadované řádky. Můžete použít klávesu <Shift>  k výběru většího rozsahu záznamů."
-IDS_HLP_CCNAME(1),"V tomto poli budou zobrazena popisy vybraných centrálních vložek. Pokud jsou vybrány rozdílné záznamy,jsou označeny (*) hvězdičkou."
-IDS_HLP_CCLNK(1),"Do tohoto seznamu musíte přetáhnout příslušné klíče, jež mají otevírat vybrané centrální vložky. To uděláte tak, že vyberete požadované klíče v pravém seznamu,a stisknete tlačítko '<-'."
-IDS_HLP_CCUNLNK(1),"Do tohoto seznamu musíte přetáhnout příslušné klíče, jež nemají otevírat vybrané centrální vložky. To uděláte tak, že vyberete požadované klíče v pravém seznamu,a stisknete tlačítko '->'."
-IDS_HLP_CCBTNLT(1),"Toto tlačítko použijte k přesunu vybraných záznamů z pravého do levého seznamu. Tímto specifikujete, že tyto příslušné klíče mohou otevírat vybrané centrální vložky."
-IDS_HLP_CCBTNRT(1),"Toto tlačítko použijte k přesunu vybraných záznamů z levého do pravého seznamu. Tímto specifikujete, že tyto příslušné klíče nemohou otevírat vybrané centrální vložky."
-IDS_HLP_PGFIN(1),"S pomocí této závěrečné zprávy můžete ověřit, zda byl systém nastaven správně a je kompletní.\n\nDůležité je rozlišení uzamykání (generálního/skupinových klíčů, funkce vložek, centrálních vložek a příslušných klíčů) a klíčů a/nebo vložek (kopie klíčů a vložek). Zatímco uzamykaní představuje logické funkce klíče a/nebo vložky, kopie klíčů a vložek jsou hmotné jednotky jednotlivých vložek a klíčů."
+IDS_HLP_KEYLNK(1),'Do tohoto seznamu musíte přetáhnout vložky, jež mají být otevírány vybranými nadřazenými klíči. To uděláte tak, že vyberete požadované vložky v pravém seznamu a poté stisknete tlačítko  ''<-''.'
+IDS_HLP_KEYUNLNK(1),'Do tohoto seznamu musíte přetáhnout vložky, jež nemají být otevírány vybranými nadřazenými klíči. To uděláte tak, že vyberete požadované vložky v levém seznamu a poté stisknete tlačítko ''->''.'
+IDS_HLP_KEYBTNLT(1),'Toto tlačítko použijte k přesunu vybraných záznamů z pravého do levého seznamu. Tímto specifikujete, že tyto vložky jsou otevírány nadřazenými klíči.'
+IDS_HLP_KEYBTNRT(1),'Toto tlačítko použijte k přesunu vybraných záznamů z levého do pravého seznamu. Tímto specifikujete, že tyto vložky nejsou otevírány nadřazenými klíči.'
+IDS_HLP_PGCC(1),'V této vstupní masce můžete definovat uzamykání centrálních vložek.\n\nCentrální vložky jsou ty, jež jsou otevírány nadřazenými klíči, jejich příslušnými ale i příslušnými klíči ostatních vložek.\n\nPro každou vložku v seznamu je k dispozici jeden řádek. Při vícenásobném výběru můžete pracovat s několika vložkami v jednom kroku.\n\nPožadovaná uzamykání se specifikují přesunem odpovídajících příslušných klíčů ze seznamu z pravé poloviny do levé.'
+IDS_HLP_CCLIST(1),'Zde vyberte záznamy jež mají být změněny. K výběru několika datových záznamů, přidržte klávesu <Ctrl> a klikejte na požadované řádky. Můžete použít klávesu <Shift>  k výběru většího rozsahu záznamů.'
+IDS_HLP_CCNAME(1),'V tomto poli budou zobrazena popisy vybraných centrálních vložek. Pokud jsou vybrány rozdílné záznamy,jsou označeny (*) hvězdičkou.'
+IDS_HLP_CCLNK(1),'Do tohoto seznamu musíte přetáhnout příslušné klíče, jež mají otevírat vybrané centrální vložky. To uděláte tak, že vyberete požadované klíče v pravém seznamu,a stisknete tlačítko ''<-''.'
+IDS_HLP_CCUNLNK(1),'Do tohoto seznamu musíte přetáhnout příslušné klíče, jež nemají otevírat vybrané centrální vložky. To uděláte tak, že vyberete požadované klíče v pravém seznamu,a stisknete tlačítko ''->''.'
+IDS_HLP_CCBTNLT(1),'Toto tlačítko použijte k přesunu vybraných záznamů z pravého do levého seznamu. Tímto specifikujete, že tyto příslušné klíče mohou otevírat vybrané centrální vložky.'
+IDS_HLP_CCBTNRT(1),'Toto tlačítko použijte k přesunu vybraných záznamů z levého do pravého seznamu. Tímto specifikujete, že tyto příslušné klíče nemohou otevírat vybrané centrální vložky.'
+IDS_HLP_PGFIN(1),'S pomocí této závěrečné zprávy můžete ověřit, zda byl systém nastaven správně a je kompletní.\n\nDůležité je rozlišení uzamykání (generálního/skupinových klíčů, funkce vložek, centrálních vložek a příslušných klíčů) a klíčů a/nebo vložek (kopie klíčů a vložek). Zatímco uzamykaní představuje logické funkce klíče a/nebo vložky, kopie klíčů a vložek jsou hmotné jednotky jednotlivých vložek a klíčů.'
 IDS_HLP_FINREP(1),Bude vytvořena statistiky některých vámi zadaných dat systému. Ty vám mohou pomoci snadněji odhalit chybná zadání.
-IDS_HLP_BTNFINISH(1),"Stiskněte toto tlačítko k ukončení vkládání a ke spuštění vytvoření souboru systému generálního klíče.\n\nOvěřte, prosím, správnost a kompletnost vašeho zadání, předtím, než soubor začnete vytvářet."
-IDS_HLP_CYLBTNEXTRA(1),"Zde klikněte pro výběr zvláštních úprav vložek. Můžete kombinovat různé zvláštní úpravy, dokud to bude technicky možné."
+IDS_HLP_BTNFINISH(1),'Stiskněte toto tlačítko k ukončení vkládání a ke spuštění vytvoření souboru systému generálního klíče.\n\nOvěřte, prosím, správnost a kompletnost vašeho zadání, předtím, než soubor začnete vytvářet.'
+IDS_HLP_CYLBTNEXTRA(1),'Zde klikněte pro výběr zvláštních úprav vložek. Můžete kombinovat různé zvláštní úpravy, dokud to bude technicky možné.'
 IDS_HLP_BTNFINISH_C2B(1),Stiskněte toto tlačítko pro ukončení programu.
 IDS_HLP_FINBTNPRINT(1),Stiskněte toto tlačítko l vytištění schéma systému generálního klíče.
 IDS_HLP_FINBTNSEND(1),Stiskněte toto tlačítko k odeslání dat jako objednávky přes internet.
@@ -1597,7 +1597,7 @@ IDD_CFG_LOADFORMAT_748(1),Nekopírovat\nPouze pokud je pole prázdné\nVždy kop
 IDD_CFG_LOADFORMAT_751(1),Nekopírovat\nPouze pokud je pole prázdné\nVždy kopírovat
 IDD_CFG_LOADFORMAT_752(1),Nekopírovat\nKopírovat
 IDD_CFG_LOADFORMAT_754(1),Nekopírovat\npouze pokud je pole prázdné\nvždy kopírovat
-IDD_CFG_LOADFORMAT_STATICTXT1(1),"Definujte datová pole v seznamu,která by měla být kopírována ze šablony:"
+IDD_CFG_LOADFORMAT_STATICTXT1(1),'Definujte datová pole v seznamu,která by měla být kopírována ze šablony:'
 IDD_CYLINDER_STATICTXT13(1),Funkce
 IDD_CYLINDER_STATICTXT14(1),&Uzamykatelné jako:
 IDD_DOC_PASTE(1),Vložit záznamy
@@ -1635,7 +1635,7 @@ IDD_LBWCTDB_DIALOG_ICOMP(1),SL&ožka:
 IDD_LBWCTDB_DIALOG_ILIST(1),Číslo položky\tOznačení
 IDD_LBWCTDB_DIALOG_ISTATE(1),Po&ložka vypnuta:
 IDD_LBWCTDB_DIALOG_ITECH(1),Tec&hnologie:
-IDD_LBWCTDB_DIALOG_LHLP1(0),"VLožte číslo licence (musí být unikátní), zákaznické číslo a seznam zákazníků zde, oddělené čárkou."
+IDD_LBWCTDB_DIALOG_LHLP1(0),'VLožte číslo licence (musí být unikátní), zákaznické číslo a seznam zákazníků zde, oddělené čárkou.'
 IDD_LBWCTDB_DIALOG_LID(0),&Číslo licence:
 IDD_LBWCTDB_DIALOG_LLIST(0),Licence\tZákazník
 IDD_LBWCTDB_DIALOG_LNUM(0),Č&íslo zákazníka:
@@ -1646,17 +1646,17 @@ IDD_LBWCTDB_DIALOG_PGS(1),Systém
 IDD_LBWCTDB_DIALOG_STATIC1(1),&Zkratka:
 IDD_LBWCTDB_DIALOG_STATIC10(1),&Speciální úprava:
 IDD_LBWCTDB_DIALOG_STATIC12(1),Systém
-IDD_LBWCTDB_DIALOG_STATIC13(1),"Nejprve vložte číslo systému. Název zobrazený zákazníkovi bude kombinace výrobce + název systému, který zadáte"" Např. 'Cisa' + 'C83'"
-IDD_LBWCTDB_DIALOG_STATIC14(1),'Vytvořit' nový systém.
-IDD_LBWCTDB_DIALOG_STATIC15(1),"Zkratky všech speciálních úprav, které jsou použitelné pro typ vložky (oddělené čárkou)."
-IDD_LBWCTDB_DIALOG_STATIC16(1),"Zkratky všech položek, které nemohou být kombinované se speciální úpravou v jedné vložce."
-IDD_LBWCTDB_DIALOG_STATIC17(1),"Prvky výčtu jsou oddělené čárkou např. ""Zlato, Stříbro, Bronze""."
-IDD_LBWCTDB_DIALOG_STATIC18(1),Vložte pouze interní název systému (např. 'C83'). Výrobní název bude přidán softwarem.
+IDD_LBWCTDB_DIALOG_STATIC13(1),'Nejprve vložte číslo systému. Název zobrazený zákazníkovi bude kombinace výrobce + název systému, který zadáte" Např. ''Cisa'' + ''C83'''
+IDD_LBWCTDB_DIALOG_STATIC14(1),'''Vytvořit'' nový systém.'
+IDD_LBWCTDB_DIALOG_STATIC15(1),'Zkratky všech speciálních úprav, které jsou použitelné pro typ vložky (oddělené čárkou).'
+IDD_LBWCTDB_DIALOG_STATIC16(1),'Zkratky všech položek, které nemohou být kombinované se speciální úpravou v jedné vložce.'
+IDD_LBWCTDB_DIALOG_STATIC17(1),'Prvky výčtu jsou oddělené čárkou např. "Zlato, Stříbro, Bronze".'
+IDD_LBWCTDB_DIALOG_STATIC18(1),'Vložte pouze interní název systému (např. ''C83''). Výrobní název bude přidán softwarem.'
 IDD_LBWCTDB_DIALOG_STATIC2(1),O&zančení:
-IDD_LBWCTDB_DIALOG_STATIC20(1),"Délka může být zadána jednotlivě nebo jako rozsah, odděleno čárkou.\nNapř. ""26, 30-80:5""znamená délku jedné strany - 26 mm a druhé strany - 30 až 80 mm po 5ti mm."
+IDD_LBWCTDB_DIALOG_STATIC20(1),'Délka může být zadána jednotlivě nebo jako rozsah, odděleno čárkou.\nNapř. "26, 30-80:5"znamená délku jedné strany - 26 mm a druhé strany - 30 až 80 mm po 5ti mm.'
 IDD_LBWCTDB_DIALOG_STATIC21(1),Nezahrnuje následující\n&Vnější délka:
 IDD_LBWCTDB_DIALOG_STATIC22(1),Nezahrnuje následující\nVnitřní dé&lka:
-IDD_LBWCTDB_DIALOG_STATIC23(1),"Délka může být zadána jednotlivě nebo jako rozsah, odděleno čárkou.\nNapř. ""26, 30-80:5""znamená délku jedné strany - 26 mm a druhé strany - 30 až 80 mm po 5ti mm."
+IDD_LBWCTDB_DIALOG_STATIC23(1),'Délka může být zadána jednotlivě nebo jako rozsah, odděleno čárkou.\nNapř. "26, 30-80:5"znamená délku jedné strany - 26 mm a druhé strany - 30 až 80 mm po 5ti mm.'
 IDD_LBWCTDB_DIALOG_STATIC24(1),Nezahrnuje následující\n&Povrch:
 IDD_LBWCTDB_DIALOG_STATIC25(1),T&řída:
 IDD_LBWCTDB_DIALOG_STATIC26(1),&Hodnota:
@@ -1665,13 +1665,13 @@ IDD_LBWCTDB_DIALOG_STATIC28(1),D&okumentace
 IDD_LBWCTDB_DIALOG_STATIC29(1),&Preferovaný modul pro kalkulaci:
 IDD_LBWCTDB_DIALOG_STATIC3(1),Nezahrnuje následující\n&Speciální úpravy:
 IDD_LBWCTDB_DIALOG_STATIC30(1),&Modul není povolen pro kalkulaci:
-IDD_LBWCTDB_DIALOG_STATIC31(1),"V 'Přednastavení kalkulace' můžete vložit jméno preferovaného modulu pro kalkulaci. Je také možné definovat modul, který není pro kalkulaci povolen."
-IDD_LBWCTDB_DIALOG_STATIC32(1),'Vymazat' odstraní současná vybraná data z databáse.
+IDD_LBWCTDB_DIALOG_STATIC31(1),'V ''Přednastavení kalkulace'' můžete vložit jméno preferovaného modulu pro kalkulaci. Je také možné definovat modul, který není pro kalkulaci povolen.'
+IDD_LBWCTDB_DIALOG_STATIC32(1),'''Vymazat'' odstraní současná vybraná data z databáse.'
 IDD_LBWCTDB_DIALOG_STATIC33(1),Přednastavení kalkulace
 IDD_LBWCTDB_DIALOG_STATIC34(1),Náz&ev:
 IDD_LBWCTDB_DIALOG_STATIC35(1),&Přidat data z:
-IDD_LBWCTDB_DIALOG_STATIC36(1),"Název,který zadáte, musí přesně odpovídat modulu, který používá kalkulátor. Více názvů oddělte čárkou."
-IDD_LBWCTDB_DIALOG_STATIC37(1),"Pro vytvoření kombinovaného systému vložte seznam systému, který je použit jako další zdroj pro položky a speciální úpravy."
+IDD_LBWCTDB_DIALOG_STATIC36(1),'Název,který zadáte, musí přesně odpovídat modulu, který používá kalkulátor. Více názvů oddělte čárkou.'
+IDD_LBWCTDB_DIALOG_STATIC37(1),'Pro vytvoření kombinovaného systému vložte seznam systému, který je použit jako další zdroj pro položky a speciální úpravy.'
 IDD_LBWCTDB_DIALOG_STATIC38(1),Označení položek a speciálních úprav musí být jedinečné.
 IDD_LBWCTDB_DIALOG_STATIC39(1),&Ostatní nastavení:
 IDD_LBWCTDB_DIALOG_STATIC4(1),Č&íslo položky:
@@ -1742,7 +1742,7 @@ IDD_SYSHEAD_HIST_ORDER_STATICTXT5(1),&Dostupné:
 IDD_SYSHEAD_SCARD(0),Bezp&ečnostní karta:
 IDP_B2B_INF_FACTORY_BACKUP(1),Soubor\n<%1>\nbyl přesunut do archivu
 IDP_B2B_SETUP_FACTORYCARD(0),Chyba při načítání výrobní karty pro tuto instalaci. Pravděpodobně se nelze připojit k internetu. Instalace se nezdařila.
-IDP_CISA_FILENAME_ERR(0),Název složky '%1'se neshoduje s číslem systému '%2'.
+IDP_CISA_FILENAME_ERR(0),'Název složky ''%1''se neshoduje s číslem systému ''%2''.'
 IDP_CNF_HTML(1),Chcete vytvořit a zveřejnit HTML dokument pro databázi vložek?
 IDP_CNF_PUBLISH(1),Pro odeslání dat budou nejprve údaje o zboží zapsána do místní složky. Poté s připojením na internet se přenese tato složka do Lockbase B2B server.\n\nPo přenosu složky budou nová data zpřístupněna zákazníkovi.\n\nChcete začít s publikaci?
 IDP_CNF_RECDEL(1),Určitě chcete smazat vybraná data?
@@ -1751,15 +1751,15 @@ IDP_CNF_SAVE(1),Chcete uložit změny?
 IDP_CNF_SYSCOPY(1),Opravdu chcete vytvořit kopii této položky?
 IDP_CNF_SYSDEL(1),Opravdu chcete zcela odstranit tuto položku?
 IDP_CNF_UPLOAD(1),Nyní se s připojením na internet přenese složka na server.\n\nOpravdu chcete pokračovat?
-IDP_DOC_EXCHG_PORTIER(0),"Chybí požadavaný štítek\nNeplatný obsah\nNeplatné, chyba"
-IDP_DOC_MAKECYLFUNCMULTI(1),"Rozhodli jste se použít sériové číslo k definici funkci vložek('%s').\nJe to možné, ovšem často vede k neočekávaným (nezamýšleným) výsledkům.\n\nChcete přesto pokračovat?"
+IDP_DOC_EXCHG_PORTIER(0),'Chybí požadavaný štítek\nNeplatný obsah\nNeplatné, chyba'
+IDP_DOC_MAKECYLFUNCMULTI(1),'Rozhodli jste se použít sériové číslo k definici funkci vložek(''%s'').\nJe to možné, ovšem často vede k neočekávaným (nezamýšleným) výsledkům.\n\nChcete přesto pokračovat?'
 IDP_DOC_ORDER_CLOSE(1),Následující objednávka bude uzavřena:\n\n%s k datu %s
 IDP_DOC_ORDER_CNF_CLOSE(0),Objednávka je otevřena.\nChcete uzavřít?
 IDP_DOC_SYS_DELIVDATE(0),Vložte datum doručení.
 IDP_ERR_CUSTLIC(0),Číslo licence je neplatné.
 IDP_ERR_CYLLEN(1),Vložená délka vložky je nesprávná.
-IDP_ERR_DB(1),Není možné vytvořit další složku'%s'.\n\nProsím uzavřete programe tlačítkem 'Zavřít'.
-IDP_ERR_EXTDATA(1),Externí zdroj dat neexistuje '%s' nebo nelze přečíst!
+IDP_ERR_DB(1),'Není možné vytvořit další složku''%s''.\n\nProsím uzavřete programe tlačítkem ''Zavřít''.'
+IDP_ERR_EXTDATA(1),'Externí zdroj dat neexistuje ''%s'' nebo nelze přečíst!'
 IDP_ERR_HTML(1),Vyskytla se chyba během kompilace HTML dokumentu\n\n%s\n\ndokument nebyl vytvořen.
 IDP_ERR_INET(1),Spojení s Lockbase B2B server nebylo navázáno.\n\nPravděpodobně je připojení k internetu momentálně nedostupné.\n\nProces byl přerušen.
 IDP_ERR_NUM(1),Prosím vložte kladnou celočíselnou hodnotu.
@@ -1799,7 +1799,7 @@ LBW_ACCESSASSIGN_T4(0),&Odstranit
 LBW_ACCESSASSIGN_T5(0),P&oužít
 LBW_ACCESSASSIGN_T7(0),Oddělení/Držitel klíče/Klíč\tUmístění/Dveře/Vložka
 LBW_ACCESSTABLE_1002(0),Týdenní přehled\nMěsíční přehled\nRoční přehled
-LBW_ACCESSTABLE_R1(0),Prosím potvrďte odstranění kalendáře '%1'
+LBW_ACCESSTABLE_R1(0),'Prosím potvrďte odstranění kalendáře ''%1'''
 LBW_ACCESSTABLE_T0(0),Přehled
 LBW_ACCESSTABLE_T1(0),Upravit
 LBW_ACCESSTABLE_T10(0),Od&stranit
@@ -1818,10 +1818,10 @@ LBW_CALENDAR_B2(0),&Vymazat
 LBW_CALENDAR_B4(0),&Importovat...
 LBW_CALENDAR_R0(0),Den\nTýden\nMěsíc\nRok
 LBW_CALENDAR_R1(0),Vyskytla se chyba během importování kalendáře:\n\n%1\n\nTato složka nemůže být použita.
-LBW_CALENDAR_R2(0),Neznámé '%1'
-LBW_CALENDAR_R4(0),Chyba stahované složky '%1'
+LBW_CALENDAR_R2(0),'Neznámé ''%1'''
+LBW_CALENDAR_R4(0),'Chyba stahované složky ''%1'''
 LBW_CALENDAR_R6(0),Tato operace kompletně nahradí současný obsah kalendáře obsahem ze složky\n\nProsím potvrďte
-LBW_CALENDAR_R7(0),Potvrďte smazání '%1'
+LBW_CALENDAR_R7(0),'Potvrďte smazání ''%1'''
 LBW_CALENDAR_T0(0),&Kalendář:
 LBW_CALENDAR_T13(0),Čí&slo:
 LBW_CALENDAR_T14(0),&Popis:
@@ -1844,7 +1844,7 @@ LBW_LOCATION(0),Umístění
 LBW_LOCATION_R0(0),POdporované grafické soubory
 LBW_LOCATION_T0(0),&Název:
 LBW_LOCATION_T1(0),&Popis:
-LBW_LOCATION_T2(0),"Vyberte grafické soubory, které obsahují půdorysy(typu BMP, JPG,PNG,TIF,EPS,TGA,PCT,WMF nebo EMF)."
+LBW_LOCATION_T2(0),'Vyberte grafické soubory, které obsahují půdorysy(typu BMP, JPG,PNG,TIF,EPS,TGA,PCT,WMF nebo EMF).'
 LBW_LOCATION_T3(0),&Grafický soubor
 LBW_LOCATION_T4(0),&Soubor...
 LBW_R6(0),Upozornění: %1 ze %2 záznamů nemůže být přidán
@@ -1857,21 +1857,21 @@ R1(0),Pondělí\nÚterý\nStředa\nČtvrtek\nPátek\nSobota\nNeděle
 R2(0),Leden\nÚnor\nBřezen\nDuben\nKvěten\nČerven\nČervenec\nSrpen\nZáří\nŘíjen\nListopad\nProsinec
 R3(0),Po\nÚt\nStř\nČtv\nPá\nSo\nNe
 STP_INSTALL_R0(0),Instalace nemohla být dokončena úspěšně.\nOpravdu chcete ukončit nastavení programu?
-STP_INSTALL_R1(0),Cílový adresář neexistuje '%s'.\nChcete ho vytvořit?
-STP_INSTALL_R10(0),"Vyskytla se interní chyba.\nProsím kontaktujte Körtner & Muth GmbH in Hamburg,Germany pro podporu."
+STP_INSTALL_R1(0),'Cílový adresář neexistuje ''%s''.\nChcete ho vytvořit?'
+STP_INSTALL_R10(0),'Vyskytla se interní chyba.\nProsím kontaktujte Körtner & Muth GmbH in Hamburg,Germany pro podporu.'
 STP_INSTALL_R11(0),<Nová instalace>
 STP_INSTALL_R12(0),Vyberte cílový adresář:
-STP_INSTALL_R4(0),Cílový adresář '%s' nebyl vytvořen. Pravděpodobně chybí přístupová práva.
-STP_INSTALL_R6(0),Není dostatek místa v cílovém adresáři '%s'.
+STP_INSTALL_R4(0),'Cílový adresář ''%s'' nebyl vytvořen. Pravděpodobně chybí přístupová práva.'
+STP_INSTALL_R6(0),'Není dostatek místa v cílovém adresáři ''%s''.'
 STP_INSTALL_R7(0),Číslo licence a existující instalace jsou rozdílné. Vyberte jinou cílovou složku.
 STP_INSTALL_R8(0),Instalace byla přerušena.
-STP_INSTALL_R9(0),Požadovaný soubor '%s'neexistuje nebo je poškozen.\nInstalace nemůže pokračovat.
+STP_INSTALL_R9(0),'Požadovaný soubor ''%s''neexistuje nebo je poškozen.\nInstalace nemůže pokračovat.'
 STP_INSTALL_S_BIN(0),Program adresář:
 STP_INSTALL_S_DATA(0),Data adresář:
 STP_LIST(1),Instalace adresář
 STP_R0(0),Další>>|start|Zavřít
-STP_R1(0),"Lockbase|Lockbase|plánování, Kalkulace a administrace Systému generálního klíče"
-STP_R2(0),Chyba při zápisu do cílového adresáře '%s' Pravděpodobně chybí přístupová práva.
+STP_R1(0),'Lockbase|Lockbase|plánování, Kalkulace a administrace Systému generálního klíče'
+STP_R2(0),'Chyba při zápisu do cílového adresáře ''%s'' Pravděpodobně chybí přístupová práva.'
 STP_R3(0),Existující instalace je v současnosti užívána (%s). K odinstalování či instalování je potřeba aby všichni uživatelé zavřeli program.
 STP_R4(0),Chyba zápisu do registlu. Pravděpodobně chybí přístupová práva.
 STP_UNINSTALL_R0(0),Odinstalování není dokončeno.\nOpravdu chcete ukončit nastavení?

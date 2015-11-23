@@ -292,7 +292,7 @@ IDD_LBW_SITEKEY_CANCEL(1),Avbryt
 IDD_LBW_SITEKEY_STATICTXT3(1),&Installation:
 IDD_LBW_SITEKEY_STATICTXT4(1),LOCKBASE är inte licensierad för denna arbetsstation
 IDD_LBW_SITEKEY_STATIC_INFO(1),LOCKBASE Version %s\nLicens %X-%u-%lu-%u
-IDD_LBW_SITEKEY_STATICTXT5(1),För att använda LOCKBASE på denna dator måste du mata in den rätta 'site key' som motsvarar 'installations' koden som visas nedan:
+IDD_LBW_SITEKEY_STATICTXT5(1),'För att använda LOCKBASE på denna dator måste du mata in den rätta ''site key'' som motsvarar ''installations'' koden som visas nedan:'
 IDD_EVVA_DPIX_OK(1),OK
 IDD_EVVA_DPIX_CANCEL(1),Avbryt
 IDD_SYSHEAD(1),Låsschema Huvud
@@ -413,16 +413,16 @@ IDR_LBCWTYPE(1),Calculator\nNoName\nLBWDOC\nLOCKBASE-File (*.lbf)\n.LBF\nLBWDOC\
 IDR_LBWMTRX(1),System Matrix\nNoName\nLBWDOC\nLOCKBASE-File (*.lbf)\n.LBF\nLBWDOC\nLOCKBASE-File
 IDS_LBW_EXCHANGE(1),LOCKBASE filer (*.lbf)\nLOCKBASE template (*.lbt)\nLOCKBASE for DOS (*.sys)
 IDS_LBW_DONGLE(1),Dongel felaktig eller saknas!\nAnslut en giltig LOCKBASE dongel till en printerport.
-IDS_LBW_WEASELS(1),"Weasels rip my flesh!\n\nLOCKBASE programfil har ändrats. Hårddisk fel, ett datavirus eller manuell manipulation av programkoden kan orsaka detta fel.\n\nÅterställ filen LOCKBASE.EXE från en backupp eller från LOCKBASE original diskett."
-IDS_LBW_SHARE(1),"SHARE körs inte!\nFör att fungera tillfredsställande, behöver LOCKBASE DOS-tillbehöret SHARE.EXE eller ett DOS- kompatibelt Nätverk."
-IDS_LBW_DEMO_OUT(1),"Testperioden på denna demo LOCKBASE har tagit slut !\nFör att införskaffa sn skarp version kontakta:\n\nEvva Scandinavia AB\nRegulatorvägen 19, SE-141 49  Huddinge\n\nTel: +46-(0)8-7460640 Fax: +46-(0)8-7460140\nE-mail: info.lagard@swipnet.se"
+IDS_LBW_WEASELS(1),'Weasels rip my flesh!\n\nLOCKBASE programfil har ändrats. Hårddisk fel, ett datavirus eller manuell manipulation av programkoden kan orsaka detta fel.\n\nÅterställ filen LOCKBASE.EXE från en backupp eller från LOCKBASE original diskett.'
+IDS_LBW_SHARE(1),'SHARE körs inte!\nFör att fungera tillfredsställande, behöver LOCKBASE DOS-tillbehöret SHARE.EXE eller ett DOS- kompatibelt Nätverk.'
+IDS_LBW_DEMO_OUT(1),'Testperioden på denna demo LOCKBASE har tagit slut !\nFör att införskaffa sn skarp version kontakta:\n\nEvva Scandinavia AB\nRegulatorvägen 19, SE-141 49  Huddinge\n\nTel: +46-(0)8-7460640 Fax: +46-(0)8-7460140\nE-mail: info.lagard@swipnet.se'
 IDS_LBW_DEMO(1),Välkommen till LOCKBASE demoprogram!\n\nDetta demoprogram har full funktionalitet men du kan inte spara förändringar eller nya system till hårddisken.\n\nLycka till med LOCKBASE!
 IDS_LBW_DEMO_STORE(1),Detta är en demoversion av LOCKBASE!\nDu kan inte spara några data till disken
 IDS_LBW_LISTEND(1),<ny>
-IDS_LBW_PRESENTATION(1),"Detta program får endast användas i utvärderings och demonstrations syfte och är inte licensierat för kommersiellt bruk.\nDenna programvara ägs av Körtner & Muth GmbH, Hamburg"
-IDS_PROTECT_FILELOCK(1),"Access nekad till licens filen (LBW.CFG).\n\nLOCKBASE kan inte vara licensierad på två arbersstationer samtidigt. Avsluta licens proceduren på en dator, innan den startas på en annan."
+IDS_LBW_PRESENTATION(1),'Detta program får endast användas i utvärderings och demonstrations syfte och är inte licensierat för kommersiellt bruk.\nDenna programvara ägs av Körtner & Muth GmbH, Hamburg'
+IDS_PROTECT_FILELOCK(1),'Access nekad till licens filen (LBW.CFG).\n\nLOCKBASE kan inte vara licensierad på två arbersstationer samtidigt. Avsluta licens proceduren på en dator, innan den startas på en annan.'
 IDS_PROTECT_INVALID(1),Licens filen (LBW.CFG) är felaktig eller skadad.\n\nKontakta teknisk support hos din LOCKBASE service partner..
-IDS_LBW_PRESENTATION_OUT(1),"Prövotiden för detta presentations program har gått ut.\nFör att erhålla en licens, var vänlig kontakta:\n\nKörtner & Muth GmbH\nEimsbütteler Chaussee 60-66, D-20259 Hamburg\n\nTel.: +49-40-4304436 Fax: +49-40-4304382\nEMail: lockbase@koertner-muth.com"
+IDS_LBW_PRESENTATION_OUT(1),'Prövotiden för detta presentations program har gått ut.\nFör att erhålla en licens, var vänlig kontakta:\n\nKörtner & Muth GmbH\nEimsbütteler Chaussee 60-66, D-20259 Hamburg\n\nTel.: +49-40-4304436 Fax: +49-40-4304382\nEMail: lockbase@koertner-muth.com'
 IDS_LBW_LANGUAGE(1),s
 IDS_NEWTYPEDLG(1),Datafälts bredd
 IDS_OE_NOT_FOUND(1),Kan inte hitta filen.
@@ -430,7 +430,7 @@ IDS_OE_INVALID(1),Filen är inte ett LOCKBASE dokument eller så är den skadad.
 IDS_OE_NOLBF(1),Filen är inte ett LOCKBASE dokument.
 IDS_OE_VERSION(1),Fel LOCKBASE version.
 IDP_DOC_MERGETREE(1),Denna LOCKBASE fil innehåller en gruppstruktur skapad av System Designer.\nÖppnas filen utan att ha System Designer kommer gruppstrukturen att bli borttagen.\n\nSkall gruppstrukturen för detta LOCKBASE system tas bort?
-IDP_DOC_NEWERVERSION(1),"Denna system fil har skapats av en nyare version av LOCKBASE och kan inte öppnas av denna version.\nFör att skaffa en uppdatering, kontakta din LOCKBASE återförsäljare."
+IDP_DOC_NEWERVERSION(1),'Denna system fil har skapats av en nyare version av LOCKBASE och kan inte öppnas av denna version.\nFör att skaffa en uppdatering, kontakta din LOCKBASE återförsäljare.'
 IDS_OE_DISKSPACE(1),Det finns inte tillräckligt med diskutrymme kvar på enheten för temp-filerna.
 IDS_OPTIONS_SYSTEMINFOFONT(1),Ändrar teckensnitt och teckenstorlek för system information
 IDS_OPTIONS_LISTFONT(1),Ändrar teckensnitt och teckenstorlek för Nyckel/Cylinder data
@@ -450,7 +450,7 @@ IDS_WINDOW_STARTMATRIX(1),Öppnar System Matrix  fönstret
 IDS_WINDOW_STARTCALCULATOR(1),Öppnar Calculator fönstret för beräkning
 IDS_WINDOW_STARTDESIGNER(1),Öppnar System Designer  fönstret
 IDS_WINDOW_STARTLIST(1),Öppnar Data Lists fönstret
-IDS_OPTIONS_STRINGFORM(1),"Välj rad form, datafälts ordning och sortering"
+IDS_OPTIONS_STRINGFORM(1),'Välj rad form, datafälts ordning och sortering'
 IDS_EDIT_GROUPSELECT(1),Öppnar grupplisten för att byta aktiv grupp
 IDS_CALC_EDITRANGE(1),Bestäm vilka fräsdjup som skall användas till den markerade gruppen\nBestäm vilka fräsdjup som skall användas till den markerade gruppen
 IDS_CALC_EDITCODE(1),Ändra delning på markerad nyckel\nÄndra delning på markerad nyckel
@@ -474,7 +474,7 @@ IDS_FILE_SAVE(1),Spara det aktiva LOCKBASE låssystemet\nSpara det aktiva LOCKBA
 IDS_FILE_SAVE_AS(1),Spara det aktiva LOCKBASE låssystemet under ett nytt namn\nSpara det aktiva LOCKBASE låssystemet under ett nytt namn
 IDS_FILE_PAGE_SETUP(1),Ändrar inställningar för utskrifterna
 IDS_FILE_PRINT(1),Öppnar dialogboxen för utskrifter
-IDS_FILE_PRINT_PREVIEW(1),"Förhandsgranskning av vald data lista, protokoll eller brev"
+IDS_FILE_PRINT_PREVIEW(1),'Förhandsgranskning av vald data lista, protokoll eller brev'
 IDS_FILE_MRU_FILE1(1),Öppnar vald LOCKBASE system fil
 IDS_FILE_MRU_FILE2(1),Öppnar vald LOCKBASE system fil
 IDS_FILE_MRU_FILE3(1),Öppnar vald LOCKBASE system fil
@@ -485,11 +485,11 @@ IDS_WINDOW_CASCADE(1),Visar öppna fönster överlappade
 IDS_WINDOW_TILE_HORZ(1),Visar öppna fönster sida vid sida
 IDS_WINDOW_TILE_VERT(1),Ordnar fönster sida vid sida
 IDS_WINDOW_SPLIT(1),Tile the active window in different parts
-IDS_APP_ABOUT(1),"Visar copyright, versions information och serie nummer"
+IDS_APP_ABOUT(1),'Visar copyright, versions information och serie nummer'
 IDS_APP_EXIT(1),Lämna LOCKBASE
 IDS_HELP_INDEX(1),Visar hjälp filen\nVisar hjälp filen
 IDS_HELP_USING(1),Visar information om hur hjälp används\nVisar information om hur hjälp används
-IDS_CONTEXT_HELP(1),"Visar hjälp för klickade  knappar, menyer och fönster"
+IDS_CONTEXT_HELP(1),'Visar hjälp för klickade  knappar, menyer och fönster'
 IDS_HELP(1),Visar hjälp för aktuell uppgift eller kommando
 IDS_INDICATOR_EXT(1),EXT
 IDS_INDICATOR_CAPS(1),CAP
@@ -515,17 +515,17 @@ IDP_POSNOTFOUND(1),Positionen ej funnen!
 IDP_NOITEMSELECTED(1),Ingen post är vald !\n Markera en post.
 IDP_IDNOTFOUND(1),Post ID ej funnen!
 IDP_NOMOUSE(1),Det finns ingen mus installerad.\nLockbase fungerar lättare om du använder en mus.
-IDP_INSERTNUMCHAR_CYL(1),You havn't entered a number sign (@) into data field 'Number'.\rDo you want to create cylinders keyed alike?
+IDP_INSERTNUMCHAR_CYL(1),'You havn''t entered a number sign (@) into data field ''Number''.\rDo you want to create cylinders keyed alike?'
 IDP_SELECTAFRAME(1),Inget start fönster är valt.\nAnvänd menyn Instälningar/Öppna fonster vid start...för att välja ett eller fler fönster.
 IDS_PRTF_COVERSHEET(1),Försättsblad\n\n\nHistory:
 IDS_PRTF_MATRIXPRN(1),Låsschema
 IDS_PRTF_PINNINGLIST(1),Cylinder Delning
-IDS_PRTF_CYLREPAIR(1),"Beställning\nCylinder Efterbeställning\n\nHärmed beställer vi 1 av varje nedanstående cylindrar:||Datum:|System:|Fabrikat|(Läge, Datum)|(Underskrift)|Till|Antal"
+IDS_PRTF_CYLREPAIR(1),'Beställning\nCylinder Efterbeställning\n\nHärmed beställer vi 1 av varje nedanstående cylindrar:||Datum:|System:|Fabrikat|(Läge, Datum)|(Underskrift)|Till|Antal'
 IDS_PRTF_CYL2KEY(1),Link list\nCylinder - Nyckel
 IDS_PRTF_CYLINDER(1),List\nCylinder
 IDS_PRTF_BITTINGLIST(1),Nyckel Delning
-IDS_PRTF_KEYISSUE(1),"Nyckel utlämningskvitto\n\n\n @ har idag mottagit följande nycklar:||Datum:|System:|Fabrikat|(Läge, Datum)|(Underskrift)|Till"
-IDS_PRTF_KEYRETURN(1),"Nyckelinlämningskvitto\n\n\n @ har idag återlämnat följande nycklar:||Datum:|System:|Fabrikat|(Läge, Datum)|(Underskrift)|Till"
+IDS_PRTF_KEYISSUE(1),'Nyckel utlämningskvitto\n\n\n @ har idag mottagit följande nycklar:||Datum:|System:|Fabrikat|(Läge, Datum)|(Underskrift)|Till'
+IDS_PRTF_KEYRETURN(1),'Nyckelinlämningskvitto\n\n\n @ har idag återlämnat följande nycklar:||Datum:|System:|Fabrikat|(Läge, Datum)|(Underskrift)|Till'
 IDS_PRTF_KEYSTOCK(1),Key Stock List\n\n\nKvitteras
 IDS_PRTF_CONNECTDLG(1),Anknytnings Dialog
 IDS_PRTF_KEYEDITDLG(1),Utlämnade nycklar
@@ -542,15 +542,15 @@ IDS_DOC_ANALYSE(1),Analyserar grupp %s...\nÖverlappning mellan grupp %s och %s:
 IDS_DOC_REMDATASET(1),Tar Bort dataposter: %d%%\n
 IDP_DOC_FILENOTFOUND(1),Filen %s hittas inte!
 IDS_DOC_IMPORT(1),Konvertering av data pågår: %s (%d%%) ..\nErsätter befintlig beräkning: %s (%d%%) ...
-IDP_DOC_IMPORTWRONGTYPE(1),Fel inträffade vid öppning av fil\nDen valda filen innehåller inte förväntad  data.\nDenna fil verkar vara av äldre 'Superlock' fil format. LOCKBASE läser filer skapade av 'Elcon Superlock Universal 6.11'.
+IDP_DOC_IMPORTWRONGTYPE(1),'Fel inträffade vid öppning av fil\nDen valda filen innehåller inte förväntad  data.\nDenna fil verkar vara av äldre ''Superlock'' fil format. LOCKBASE läser filer skapade av ''Elcon Superlock Universal 6.11''.'
 IDP_DOC_IMPORTERROR(2),Fel inträffade vid data konvertering!\nKan ej öppna fil %s.\nKan ej läsa från fil %s.\nFelaktig data funnen i fil %s.\nKan inte lägga till data.\n%s
 IDP_DOC_ASKMOVE(1),Bekräfta förflyttning %lu %s
-IDS_DOC_MGLUPDATE1(1),"Nyckel '%s', utlämnad till '%s' ej funnen\nCylinder '%s', monterad i '%s' ej funnen\nFörbereder uppdatering...\nUppdaterar (%u%%)\nKan ej uppdatera: Den gamla filen går ej att öppna.\n"
-IDS_DOC_MGLUPDATE2(1),Fel inträffade under uppdateringen. Välj 'OK' för att acceptera uppdateringen ändå eller välj  'Avbryt' för att återställa systemet i ursprungligt skick.
-IDS_DOC_MGLUPDATE3(1),Uppdateringen genomförd. Systemets senaste version i filen  '%s.lb1'.\nSystemets återställt till tidigare version. Uppdateringen tas bort.
-IDS_DOC_MGLUPDATE4(1),"Nyckel '%s', utlämnad till '%s' ej funnen\nCylinder '%s', monterad i '%s' ej funnen\nFörbereder uppdatering...\nUppdaterar (%u%%)\nSerienumret på den gamla filen är fel.Kan ej uppdatera."
+IDS_DOC_MGLUPDATE1(1),'Nyckel ''%s'', utlämnad till ''%s'' ej funnen\nCylinder ''%s'', monterad i ''%s'' ej funnen\nFörbereder uppdatering...\nUppdaterar (%u%%)\nKan ej uppdatera: Den gamla filen går ej att öppna.\n'
+IDS_DOC_MGLUPDATE2(1),'Fel inträffade under uppdateringen. Välj ''OK'' för att acceptera uppdateringen ändå eller välj  ''Avbryt'' för att återställa systemet i ursprungligt skick.'
+IDS_DOC_MGLUPDATE3(1),'Uppdateringen genomförd. Systemets senaste version i filen  ''%s.lb1''.\nSystemets återställt till tidigare version. Uppdateringen tas bort.'
+IDS_DOC_MGLUPDATE4(1),'Nyckel ''%s'', utlämnad till ''%s'' ej funnen\nCylinder ''%s'', monterad i ''%s'' ej funnen\nFörbereder uppdatering...\nUppdaterar (%u%%)\nSerienumret på den gamla filen är fel.Kan ej uppdatera.'
 IDS_DOC_EVVASAT_TXT(1),EVVA-System:\nJa\nNej\nLeveransadress:\nFakturaadress:\nTillverkarer: \nChange Key av \n
-IDS_DOC_EVVASAT_ERR(1),"Fel i fil '%s', rad %ld , fält %ld:\nKan ej öppna fil.\nOgiltigt fil format.\nOkänd data fälts typ.\nEj tillräckligt mycket minnet ledigt.\nFelaktigt filslut funnet.\nInternt fel."
+IDS_DOC_EVVASAT_ERR(1),'Fel i fil ''%s'', rad %ld , fält %ld:\nKan ej öppna fil.\nOgiltigt fil format.\nOkänd data fälts typ.\nEj tillräckligt mycket minnet ledigt.\nFelaktigt filslut funnet.\nInternt fel.'
 IDP_CALC_RECALC(1),Detta tilläg kräver en omberäkning av systemet!
 IDP_CALC_NOGROUP(1),Kod Grupp ogiltig!
 IDP_CALC_NOPROFILE(1),Profil ogiltig!
@@ -561,7 +561,7 @@ IDP_CALC_STOP_ACTIVE(1),Beräkningen avbröts!
 IDP_CALC_NOCODE(1),Delning ogiltig:\n%s
 IDP_CALC_ERROR(1),Blindgång upptäckt:\nNyckel %s kan inte läggas in i cylinder %s (på grund av andra nycklar).%s\nNyckel %s öppnar cylinder %s.%s\nOgiltig delning i cylinder %s. Delningen på tillhörande nycklar är inte kompatibla.
 IDP_CALC_STOP_FAIL(1),Beräkningen misslyckades! \nTilldelningen i delningsblocket är för liten! (Key Bitting Array)
-IDP_CALC_STOP_SUCCESS(1),Beräkningen avslutad!\nAlla delningar i '%s' beräknades.
+IDP_CALC_STOP_SUCCESS(1),'Beräkningen avslutad!\nAlla delningar i ''%s'' beräknades.'
 IDP_CALC_NO_VACANT(1),Alla delningar är redan beräknade.
 IDS_CALC_SUPERHS(1),\nDelningen på den övergripande Huvudnyckeln orsakar detta fel.
 IDP_CALC_NOFABSET(1),Filen LBW.FAB finns inte i LOCKBASE biblioteket eller är skadad!\nInga fabrikat tillgängliga!
@@ -619,40 +619,40 @@ IDS_READER_CREATINGEXE(1),Skapar Manager lite...
 IDP_READER_INVDOC(1),Filen LBW.LBF felaktig och kan inte öppnas.
 IDP_READER_CONFIRM(1),Systemnumret och kundens namn och adress kan inte ändras efter Manager lite har skapats.\r\rÄr du säker på att dessa uppgifter är korrekta?
 IDP_READER_USERDATA(1),Uppgifter om systemnumret eller kundens namn och adress är ofullständiga.\r\rDessa uppgifter måste anges innan Manager lite disketten skapas.
-IDP_READER_UNLOCK(1),"Licens koden är felaktig.\r\rFör att skapa Manager lite disketten måste du ange en giltig licens kod, som kan erhållas från din LOCKBASE återförsäljare."
+IDP_READER_UNLOCK(1),'Licens koden är felaktig.\r\rFör att skapa Manager lite disketten måste du ange en giltig licens kod, som kan erhållas från din LOCKBASE återförsäljare.'
 IDS_READER_DISKSPACE(1),Det finns inte tillräckligt mycket ledigt utrymme på enheten.\rFrigör utrymme eller mata in en annan diskett.
 IDP_READER_DEMO(1),Du angav inte en licence code.\r\rLOCKBASE skapar en Manager lite demodiskett för detta låssystem.
 IDP_READER_PASSWORD(1),Detta låssystem är skyddat av ett lösenord. Vill du använda det lösenordet\nför att också skydda Manager-lite disketten?
 IDS_PRN_ASSEMBLY_DETECT(1),Problem med längd analysen %s på  cylindrar av typ %s.\nÄr detta en dubbelsidig cylinder?\n
 IDS_MACHINE_OUT(1),Exporterar Data %u%%\n
 IDP_MACHINE_OVERWRITE(1),Valt filnamn finns redan.\nVill du skriva över den filen?
-IDS_MACHINE_ERRORS(1),Kan inte öppna vald fil.\n Kan inte skriva till vald fil.\n Kan inte stänga vald fil.\nOgiltig data funnen vid skrivning av '%s'.\n
+IDS_MACHINE_ERRORS(1),'Kan inte öppna vald fil.\n Kan inte skriva till vald fil.\n Kan inte stänga vald fil.\nOgiltig data funnen vid skrivning av ''%s''.\n'
 IDP_MACHINE_CIAO(1),Data överföringen genomförd.
 IDS_MACHINE_SELECTBOX(1),Exportera Data till
-IDS_MACHINE_NOCARDNO(1),Inget kortnummer för Silca Unocode har angivits!\nKlicka på 'Setup' för att mata in rätt kort nummer.
+IDS_MACHINE_NOCARDNO(1),'Inget kortnummer för Silca Unocode har angivits!\nKlicka på ''Setup'' för att mata in rätt kort nummer.'
 IDS_MACHINE_NOFAB(1),Fabrikat har inte angivits!\nFabrikat specifika värden kan ej sättas.
 IDS_MACHINE_ECOSFILE(1),Börkey Ecos II förvald fabrikats fil
 IDS_MACHINE_NOECOSFILE(1),Namnet på filen (%s) är inte samma som fördefinierats. (%s)\n\nVill du ersätta den fördefinierade filen med nya filnamnet?
-IDS_MACHINE_NOTINSETUP(1),Maskin interfacet är inte inställt för detta fabrikat!\n%s\nKlicka på 'Setup' för att ändra inställningar.
+IDS_MACHINE_NOTINSETUP(1),'Maskin interfacet är inte inställt för detta fabrikat!\n%s\nKlicka på ''Setup'' för att ändra inställningar.'
 IDS_MACHINE_UNOCODESTR(1),Silca Unocode Setup\n&Fabrikat/Kort nummer:\n&Kort nummer:\n
 IDS_MACHINE_ECOSSTR(1),Börkey Ecos II Setup\n&Brand/Usage:\n&Usage:\n
 IDP_MACHINE_ECOSWARN(1),Varning!\nNyckelnamnen innehåller inte endast siffror - Ecos II Seriens funktion kommer ej att vara tillgänglig för att fräsa överförda nycklar.
-IDP_MACHINE_NOTRANSFER(1),"Maskin interfacet är inte tillgängligt innan beräkningen har överförts från Calculator till data listorna.\n\nMen, Ingen överföring har ännu skett."
-IDP_MACHINE_BRANDERROR(1),System av fabrikat '%s' kan ej överföras till vald maskin.
+IDP_MACHINE_NOTRANSFER(1),'Maskin interfacet är inte tillgängligt innan beräkningen har överförts från Calculator till data listorna.\n\nMen, Ingen överföring har ännu skett.'
+IDP_MACHINE_BRANDERROR(1),'System av fabrikat ''%s'' kan ej överföras till vald maskin.'
 IDS_MACHINE_QUATTROSTR(1),Silca Quattrocode Setup\n&Fabrikat/Silca Serie Nummer:\n&Silca Serie Nr.:\n
-IDP_CGA_NOCGA(1),"LOCKBASE kan inte starta Kod Grupps Administrationen.\n\nFilen LBWCGA.EXE finns inte i LOCKBASE biblioteket, är skadad eller kan inte laddas av annan anledning (tex. Windows 3.1 eller lägre)."
+IDP_CGA_NOCGA(1),'LOCKBASE kan inte starta Kod Grupps Administrationen.\n\nFilen LBWCGA.EXE finns inte i LOCKBASE biblioteket, är skadad eller kan inte laddas av annan anledning (tex. Windows 3.1 eller lägre).'
 IDP_DOC_ASK_TO_SAVE(1),%s har ändrats.\nVill du spara ändringarna?
-IDP_DOC_CGA_TO_SAVE(1),"Notera att, ändringar gjorda i Kod Grupps Administrationen måste korrigeras manullt, om systemet inte sparas."
-IDS_DOC_EVVASAT_UNRESOLVED(1),"Fel i  fil '%s', rad %ld , fält %ld:\nLåssystemet olöst. För information om  lösning till låssystemet hänvisas till Evva-Satellit användarmanual."
-IDP_DOC_IMPORTERROR1(1),"Fel uppstod vid konvertering!\nFil %s, Post %ld, Fält %ld innehåller felaktig data.\nFil %s, Post %ld innehåller felaktig data."
+IDP_DOC_CGA_TO_SAVE(1),'Notera att, ändringar gjorda i Kod Grupps Administrationen måste korrigeras manullt, om systemet inte sparas.'
+IDS_DOC_EVVASAT_UNRESOLVED(1),'Fel i  fil ''%s'', rad %ld , fält %ld:\nLåssystemet olöst. För information om  lösning till låssystemet hänvisas till Evva-Satellit användarmanual.'
+IDP_DOC_IMPORTERROR1(1),'Fel uppstod vid konvertering!\nFil %s, Post %ld, Fält %ld innehåller felaktig data.\nFil %s, Post %ld innehåller felaktig data.'
 IDP_DOC_IMPORTERROR_GENERAL(1),Fel uppstod vid data import!\nKan ej skapa bibliotek %s.\nFil %s ej funnen. Detta program måste finnas i LOCKBASE biblioteket.\nZip filen innehåller inte korrekta filer.
-IDP_DOC_KWDERROR(1),Fel uppstod vid data import!\nFilen %s är inte en KWD-fil.\nDen här typen av KWD-fil stöds inte.\rLOCKBASE stödjer förnärvarande bara KWD typ 'Schließanlage mechanisch komplett mit Schließungen'.
-IDS_DOC_KWD(1),"Data konvertering: Fil %s, Rad %ld ..\nSkapar nyckel kopia %d%% ...\nSkapar change keys %d%% ...\nSkapar anknytning %d%%...\n"
+IDP_DOC_KWDERROR(1),'Fel uppstod vid data import!\nFilen %s är inte en KWD-fil.\nDen här typen av KWD-fil stöds inte.\rLOCKBASE stödjer förnärvarande bara KWD typ ''Schließanlage mechanisch komplett mit Schließungen''.'
+IDS_DOC_KWD(1),'Data konvertering: Fil %s, Rad %ld ..\nSkapar nyckel kopia %d%% ...\nSkapar change keys %d%% ...\nSkapar anknytning %d%%...\n'
 IDS_DOC_EXPORT(1),Konvertering av data pågår: %s (%d%%) ...
 IDS_DOC_IMPORT_GENERAL(1),Packar upp filer ...\nKontrollerar filer ..\nData konvertering: %s (%d%%) ...
 IDP_DOC_REMCHGKEYS_FAIL(1),Not all the change keys could be deleted. Some of them already were issued to keyholders.
 IDP_LISTS_CREATE_DOORS(1),Bekräfta skapande av dörr data av dörrbeskivnings data från cylindrarna.\n%lu dörrar är skapade.\nInga dörrar skapade - alla dörrar existerar redan.
-IDP_BRANDSET_IMPORTERROR(1),Problem uppstod vid initiering av fabrikat %s:\nKan inte öppna fil '%s' .\nFil '%s' Innehåller felaktig data.\nKan inte skriva till fil '%s'.
+IDP_BRANDSET_IMPORTERROR(1),'Problem uppstod vid initiering av fabrikat %s:\nKan inte öppna fil ''%s'' .\nFil ''%s'' Innehåller felaktig data.\nKan inte skriva till fil ''%s''.'
 IDP_BRANDSET_IMPORTOK(1),Data för fabrikat %s är uppdaterad.
 IDS_MACHINE_SILCASSI(1),Silca SSI Setup\n&Fabrikat/Silca Serie Nummer:\n&Silca Serie Nr.:\n
 IDS_MACHINE_GERAISEL(1),Gera Isel Setup\n&Fabrikat/Kort:\n&Kort:\n
@@ -675,8 +675,8 @@ AFX_IDP_COMMAND_FAILURE(1),Kommando fel.
 AFX_IDP_FAILED_INVALID_FORMAT(1),Felaktigt filformat.
 AFX_IDP_FAILED_INVALID_PATH(1),%1\nKan inte hitta filen.\nBekräfta sökväg och filnamn.
 AFX_IDP_FAILED_DISK_FULL(1),Destination disken är full.
-AFX_IDP_FAILED_ACCESS_READ(1),"Kan inte läsa från %1, den är redan öppnad av någon annan."
-AFX_IDP_FAILED_ACCESS_WRITE(1),"Kan inte skriva till %1, den är skrivskyddad eller redan öppnad av någon annan."
+AFX_IDP_FAILED_ACCESS_READ(1),'Kan inte läsa från %1, den är redan öppnad av någon annan.'
+AFX_IDP_FAILED_ACCESS_WRITE(1),'Kan inte skriva till %1, den är skrivskyddad eller redan öppnad av någon annan.'
 AFX_IDP_FAILED_IO_ERROR_READ(1),Fel inträffade vid läsning %1.
 AFX_IDP_FAILED_IO_ERROR_WRITE(1),Fel inträffade vid skrivning %1.
 AFX_IDP_PARSE_INT(1),Ange ett heltal.
@@ -698,8 +698,8 @@ IDD_CGA_TAKEOVER(1),&Använd\n&Frigör
 IDD_CGA_CANCEL(1),&Stäng
 IDD_CGASPLIT_STATICTXT1(1),Denna kod grupp kan delas upp på ett flertal olika sätt.\nVälj en av metoderna nedan för att dela vald kod grupp.
 IDD_CGASPLIT_STATIC_POS2SPLIT(1),Ange önskad funktion för\nvarje position.
-IDD_CGASPLIT_STATIC_HINT(1),"(C = constant, V = variable)"
-IDS_CGASPLIT(1),"P&rofiler\n&Paritets Mönster\n&Constant Stift:(C = constant, V = variable)\n&Sid Stift:(C = constant, V = variable):Use more pins\n&2- eller 3-stegs progression:(2 = 2-steg, 3 = 3-steg, V = variable)\n&Major Section Profiles\nM&inor Section Profiles\nUpper Side Pins:(C = constant, V = variable)\n&Magnets:(C = constant, V = variable)\nP&rofiler:(C = constant, V = variable)"
+IDD_CGASPLIT_STATIC_HINT(1),'(C = constant, V = variable)'
+IDS_CGASPLIT(1),'P&rofiler\n&Paritets Mönster\n&Constant Stift:(C = constant, V = variable)\n&Sid Stift:(C = constant, V = variable):Use more pins\n&2- eller 3-stegs progression:(2 = 2-steg, 3 = 3-steg, V = variable)\n&Major Section Profiles\nM&inor Section Profiles\nUpper Side Pins:(C = constant, V = variable)\n&Magnets:(C = constant, V = variable)\nP&rofiler:(C = constant, V = variable)'
 IDD_CGA_EDITPROF(1),Profil Namn
 IDD_CGA_EDITPROF_STATICTXT1(1),Ange profilbeteckning nedan.
 IDD_CGA_EDITPROF_OK(1),OK
@@ -711,13 +711,13 @@ IDS_CGA_STATE(1),ledig\nanvänd\ndelad\nanvänd\nlåst\nny\nnät låst
 IDS_CGA_USAGE(1),System\nBeskrivning
 IDP_CGA_CGNOTFOUND(1),Följande kod grupp kan inte hittas:\r%s.\r\rHuvud kod gruppen måste delas upp ytterligare för att göra denna kod grupp tillgänglig.
 IDP_CGA_COMBINE(1),Vald kod grupp kan kombineras med redan använd kod grupp eller ersätta den.\r\rVill du kombinera den nya kod gruppen med den redan använda?
-IDP_CGA_REMOVE_OLD(1),System '%s' har redan tilldelats kod grupp. Skall existerande kod grupp tagas bort?
-IDP_CGA_WARN(1),"%s%s\rDet rekomenderas INTE att återanvända kod grupper, pga risk för felgångar mellan låssystemen.\r\rVill du återanvända denna kod grupp trots riskerna?"
+IDP_CGA_REMOVE_OLD(1),'System ''%s'' har redan tilldelats kod grupp. Skall existerande kod grupp tagas bort?'
+IDP_CGA_WARN(1),'%s%s\rDet rekomenderas INTE att återanvända kod grupper, pga risk för felgångar mellan låssystemen.\r\rVill du återanvända denna kod grupp trots riskerna?'
 IDP_CGA_WARNSINGLE(1),Denna kod grupp är redan använd.\n
 IDP_CGA_ERRLOGIN(1),Tillgång till Kod Grupp Administration nekad:\rDen används förnärvarande av annan användare.
 IDP_APPLIC_DDEONLY(1),Kod Grupp Administrationen kan inte kopplas till LOCKBASE.\nProgrammet kommer att avslutas.
-IDP_APPLIC_NOFAB(1),Fabrikats specifikations filen '%s' kan inte öppnas eller innehåller felaktig data. Kod Grupps Administrationen kan ej köras.
-IDP_APPLIC_DBERR(1),Ett fel inträffade vid start av Kod Grupps Administrationen:\nFilen '%s' kan ej hittas.\nFilen '%s' innehåller felaktig data.\nFilen '%s' kan ej skapas.\nFilen '%s' finns redan.\nFilen '%s' är redan öppen.\nKod Grupps Administrationen är låst av annan användare.\nFilen '%s' skapades av en tidigare LOCKBASE version.\nFilen '%s' skapades av en senare LOCKBASE version.
+IDP_APPLIC_NOFAB(1),'Fabrikats specifikations filen ''%s'' kan inte öppnas eller innehåller felaktig data. Kod Grupps Administrationen kan ej köras.'
+IDP_APPLIC_DBERR(1),'Ett fel inträffade vid start av Kod Grupps Administrationen:\nFilen ''%s'' kan ej hittas.\nFilen ''%s'' innehåller felaktig data.\nFilen ''%s'' kan ej skapas.\nFilen ''%s'' finns redan.\nFilen ''%s'' är redan öppen.\nKod Grupps Administrationen är låst av annan användare.\nFilen ''%s'' skapades av en tidigare LOCKBASE version.\nFilen ''%s'' skapades av en senare LOCKBASE version.'
 IDS_CGA_LOCK(1),Lås / Lås upp kod grupp (F7)
 IDS_CGA_EDIT(1),Lägg till / Ändra profil namn (F8)
 IDS_CGA_UP(1),Gå en nivå uppåt (Ctrl+PgUp)
@@ -729,5 +729,5 @@ IDP_CGAEDITPROF_EXISTS(1),En profil med detta namn finns redan.\nAnge ett annat 
 IDP_CGAEDITPROF_DELETE(1),Vill du ta bort denna profil?
 IDS_CGAEDITPROF_DESCRIPTION(1),<Användar definierad profil>
 IDP_CGAEDITPROF_INVALID(1),Profil innehåller felaktig data.\nAnge ett annat namn för profilen.
-IDP_STDBRAND_NODATA(1),Det finns inga profiler tillgängliga för fabikat '%s'.
+IDP_STDBRAND_NODATA(1),'Det finns inga profiler tillgängliga för fabikat ''%s''.'
 AFX_IDS_APP_TITLE_CGA(1),Kod Grupp Administration
