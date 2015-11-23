@@ -1,29 +1,28 @@
-"source","target"
-"IDD_DLG_OK(1)","OK"
-"IDD_DLG_CANCEL(1)","Abbruch"
-"IDD_DLG_HELP(1)","&Hilfe"
-"IDD_DLG_CLOSE(1)","Schließen"
-"R0(0)","<Neu>"
-"R1(0)","MontagnDienstagnMittwochnDonnerstagnFreitagnSamstagnSonntag"
-"R2(0)","JanuarnFebruarnMärznAprilnMainJuninJulinAugustnSeptembernOktobernNovembernDezember"
-"R3(0)","MonDinMinDonFrnSanSo"
-"R4(0)","JannFebnMärnAprnMainJunnJulnAugnSepnOktnNovnDez"
-"R5(0)","Alles"
-"IDD_LBW_INSNUM(0)","@ lfd. &Nr."
-"IDD_LBW_FROM(0)","&Von:"
-"IDD_LBW_TO(0)","&Bis:"
-"IDD_LBW_FORMAT(0)","&Zeilenformat..."
-"LBW_R0(1)","PersonennSchlüsselnSchlüsselkopiennZylindernTürennSystemnEreignissenGebäudenZylindergruppennGleichschließungennAbteilungennZutrittsprofilenKalender"
-"LBW_R1(0)","Wollen Sie %lu %s erzeugen?"
-"LBW_R2(0)","Wollen Sie %lu %s verändern?"
-"LBW_R3(0)","Wollen Sie wirklich %lu %s löschen?"
-"LBW_R4(0)","Sie haben kein Nummernzeichen (@) in einem Datenfeld eingegeben.rWollen Sie mehrere gleiche Datensätze erzeugen?"
-"LBW_R5(0)","Sie können nicht mehrere Datensätze mit dem Namen '%1' erstellen"
-"LBW_R6(0)","Achtung: %1 von %2 Datensätzen konnten nicht angelegt werden"
-"LBW_R7(0)","Achtung: %1 von %2 Datensätzen konnten nicht bearbeitet werden"
-"LBW_R8(0)","Achtung: %1 von %2 Datensätzen konnten nicht gelöscht werden"
-"POPUP0(1)","&Datei"
-"POPUP1(1)","*&Archiv..."
-"POPUP2(1)","Dateien &versenden/empfangen"
-"POPUP3(1)","&Optionen"
-"POPUP4(1)","&Druck"
+IDD_DLG_OK(1),OK
+IDD_DLG_CANCEL(1),Abbruch
+IDD_DLG_HELP(1),&Hilfe
+IDD_DLG_CLOSE(1),Schließen
+R0(0),<Neu>
+R1(0),Montag\nDienstag\nMittwoch\nDonnerstag\nFreitag\nSamstag\nSonntag
+R2(0),Januar\nFebruar\nMärz\nApril\nMai\nJuni\nJuli\nAugust\nSeptember\nOktober\nNovember\nDezember
+R3(0),Mo\nDi\nMi\nDo\nFr\nSa\nSo
+R4(0),Jan\nFeb\nMär\nApr\nMai\nJun\nJul\nAug\nSep\nOkt\nNov\nDez
+R5(0),Alles
+IDD_LBW_INSNUM(0),@ lfd. &Nr.
+IDD_LBW_FROM(0),&Von:
+IDD_LBW_TO(0),&Bis:
+IDD_LBW_FORMAT(0),&Zeilenformat...
+LBW_R0(1),Personen\nSchlüssel\nSchlüsselkopien\nZylinder\nTüren\nSystem\nEreignisse\nGebäude\nZylindergruppen\nGleichschließungen\nAbteilungen\nZutrittsprofile\nKalender
+LBW_R1(0),Wollen Sie %lu %s erzeugen?
+LBW_R2(0),Wollen Sie %lu %s verändern?
+LBW_R3(0),Wollen Sie wirklich %lu %s löschen?
+LBW_R4(0),Sie haben kein Nummernzeichen (@) in einem Datenfeld eingegeben.\rWollen Sie mehrere gleiche Datensätze erzeugen?
+LBW_R5(0),"Sie können nicht mehrere Datensätze mit dem Namen '%1' erstellen"
+LBW_R6(0),Achtung: %1 von %2 Datensätzen konnten nicht angelegt werden
+LBW_R7(0),Achtung: %1 von %2 Datensätzen konnten nicht bearbeitet werden
+LBW_R8(0),Achtung: %1 von %2 Datensätzen konnten nicht gelöscht werden
+POPUP0(1),&Datei
+POPUP1(1),*&Archiv...
+POPUP2(1),Dateien &versenden/empfangen
+POPUP3(1),&Optionen
+POPUP4(1),&Druck
