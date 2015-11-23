@@ -21,8 +21,3 @@ LBW_R5(0),Sie können nicht mehrere Datensätze mit dem Namen '%1' erstellen
 LBW_R6(0),Achtung: %1 von %2 Datensätzen konnten nicht angelegt werden
 LBW_R7(0),Achtung: %1 von %2 Datensätzen konnten nicht bearbeitet werden
 LBW_R8(0),Achtung: %1 von %2 Datensätzen konnten nicht gelöscht werden
-POPUP0(1),&Datei
-POPUP1(1),*&Archiv...
-POPUP2(1),Dateien &versenden/empfangen
-POPUP3(1),&Optionen
-POPUP4(1),&Druck
